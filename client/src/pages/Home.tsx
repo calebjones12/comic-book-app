@@ -13,7 +13,7 @@ export default function Home() {
       <section 
         className="relative min-h-[90vh] flex items-center diagonal-slash bg-card"
         style={{
-          backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.85)), url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/dMlhXJhLbLFhEXhH.png')`,
+          backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.85)), url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/zTzPxBrCqDVvqJZw.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -22,7 +22,7 @@ export default function Home() {
           <div className="max-w-4xl">
             <div className="mb-8">
               <img 
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/KsAwurNsrlxgutKy.png" 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/zjNxIFGMuPPMmyKK.jpg" 
                 alt="Black Dragon and Pink Firefly" 
                 className="w-full max-w-2xl"
               />
@@ -89,7 +89,7 @@ export default function Home() {
               <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-primary hover:border-accent transition-all duration-200">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/VMoaBgCrGpZwVdJY.png" 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/GJHGLKQdwlBLCvEE.jpg" 
                     alt="Black Dragon" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -106,7 +106,7 @@ export default function Home() {
               <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-accent hover:border-primary transition-all duration-200">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/qmytGdNeZtgHktdy.jfif" 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ACSfYMZARAjtUIjU.jpg" 
                     alt="Pink Firefly" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

@@ -31,6 +31,20 @@ export default function CharacterDetail() {
   const prevCharacter = currentIndex > 0 ? characters[currentIndex - 1] : characters[characters.length - 1];
   const nextCharacter = currentIndex < characters.length - 1 ? characters[currentIndex + 1] : characters[0];
 
+  // Split text by double line breaks to preserve paragraph structure
+  const formatText = (text: string) => {
+    return text.split('\n\n').map((paragraph, index) => (
+      <p key={index} className="text-foreground/90 leading-relaxed mb-4 last:mb-0">
+        {paragraph.split('\n').map((line, lineIndex, array) => (
+          <span key={lineIndex}>
+            {line}
+            {lineIndex < array.length - 1 && <br />}
+          </span>
+        ))}
+      </p>
+    ));
+  };
+
   return (
     <div className="min-h-screen py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
@@ -81,12 +95,16 @@ export default function CharacterDetail() {
 
               <div>
                 <h2 className="text-3xl font-display mb-4 text-foreground">PERSONALITY & GOALS</h2>
-                <p className="text-foreground/90 leading-relaxed">{character.personality}</p>
+                <div className="space-y-4">
+                  {formatText(character.personality)}
+                </div>
               </div>
 
               <div>
                 <h2 className="text-3xl font-display mb-4 text-foreground">POWERS & ABILITIES</h2>
-                <p className="text-foreground/90 leading-relaxed">{character.powers}</p>
+                <div className="space-y-4">
+                  {formatText(character.powers)}
+                </div>
               </div>
             </div>
           </div>

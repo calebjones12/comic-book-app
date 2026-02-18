@@ -22,7 +22,7 @@ export default function Characters() {
           {characters.map((character) => (
             <Link key={character.id} href={`/characters/${character.id}`}>
               <div className="group cursor-pointer relative overflow-hidden bg-card border-4 border-border hover:border-primary transition-all duration-200">
-                <div className="aspect-[3/4] relative">
+                <div className="aspect-[3/4] relative bg-white">
                   <img 
                     src={character.imageUrl} 
                     alt={character.name} 

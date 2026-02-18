@@ -48,13 +48,28 @@ export default function CharacterDetail() {
   return (
     <div className="min-h-screen py-8 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
-        {/* Back Button */}
-        <Link href="/characters">
-          <div className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground font-body mb-4 cursor-pointer transition-colors text-sm">
-            <ChevronLeft size={18} />
-            Back to All Characters
-          </div>
-        </Link>
+        {/* Navigation */}
+        <div className="flex justify-between items-center mb-4">
+          <Link href={`/characters/${prevCharacter.id}`}>
+            <div className="group flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
+              <ChevronLeft size={24} className="text-primary" />
+              <div>
+                <div className="text-xs text-muted-foreground font-body">Previous</div>
+                <div className="text-base font-display text-foreground">{prevCharacter.name.toUpperCase()}</div>
+              </div>
+            </div>
+          </Link>
+
+          <Link href={`/characters/${nextCharacter.id}`}>
+            <div className="group flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
+              <div className="text-right">
+                <div className="text-xs text-muted-foreground font-body">Next</div>
+                <div className="text-base font-display text-foreground">{nextCharacter.name.toUpperCase()}</div>
+              </div>
+              <ChevronRight size={24} className="text-primary" />
+            </div>
+          </Link>
+        </div>
 
         {/* Character Content */}
         <div className="grid grid-cols-1 lg:grid-cols-[35%_1fr] gap-8 mb-8">
@@ -106,28 +121,7 @@ export default function CharacterDetail() {
           </div>
         </div>
 
-        {/* Navigation */}
-        <div className="flex justify-between items-center pt-8 border-t-2 border-border">
-          <Link href={`/characters/${prevCharacter.id}`}>
-            <div className="group flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
-              <ChevronLeft size={28} className="text-primary" />
-              <div>
-                <div className="text-xs text-muted-foreground font-body">Previous</div>
-                <div className="text-lg font-display text-foreground">{prevCharacter.name.toUpperCase()}</div>
-              </div>
-            </div>
-          </Link>
 
-          <Link href={`/characters/${nextCharacter.id}`}>
-            <div className="group flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
-              <div className="text-right">
-                <div className="text-xs text-muted-foreground font-body">Next</div>
-                <div className="text-lg font-display text-foreground">{nextCharacter.name.toUpperCase()}</div>
-              </div>
-              <ChevronRight size={28} className="text-primary" />
-            </div>
-          </Link>
-        </div>
       </div>
     </div>
   );

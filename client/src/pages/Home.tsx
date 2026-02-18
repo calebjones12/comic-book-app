@@ -20,13 +20,6 @@ export default function Home() {
       >
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-4xl">
-            <div className="mb-8">
-              <img                  src="/images/characters/Pink-Firefly.jpg" 
-                alt="Black Dragon and Pink Firefly" 
-                className="w-full max-w-2xl"
-              />
-            </div>
-            
             <h1 className="text-6xl md:text-8xl font-display mb-6 text-foreground leading-none">
               DARK FANTASY<br/>COMEDY
             </h1>

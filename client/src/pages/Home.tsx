@@ -13,7 +13,7 @@ export default function Home() {
       <section 
         className="relative min-h-[90vh] flex items-center diagonal-slash bg-card"
         style={{
-          backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.85)), url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/zTzPxBrCqDVvqJZw.jpg')`,
+          backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.85)), url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/aPjuhittJrTrvcHD.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

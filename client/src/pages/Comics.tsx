@@ -4,15 +4,15 @@
 
 export default function Comics() {
   const issues = [
-    { number: 1, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/zTzPxBrCqDVvqJZw.jpg" },
-    { number: 2, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/xdqJCNrKTzfXMqTU.jpg" },
-    { number: 3, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/EjCKGhLKADSCFxWL.jpg" },
-    { number: 4, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/GpBzGPCOXqQRPXGi.jpg" },
-    { number: 5, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/KqxJYZwGJWpjWqNz.jpg" },
-    { number: 6, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/KvFrKuKMzxqhPqvR.jpg" },
-    { number: 7, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/QUcDTMKiGZJXmABl.jpg" },
-    { number: 8, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/xQRQOmOZUFWZQWmN.jpg" },
-    { number: 9, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/KLNZNxlOGMqPQWPl.jpg" },
+    { number: 1, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/aPjuhittJrTrvcHD.jpg" },
+    { number: 2, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/jtWNsrHRSHOxjDDM.jpg" },
+    { number: 3, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/JVvWCcVzpcZWDREP.jpg" },
+    { number: 4, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ggEEFGMhwOzLGpax.jpg" },
+    { number: 5, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/GaUoTyqdkmKcPgAr.jpg" },
+    { number: 6, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/bVvYaGFtmolZyaMn.jpg" },
+    { number: 7, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/viDqzlKqtSIZxnEz.jpg" },
+    { number: 8, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/UvlwgEpQQpxzIvXG.jpg" },
+    { number: 9, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ZBSzMDuiBegCVfKN.jpg" },
   ];
 
   return (

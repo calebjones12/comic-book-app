@@ -4,15 +4,15 @@
 
 export default function Comics() {
   const issues = [
-    { number: 1, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/aPjuhittJrTrvcHD.jpg" },
-    { number: 2, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/jtWNsrHRSHOxjDDM.jpg" },
-    { number: 3, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/JVvWCcVzpcZWDREP.jpg" },
-    { number: 4, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ggEEFGMhwOzLGpax.jpg" },
-    { number: 5, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/GaUoTyqdkmKcPgAr.jpg" },
-    { number: 6, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/bVvYaGFtmolZyaMn.jpg" },
-    { number: 7, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/viDqzlKqtSIZxnEz.jpg" },
-    { number: 8, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/UvlwgEpQQpxzIvXG.jpg" },
-    { number: 9, cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ZBSzMDuiBegCVfKN.jpg" },
+    { number: 1, cover: "/images/covers/Issue 1 Cover.jpg" },
+    { number: 2, cover: "/images/covers/Issue 2 Cover.jpg" },
+    { number: 3, cover: "/images/covers/Issue 3 Cover.jpg" },
+    { number: 4, cover: "/images/covers/Issue 4 Cover.jpg" },
+    { number: 5, cover: "/images/covers/Issue 5 Cover.jpg" },
+    { number: 6, cover: "/images/covers/Issue 6 Cover.jpg" },
+    { number: 7, cover: "/images/covers/Issue 7 Cover.jpg" },
+    { number: 8, cover: "/images/covers/Issue 8 Cover New.jpg" },
+    { number: 9, cover: "/images/covers/Issue 9 Cover.jpg" },
   ];
 
   return (

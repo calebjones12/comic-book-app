@@ -57,9 +57,9 @@ export default function CharacterDetail() {
         </Link>
 
         {/* Character Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[35%_1fr] gap-8 mb-8">
           {/* Image - Full height, no border */}
-          <div className="relative h-[calc(100vh-12rem)] lg:h-auto">
+          <div className="relative h-[calc(100vh-12rem)] lg:h-[calc(100vh-14rem)]">
             <img 
               src={character.imageUrl} 
               alt={character.name} 

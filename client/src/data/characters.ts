@@ -62,7 +62,7 @@ export const characters: Character[] = [
   },
   {
     id: "ruslan",
-    name: "Ruslan",
+    name: "Ruslan Shattershield",
     race: "Dwarf",
     class: "Goreforged Hammer",
     realm: "Begorack",
@@ -82,7 +82,7 @@ export const characters: Character[] = [
   },
   {
     id: "princess",
-    name: "Princess Elara",
+    name: "Princess of Jeslam",
     race: "Human",
     class: "Princess of Jeslam",
     realm: "Kingdom of Jeslam",
@@ -102,7 +102,7 @@ export const characters: Character[] = [
   },
   {
     id: "syndrith",
-    name: "Syndrith",
+    name: "Matron Syndrith",
     race: "Rathor",
     class: "Sorceress and Priestess",
     realm: "Underworld, Rathor City of Sizindrel",

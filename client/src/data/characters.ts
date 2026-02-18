@@ -88,7 +88,7 @@ export const characters: Character[] = [
     realm: "Kingdom of Jeslam",
     personality: "The stuck-up, entitled, angry, and extremely bitter Princess of Jeslam (whose real name is Garrona) is the tall, young, good-looking version of her equally angry mother, Queen Strang.\n\nThe Princess's near-consistent angry exterior is a cover-up for her desire to please and impress her strong mother. The Princess's greatest fear is that her mother will find her not worthy to rule Jeslam when her time comes.",
     powers: "The Princess was a normal human but now she's been infused with dark magic that allows her to fire bolts of highly explosive energy at will. She may have other sorcerous powers that she hasn't yet uncovered.",
-    imageUrl: "/images/characters/Princess-Elara.jpg"
+    imageUrl: "/images/characters/Princess.jpg"
   },
   {
     id: "barlow",
@@ -158,7 +158,7 @@ export const characters: Character[] = [
     realm: "Kingdom of Klor, Southwestern Region",
     personality: "Brun'Krol is the ruler of all Ursom tribes in southwestern Klor. He is bull-headed, honorable, courageous, and wary of anyone not of the Ursom.\n\nHe wishes only for the Ursom to be left in peace to thrive on their own and despises any outside interference.",
     powers: "As an Ursom, Brun'Krol is massively strong, easily double or triple the strength of a human, and has a heightened sense of smell.",
-    imageUrl: "/images/characters/BrunKrol.jpg"
+    imageUrl: "/images/characters/Brun'Krol.jpg"
   },
   {
     id: "vailrae",
@@ -168,7 +168,7 @@ export const characters: Character[] = [
     realm: "Underworld, Rathor City of Sizindrel",
     personality: "Quite unlike her Matron, whom she serves loyally, Vailrae is pleasant, charismatic, and even friendly… if it serves her needs. She is also cunning, highly intelligent, patient, self-controlled, and ambitious. She harbors secret agendas known only to her.\n\nStrangely, she doesn't look down upon the other non-Rathor races and treats them politely, making her very odd among the Rathor. Even Syndrith berates her about this, but because of Vailrae's knowledge and effectiveness, she remains Syndrith's number-two in command of House Zulithran and is her closest advisor.",
     powers: "Vailrae is a powerful and skilled sorceress. Her favorite weapons are huge, purple, glowing buzzsaws which can slice through just about anything. She can summon these at will and hurl them at enemies, and she can use them as shields or even levitating platforms for herself and others.\n\nVailrae has vast knowledge of history, sorcery, and various other dark fascinations.\n\nSince Rathor is a type of elf, Vailrae has all the usual abilities of any elf, which include:\n • Long life – She will live for hundreds of years and age very slowly\n • Incredible speed – She can run and move far faster than a human or similar race\n • Gravity-resistant – Gravity does not affect her like it does other creatures, so she can accomplish feats such as leap great distances and run up walls.\n • Nature-resistant – Nature does not affect her like it does other creatures, so things such as wind, cold, and even fire affect her less.\n • Magic-resistant – Magic spells and attacks often don't affect Vailrae as it does other creatures (though she can and will be affected by powerful magic).\n • Darkness teleportation – Once or twice per day she can summon a globe of darkness that allows her to teleport short distances.\n\nAs a Rathor, her weakness is sunlight, which both blinds and weakens her.",
-    imageUrl: "/images/characters/Vailrae.jpg"
+    imageUrl: "/images/characters/vailrae-main.jpg"
   },
   {
     id: "sylwen-sunweave",
@@ -178,7 +178,7 @@ export const characters: Character[] = [
     realm: "Unknown",
     personality: "Sylwen is a priestess Telowen, goddess of healing and well-being. Her faith is the most important aspect of her life and overshadows everything else she does. She travels with her adventuring band, Critical Toll, in an effort to do her part to heal the world.\n\nShe is kind, patient, understanding, and quiet, but can be strong when she's called upon. She hides most of her personality from others and is rather closed.",
     powers: "She magically heals wounds, even grievous ones, but she can not raise anyone from the dead.\n\nShe can also magically bolster strength, endurance, speed, and courage to her allies when needed.\n\nSylwen avoids direct combat whenever possible, but when she has no other option, she wields her sorcerous golden chainstaff which functions both as a hardened staff and as a loose weapon chain.",
-    imageUrl: "/images/characters/Sylwen-Sunweave.jpg"
+    imageUrl: "/images/characters/Sylwen.jpg"
   },
   {
     id: "draven-goldsunder",
@@ -188,7 +188,7 @@ export const characters: Character[] = [
     realm: "Kingdom of Klor",
     personality: "Chief Strategist for the King of Klor, Draven Goldsunder is, for all intents and purposes, the true power behind the throne. He is intelligent, strong, powerful, resourceful, clever, and quick to anger.\n\nHis master plan involves securing all land in and around Klor and then attacking the larger neighboring kingdom of Xorath.\n\nHis companion is Darsis, though he beds other women when the desire takes him, including the queen herself.",
     powers: "He is a powerful warrior, famed throughout the kingdom for his battle prowess. He can summon his magical sword, shield, and other items of sorcery at will by storing them in a pocket dimension.\n\nHe can astrally project his consciousness, leaving his body for a time, and is able to see and communicate with others in his astral form hundreds of miles away, though his body is vulnerable whenever he does this.\n\nHe commands a group of capable warriors and spies, as well as holding command over the king's Royal Guard.",
-    imageUrl: "/images/characters/Draven-Goldsunder.jpg"
+    imageUrl: "/images/characters/Draven.jpg"
   },
   {
     id: "darsis",
@@ -208,7 +208,7 @@ export const characters: Character[] = [
     realm: "Tarlarm Wastes",
     personality: "Torvek, barbarian warrior of the Frostfang tribe, was born and raised in the cold and harsh Tarlarm Wastes. As the cousin of the chieftain, he received some preferential treatment, something that has always weighed heavily on his mind.\n\nTorvek is forthright, courageous, honorable, and friendly (for a barbarian at least). His most important thing is to give his wife, Chenning, and his newborn son a better life than he had.",
     powers: "Powerfully strong for a human, Torvek is a fearsome and experienced warrior.",
-    imageUrl: "/images/characters/Torvek-Frostfang.jpg"
+    imageUrl: "/images/characters/Torvek.jpg"
   },
   {
     id: "chenning",
@@ -228,7 +228,7 @@ export const characters: Character[] = [
     realm: "Kingdom of Klor",
     personality: "King Tharic the Fourth of Klor was once a wise and strong ruler, but that was a long time ago. Today, the king can't remember what he ate for breakfast, much less how to rule his kingdom. No longer of sound mind, he can't focus for more than a minute or two before rambling about cottage cheese or his hairy legs.\n\nThis has, unfortunately, allowed other forces secretly rule the Kingdom of Klor, namely Draven.",
     powers: "Individually, King Tharic the Fourth is weak, with no physical prowess nor magical powers. However, he is still the King of Klor, and though Klor is not a large or powerful kingdom, the King has access to armies, riches, and other vast resources.",
-    imageUrl: "/images/characters/King-Tharic-IV.jpg"
+    imageUrl: "/images/characters/King-Tharic.jpg"
   },
   {
     id: "queen-gwyndara",
@@ -238,6 +238,6 @@ export const characters: Character[] = [
     realm: "Kingdom of Klor",
     personality: "Queen Gwyndara is kind, gentle, submissive, and a little sad. Her delicate personality puts her way over her head when faced with stronger personalities like Draven.\n\nShe does her best to support her senile husband, King Tharic, but wields very little actual power.\n\nHer only goal is to be a good queen and perform the duties of such a title, namely to bear an heir for the king, which she has been unable to do so far. And at her age (forty), the clock is ticking.",
     powers: "Effectively none, other than the authority she wields as the Queen of Klor. She is at the mercy of stronger people.",
-    imageUrl: "/images/characters/Queen-Gwyndara.jpg"
+    imageUrl: "/images/characters/Queen-Gywndara.jpg"
   }
 ];

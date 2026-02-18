@@ -169,5 +169,85 @@ export const characters: Character[] = [
     personality: "White Dragon is Black Dragon's rival and counterpart. Where Black Dragon is chaotic and irreverent, White Dragon is disciplined and honorable.\n\nThey have a complicated relationship - sometimes allies, sometimes enemies, always competitors. White Dragon believes in justice and protecting the innocent.",
     powers: "White Dragon is a master swordsman equal to Black Dragon in skill. He wields a legendary white blade that can cut through any darkness.\n\nHe is faster and more agile than Black Dragon, but perhaps not quite as strong or durable.",
     imageUrl: "/images/characters/White-Dragon.jpg"
+  },
+  {
+    id: "vailrae",
+    name: "Vailrae",
+    race: "Rathor",
+    class: "Sorceress",
+    realm: "Underworld, Rathor City of Sizindrel",
+    personality: "Quite unlike her Matron, whom she serves loyally, Vailrae is pleasant, charismatic, and even friendly… if it serves her needs. She is also cunning, highly intelligent, patient, self-controlled, and ambitious. She harbors secret agendas known only to her.\n\nStrangely, she doesn't look down upon the other non-Rathor races and treats them politely, making her very odd among the Rathor. Even Syndrith berates her about this, but because of Vailrae's knowledge and effectiveness, she remains Syndrith's number-two in command of House Zulithran and is her closest advisor.",
+    powers: "Vailrae is a powerful and skilled sorceress. Her favorite weapons are huge, purple, glowing buzzsaws which can slice through just about anything. She can summon these at will and hurl them at enemies, and she can use them as shields or even levitating platforms for herself and others.\n\nVailrae has vast knowledge of history, sorcery, and various other dark fascinations.\n\nSince Rathor is a type of elf, Vailrae has all the usual abilities of any elf, which include:\n • Long life – She will live for hundreds of years and age very slowly\n • Incredible speed – She can run and move far faster than a human or similar race\n • Gravity-resistant – Gravity does not affect her like it does other creatures, so she can accomplish feats such as leap great distances and run up walls.\n • Nature-resistant – Nature does not affect her like it does other creatures, so things such as wind, cold, and even fire affect her less.\n • Magic-resistant – Magic spells and attacks often don't affect Vailrae as it does other creatures (though she can and will be affected by powerful magic).\n • Darkness teleportation – Once or twice per day she can summon a globe of darkness that allows her to teleport short distances.\n\nAs a Rathor, her weakness is sunlight, which both blinds and weakens her.",
+    imageUrl: "/images/characters/vailrae-main.jpg"
+  },
+  {
+    id: "sylwen",
+    name: "Sylwen Sunweave",
+    race: "Human",
+    class: "Priestess",
+    realm: "Unknown",
+    personality: "Sylwen is a priestess Telowen, goddess of healing and well-being. Her faith is the most important aspect of her life and overshadows everything else she does. She travels with her adventuring band, Critical Toll, in an effort to do her part to heal the world.\n\nShe is kind, patient, understanding, and quiet, but can be strong when she's called upon. She hides most of her personality from others and is rather closed.",
+    powers: "She magically heals wounds, even grievous ones, but she can not raise anyone from the dead.\n\nShe can also magically bolster strength, endurance, speed, and courage to her allies when needed.\n\nSylwen avoids direct combat whenever possible, but when she has no other option, she wields her sorcerous golden chainstaff which functions both as a hardened staff and as a loose weapon chain.",
+    imageUrl: "/images/characters/Sylwen.jpg"
+  },
+  {
+    id: "draven",
+    name: "Draven Goldsunder",
+    race: "Human",
+    class: "Warrior (with some sorcery)",
+    realm: "Kingdom of Klor",
+    personality: "Chief Strategist for the King of Klor, Draven Goldsunder is, for all intents and purposes, the true power behind the throne. He is intelligent, strong, powerful, resourceful, clever, and quick to anger.\n\nHis master plan involves securing all land in and around Klor and then attacking the larger neighboring kingdom of Xorath.\n\nHis companion is Darsis, though he beds other women when the desire takes him, including the queen herself.",
+    powers: "He is a powerful warrior, famed throughout the kingdom for his battle prowess. He can summon his magical sword, shield, and other items of sorcery at will by storing them in a pocket dimension.\n\nHe can astrally project his consciousness, leaving his body for a time, and is able to see and communicate with others in his astral form hundreds of miles away, though his body is vulnerable whenever he does this.\n\nHe commands a group of capable warriors and spies, as well as holding command over the king's Royal Guard.",
+    imageUrl: "/images/characters/Draven.jpg"
+  },
+  {
+    id: "darsis-combat",
+    name: "Darsis",
+    race: "Human (sorcery-infused)",
+    class: "Combat Sorceress",
+    realm: "Unknown",
+    personality: "At some point in her past, Darsis was kidnapped by an evil sorcerer who subjected her to various sorcerous experiments. She survived, but was forever changed.\n\nShe can't speak and only communicates in harsh whispers, yells, and similar sounds. Her face has lined with strange scars.\n\nShe is strong, vengeful, wrathful and will kill anyone who crosses her.\n\nHer current lover and superior is Draven, though she constantly protests against him.",
+    powers: "Darsis is able to generate massive heat with her hands, enabling her melt almost anything to lava, including metal. Her hands are also near-invulnerable.\n\nShe is also stronger than the typical human, though she uses no weapons.",
+    imageUrl: "/images/characters/Darsis.jpg"
+  },
+  {
+    id: "torvek",
+    name: "Torvek Frostfang",
+    race: "Human",
+    class: "Barbarian",
+    realm: "Tarlarm Wastes",
+    personality: "Torvek, barbarian warrior of the Frostfang tribe, was born and raised in the cold and harsh Tarlarm Wastes. As the cousin of the chieftain, he received some preferential treatment, something that has always weighed heavily on his mind.\n\nTorvek is forthright, courageous, honorable, and friendly (for a barbarian at least). His most important thing is to give his wife, Chenning, and his newborn son a better life than he had.",
+    powers: "Powerfully strong for a human, Torvek is a fearsome and experienced warrior.",
+    imageUrl: "/images/characters/Torvek.jpg"
+  },
+  {
+    id: "chenning",
+    name: "Chenning",
+    race: "Human",
+    class: "Barbarian",
+    realm: "Tarlarm Wastes",
+    personality: "Typical of the women of the barbarian Frostfang tribe, Chenning is crass, loud, uncouth, and blunt. She has no filter and simply blurts out whatever she is thinking.\n\nShe loves her husband, Torvek, and her baby son Branik with a white-hot fire, and would follow him into Hell itself. She actually would probably enjoy such a thing.",
+    powers: "Chenning's weapon of choice is throwing axes, which she wields with great skill. She is also stronger than a typical human woman, a result of a lifetime in the harsh Tarlarm Wastes.",
+    imageUrl: "/images/characters/Chenning.jpg"
+  },
+  {
+    id: "king-tharic",
+    name: "King Tharic IV",
+    race: "Human",
+    class: "King of Klor",
+    realm: "Kingdom of Klor",
+    personality: "King Tharic the Fourth of Klor was once a wise and strong ruler, but that was a long time ago. Today, the king can't remember what he ate for breakfast, much less how to rule his kingdom. No longer of sound mind, he can't focus for more than a minute or two before rambling about cottage cheese or his hairy legs.\n\nThis has, unfortunately, allowed other forces secretly rule the Kingdom of Klor, namely Draven.",
+    powers: "Individually, King Tharic the Fourth is weak, with no physical prowess nor magical powers. However, he is still the King of Klor, and though Klor is not a large or powerful kingdom, the King has access to armies, riches, and other vast resources.",
+    imageUrl: "/images/characters/King-Tharic.jpg"
+  },
+  {
+    id: "queen-gwyndara",
+    name: "Queen Gwyndara",
+    race: "Human",
+    class: "Queen of Klor",
+    realm: "Kingdom of Klor",
+    personality: "Queen Gwyndara is kind, gentle, submissive, and a little sad. Her delicate personality puts her way over her head when faced with stronger personalities like Draven.\n\nShe does her best to support her senile husband, King Tharic, but wields very little actual power.\n\nHer only goal is to be a good queen and perform the duties of such a title, namely to bear an heir for the king, which she has been unable to do so far. And at her age (forty), the clock is ticking.",
+    powers: "Effectively none, other than the authority she wields as the Queen of Klor. She is at the mercy of stronger people.",
+    imageUrl: "/images/characters/Queen-Gywndara.jpg"
   }
 ];

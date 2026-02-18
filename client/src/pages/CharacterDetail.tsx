@@ -34,7 +34,7 @@ export default function CharacterDetail() {
   // Split text by double line breaks to preserve paragraph structure
   const formatText = (text: string) => {
     return text.split('\n\n').map((paragraph, index) => (
-      <p key={index} className="text-foreground/90 leading-relaxed mb-4 last:mb-0">
+      <p key={index} className="text-foreground/90 leading-relaxed mb-3 last:mb-0 text-sm">
         {paragraph.split('\n').map((line, lineIndex, array) => (
           <span key={lineIndex}>
             {line}
@@ -46,63 +46,59 @@ export default function CharacterDetail() {
   };
 
   return (
-    <div className="min-h-screen py-24 bg-background">
+    <div className="min-h-screen py-20 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Back Button */}
         <Link href="/characters">
-          <div className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground font-body mb-8 cursor-pointer transition-colors">
-            <ChevronLeft size={20} />
+          <div className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground font-body mb-4 cursor-pointer transition-colors text-sm">
+            <ChevronLeft size={18} />
             Back to All Characters
           </div>
         </Link>
 
         {/* Character Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
-          {/* Image */}
-          <div className="relative">
-            <div className="sticky top-28">
-              <div className="border-4 border-primary overflow-hidden">
-                <img 
-                  src={character.imageUrl} 
-                  alt={character.name} 
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+          {/* Image - Full height, no border */}
+          <div className="relative h-[calc(100vh-12rem)] lg:h-auto">
+            <img 
+              src={character.imageUrl} 
+              alt={character.name} 
+              className="w-full h-full object-contain"
+            />
           </div>
 
           {/* Details */}
-          <div>
-            <h1 className="text-5xl md:text-7xl font-display mb-6 text-foreground">
+          <div className="space-y-4">
+            <h1 className="text-4xl md:text-5xl font-display mb-4 text-foreground leading-tight">
               {character.name.toUpperCase()}
             </h1>
             
-            <div className="space-y-6 font-body">
-              <div className="grid grid-cols-2 gap-4 p-6 bg-card border-2 border-border">
+            <div className="space-y-4 font-body">
+              <div className="grid grid-cols-2 gap-3 p-4 bg-card border border-border">
                 <div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-wider mb-1">Race</div>
-                  <div className="text-lg text-foreground">{character.race}</div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Race</div>
+                  <div className="text-sm text-foreground font-medium">{character.race}</div>
                 </div>
                 <div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-wider mb-1">Class</div>
-                  <div className="text-lg text-foreground">{character.class}</div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Class</div>
+                  <div className="text-sm text-foreground font-medium">{character.class}</div>
                 </div>
                 <div className="col-span-2">
-                  <div className="text-sm text-muted-foreground uppercase tracking-wider mb-1">Realm of Origin</div>
-                  <div className="text-lg text-foreground">{character.realm}</div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Realm of Origin</div>
+                  <div className="text-sm text-foreground font-medium">{character.realm}</div>
                 </div>
               </div>
 
               <div>
-                <h2 className="text-3xl font-display mb-4 text-foreground">PERSONALITY & GOALS</h2>
-                <div className="space-y-4">
+                <h2 className="text-xl font-display mb-3 text-foreground">PERSONALITY & GOALS</h2>
+                <div className="space-y-3">
                   {formatText(character.personality)}
                 </div>
               </div>
 
               <div>
-                <h2 className="text-3xl font-display mb-4 text-foreground">POWERS & ABILITIES</h2>
-                <div className="space-y-4">
+                <h2 className="text-xl font-display mb-3 text-foreground">POWERS & ABILITIES</h2>
+                <div className="space-y-3">
                   {formatText(character.powers)}
                 </div>
               </div>
@@ -111,24 +107,24 @@ export default function CharacterDetail() {
         </div>
 
         {/* Navigation */}
-        <div className="flex justify-between items-center pt-12 border-t-4 border-border">
+        <div className="flex justify-between items-center pt-8 border-t-2 border-border">
           <Link href={`/characters/${prevCharacter.id}`}>
-            <div className="group flex items-center gap-4 cursor-pointer hover:opacity-80 transition-opacity">
-              <ChevronLeft size={32} className="text-primary" />
+            <div className="group flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
+              <ChevronLeft size={28} className="text-primary" />
               <div>
-                <div className="text-sm text-muted-foreground font-body">Previous</div>
-                <div className="text-2xl font-display text-foreground">{prevCharacter.name.toUpperCase()}</div>
+                <div className="text-xs text-muted-foreground font-body">Previous</div>
+                <div className="text-lg font-display text-foreground">{prevCharacter.name.toUpperCase()}</div>
               </div>
             </div>
           </Link>
 
           <Link href={`/characters/${nextCharacter.id}`}>
-            <div className="group flex items-center gap-4 cursor-pointer hover:opacity-80 transition-opacity">
+            <div className="group flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
               <div className="text-right">
-                <div className="text-sm text-muted-foreground font-body">Next</div>
-                <div className="text-2xl font-display text-foreground">{nextCharacter.name.toUpperCase()}</div>
+                <div className="text-xs text-muted-foreground font-body">Next</div>
+                <div className="text-lg font-display text-foreground">{nextCharacter.name.toUpperCase()}</div>
               </div>
-              <ChevronRight size={32} className="text-primary" />
+              <ChevronRight size={28} className="text-primary" />
             </div>
           </Link>
         </div>

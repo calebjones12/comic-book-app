@@ -1,6 +1,6 @@
 /**
- * Neo-Brutalism Dark Fantasy Navigation
- * Bold, sharp, asymmetric header with aggressive styling
+ * Neo-Brutalism Light Navigation
+ * Bold, sharp, clean header with aggressive styling - Rippaverse inspired
  */
 
 import { Link, useLocation } from "wouter";
@@ -21,7 +21,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background border-b-4 border-primary">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-primary shadow-sm">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}

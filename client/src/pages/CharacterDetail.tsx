@@ -46,7 +46,7 @@ export default function CharacterDetail() {
   };
 
   return (
-    <div className="min-h-screen py-20 bg-background">
+    <div className="min-h-screen py-8 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Back Button */}
         <Link href="/characters">

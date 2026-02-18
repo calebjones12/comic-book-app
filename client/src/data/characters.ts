@@ -18,7 +18,7 @@ export const characters: Character[] = [
     realm: "Unknown, no one realm, travels extensively",
     personality: "Sarcastic, brash, outcome-independent, happy, and extremely inappropriate, Black Dragon's goals are simply to attain lots of gold and retire in peace to a castle in the mountains. He cares nothing for the rest of the world, whether good or evil.\n\nHis greatest value is freedom, the freedom to live the way he wants, when he wants, at all times.\n\nHe loves Pink Firefly above all other women and is devoted to her, but still has an eye for others and beds others as opportunity provides. Pink Firefly knows it and tolerates it. Sort of.\n\nHe loves eating chicken. Probably a little too much.",
     powers: "Black Dragon was trained in swordsmanship since he was a small child and has been a for-hire mercenary for almost his entire adult life. Thus, he is a warrior of great experience and prowess. He has traveled the western realms extensively and has strong knowledge of their lands and creatures. He also seems to have strength and endurance slightly greater than that of the typical human (for reasons that will be revealed later).\n\nHe wields \"Carl,\" his talking (but very laconic) +5 Sword of Objectivity, a lethal weapon of near-impossible sharpness. He also uses a staff he \"liberated\" from the tomb of a great sorcerer which has the power of teleportation.",
-    imageUrl: "/images/characters/Black Dragon.jpg"
+    imageUrl: "/images/characters/Black-Dragon.jpg"
   },
   {
     id: "pink-firefly",
@@ -28,7 +28,7 @@ export const characters: Character[] = [
     realm: "Fairy Kingdom of Pawood Forest",
     personality: "Friendly, kind, good-hearted, feminine, emotional, and just a little nervous about everything, Pink Firefly loves Black Dragon and is always by his side. She tolerates his near-constant inappropriate behavior and the bloody violence that seems to constantly follow him around.\n\nShe is not a warrior and focuses on defensive actions when threatened. She, like Black Dragon, wishes for a quiet family life. Her goal is to be a real princess like in the fairy tales.\n\nDespite all of this, when pushed hard enough, she will rise to the occasion… but she still would rather have Black Dragon deal with that stuff.",
     powers: "As a fairy, she can fly, will live hundreds of years without aging, and is immune to poison.\n\nIn her natural form, she is tiny, about seven inches tall. She can become human-sized at will and often spends time in this size to integrate more socially with others, though eventually she must return to her normal size.\n\nShe can fly in her human size as well, though she is barely strong enough to carry one human-sized person for short distances and no more.\n\nAt will, she can fire her \"Hearts of Happiness,\" which will make most humanoid and animal creatures exceedingly happy to the point of stupefaction. The effect doesn't work on everyone though, and only lasts around 30 minutes before the victims return to normal.\n\nShe can summon near-impenetrable semitransparent force shields in the shape of pink hearts that she can shape to any size needed, though doing so often tires her.",
-    imageUrl: "/images/characters/Pink Firefly.jpg"
+    imageUrl: "/images/characters/Pink-Firefly.jpg"
   },
   {
     id: "larry",
@@ -48,7 +48,7 @@ export const characters: Character[] = [
     realm: "Eleneth Isles",
     personality: "Zorra was the smallest and youngest of her sisters, earning her the nickname \"Baby\" Zorra. She is brave, impulsive, intelligent, loves life, and is perhaps just a little insane.\n\nAs likely the only elf in the Western lands, she often finds it difficult to adjust to the strange ways of non-elf folk like humans, but she does her best and always has a positive attitude. She misses her home but is committed to staying with her new adopted family as long as needed.\n\nShe prefers to speak her native tongue of Elvish (which sounds suspiciously like Spanish) and will often state phrases in her native language, confusing her friends.\n\nBaby Zorra often hears a strange voice in her head with which she often argues. This voice is always screaming angry, sometimes violent commands or complaints. Either she's completely insane, or something weird is going on… or perhaps a little of both.",
     powers: "As a whisperknife, Baby Zorra can summon unlimited small throwing weapons (knives, daggers, shurikens, etc) and throw them with lethal accuracy.\n\nShe speaks three languages: Elvish, Common, and sylvan language of Harsi.\n\nDespite their smaller size, Dawn Elves are an old and powerful race. As such, Baby Zorra has all the usual abilities of any elf, which include:\n • Long life – She will live for hundreds of years and age very slowly.\n • Incredible speed – She can run and move far faster than a human or similar race.\n • Gravity-resistant – Gravity does not affect her like it does other creatures, so she can accomplish feats such as leaping great distances and running up walls.\n • Nature-resistant – Nature does not affect her like it does other creatures, so things such as wind, cold, and even fire affect her less.\n • Magic-resistant – Magic spells and attacks often don't affect Baby Zorra as it does other creatures (though she can and will be affected by powerful magic).",
-    imageUrl: "/images/characters/Baby Zorra.jpg"
+    imageUrl: "/images/characters/Baby-Zorra.jpg"
   },
   {
     id: "butternut",
@@ -78,7 +78,7 @@ export const characters: Character[] = [
     realm: "Unknown",
     personality: "Dark Firefly is Pink Firefly's dark reflection - a corrupted fairy who embraced violence and darkness. She is cruel, sadistic, and enjoys causing pain.\n\nShe has a twisted obsession with Pink Firefly and wants to corrupt her as well. She sees Black Dragon as a rival for Pink Firefly's affection.",
     powers: "Dark Firefly has all the powers of a normal fairy, but corrupted. Instead of Hearts of Happiness, she fires Hearts of Despair that cause intense sadness and hopelessness.\n\nHer force shields are black and can drain life energy from those who touch them.",
-    imageUrl: "/images/characters/Dark Firefly.jpg"
+    imageUrl: "/images/characters/Dark-Firefly.jpg"
   },
   {
     id: "barlow",
@@ -138,7 +138,7 @@ export const characters: Character[] = [
     realm: "Mountain Kingdom of Karak-Dun",
     personality: "Queen Strang is the fierce ruler of the dwarven kingdom of Karak-Dun. She is strong, stubborn, and fiercely protective of her people.\n\nShe has a booming laugh and loves a good fight. She respects Black Dragon as a fellow warrior and enjoys drinking contests with him.",
     powers: "Queen Strang is a formidable warrior who wields a massive battle axe. She is incredibly strong and tough, able to take hits that would kill most people.\n\nShe also has some resistance to magic due to her dwarven heritage.",
-    imageUrl: "/images/characters/Queen Strang.jpg"
+    imageUrl: "/images/characters/Queen-Strang.jpg"
   },
   {
     id: "ruslan",
@@ -168,6 +168,6 @@ export const characters: Character[] = [
     realm: "Unknown",
     personality: "White Dragon is Black Dragon's rival and counterpart. Where Black Dragon is chaotic and irreverent, White Dragon is disciplined and honorable.\n\nThey have a complicated relationship - sometimes allies, sometimes enemies, always competitors. White Dragon believes in justice and protecting the innocent.",
     powers: "White Dragon is a master swordsman equal to Black Dragon in skill. He wields a legendary white blade that can cut through any darkness.\n\nHe is faster and more agile than Black Dragon, but perhaps not quite as strong or durable.",
-    imageUrl: "/images/characters/White Dragon.jpg"
+    imageUrl: "/images/characters/White-Dragon.jpg"
   }
 ];

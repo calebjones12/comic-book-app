@@ -13,7 +13,7 @@ export default function Home() {
       <section 
         className="relative min-h-[90vh] flex items-center diagonal-slash bg-card"
         style={{
-          backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.85)), url('/images/covers/Issue 1 Cover.jpg')`,
+          backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.85)), url('/images/covers/Issue-1-Cover.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-4xl">
             <div className="mb-8">
-              <img                  src="/images/characters/Pink Firefly.jpg" 
+              <img                  src="/images/characters/Pink-Firefly.jpg" 
                 alt="Black Dragon and Pink Firefly" 
                 className="w-full max-w-2xl"
               />
@@ -88,7 +88,7 @@ export default function Home() {
               <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-primary hover:border-accent transition-all duration-200">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/logos/Black Dragon and Pink FIrefly Logo.jpg" 
+                    src="/images/logos/Black-Dragon-and-Pink-FIrefly-Logo.jpg" 
                     alt="Black Dragon" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -105,7 +105,7 @@ export default function Home() {
               <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-accent hover:border-primary transition-all duration-200">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/characters/Black Dragon.jpg" 
+                    src="/images/characters/Black-Dragon.jpg" 
                     alt="Pink Firefly" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

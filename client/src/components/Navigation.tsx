@@ -28,7 +28,7 @@ export default function Navigation() {
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer group">
               <img 
-                src="/images/logos/A2Heroes 002 (flat).jpg" 
+                src="/images/logos/A2Heroes-002-(flat).jpg" 
                 alt="A2Heroes" 
                 className="h-12 w-auto transition-transform duration-200 group-hover:scale-110"
               />

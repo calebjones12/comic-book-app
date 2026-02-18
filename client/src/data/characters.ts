@@ -53,122 +53,112 @@ export const characters: Character[] = [
   {
     id: "butternut",
     name: "Butternut",
-    race: "Squirrel (Awakened)",
-    class: "Druid",
-    realm: "Pawood Forest",
-    personality: "Butternut was once a normal squirrel, but was \"awakened\" by a druid, giving him human-level intelligence and the ability to speak. He is the best friend of Pink Firefly and often travels with her and Black Dragon.\n\nButternut is smart, brave, loyal, and often sarcastic. He is also quite small and often feels inadequate compared to his larger friends. He compensates for this by being clever and resourceful.\n\nHe has a crush on Pink Firefly, though he knows it's impossible. He is also terrified of cats.",
-    powers: "As an awakened animal, Butternut has human-level intelligence and can speak Common. He retains all the natural abilities of a squirrel, including climbing, jumping, and gathering nuts.\n\nHe has some minor druidic magic, including the ability to speak with animals and plants, and can cast minor nature spells.",
+    race: "Dog (with an evil curse)",
+    class: "none",
+    realm: "Kingdom of Jeslam",
+    personality: "Pink Firefly's dog, Butternut, is the typical, loyal, happy dog, except that he's been cursed by the Spider Gods and occasionally turns into a Demon Dog when he feels angry, threatened, or if he senses Pink Firefly is threatened.\n\nHe always wants to be part of the group and hates being left alone. He loves Pink Firefly and Black Dragon, even though the latter can't stand him, often purposely mispronouncing his name (Butterball, Butterfucks, Butt-Nut, etc).",
+    powers: "When in Demon Dog form, he is stronger than usual (though not by much) and his bite delivers a lethal necrotic poison that instantly kills most creatures.\n\nButternut also attempts various karate moves in combat, though not very well.",
     imageUrl: "/images/characters/Butternut.jpg"
   },
   {
-    id: "brun-krol",
-    name: "Brun'Krol",
-    race: "Orc",
-    class: "Shaman",
-    realm: "Orclands",
-    personality: "Brun'Krol is a powerful orc shaman who leads his tribe with wisdom and strength. Unlike many orcs, he values peace and cooperation with other races, though he will defend his people fiercely if threatened.\n\nHe is wise, patient, and speaks with a deep, rumbling voice. He has a dry sense of humor and enjoys telling stories around the campfire.",
-    powers: "As a shaman, Brun'Krol can commune with spirits and cast powerful elemental magic. He can summon lightning, create earthquakes, and heal wounds.\n\nHe is also a formidable warrior, wielding a massive war hammer that crackles with lightning.",
-    imageUrl: "/images/characters/Brun'Krol.jpg"
+    id: "ruslan",
+    name: "Ruslan",
+    race: "Dwarf",
+    class: "Goreforged Hammer",
+    realm: "Begorack",
+    personality: "Possibly the only person more inappropriate than Black Dragon, Ruslan is rude, vulgar, and loud, throwing around the most disgusting insults perhaps ever spoken to anyone, even to close friends.\n\nHis greatest joy is battle and killing. He wishes to die in battle against an opponent great enough to defeat him, but knows that would sadden his wife and children, the only people he truly loves, so he suffers great inner conflict.",
+    powers: "Ruslan wields two unbreakable, diamond-glass hammers powered two magical, immortal goldfish who are always terrified to be trapped inside a constantly smashing hammer.\n\nRuslan speaks the Common language as well has his native Dwarven tongue (which sounds suspiciously like Russian).\n\nRuslan has all the abilities of any dwarf, which are:\n • Long life – He will live hundreds of years and age very slowly\n • Near-invincible endurance – He can take huge amounts of damage and just keep coming\n • Fast healing – Heals much faster than humans or similar creatures.",
+    imageUrl: "/images/characters/Ruslan.jpg"
   },
   {
-    id: "dark-firefly",
-    name: "Dark Firefly",
-    race: "Fairy (Corrupted)",
-    class: "Assassin",
-    realm: "Unknown",
-    personality: "Dark Firefly is Pink Firefly's dark reflection - a corrupted fairy who embraced violence and darkness. She is cruel, sadistic, and enjoys causing pain.\n\nShe has a twisted obsession with Pink Firefly and wants to corrupt her as well. She sees Black Dragon as a rival for Pink Firefly's affection.",
-    powers: "Dark Firefly has all the powers of a normal fairy, but corrupted. Instead of Hearts of Happiness, she fires Hearts of Despair that cause intense sadness and hopelessness.\n\nHer force shields are black and can drain life energy from those who touch them.",
-    imageUrl: "/images/characters/Dark-Firefly.jpg"
-  },
-  {
-    id: "barlow",
-    name: "Barlow",
+    id: "queen-strang",
+    name: "Queen Strang",
     race: "Human",
-    class: "Rogue",
-    realm: "City of Narusk",
-    personality: "Barlow is a charming rogue and con artist who makes his living through schemes and scams. He's smooth-talking, quick-witted, and always has an angle.\n\nDespite his criminal tendencies, he has a good heart and will help his friends when they need him. He just might charge them for it.",
-    powers: "Barlow is an expert at picking locks, disarming traps, and sneaking around. He's also a skilled swordsman and can hold his own in a fight.\n\nHe has a network of contacts throughout the city and can usually find information or items for the right price.",
-    imageUrl: "/images/characters/Barlow.jpg"
-  },
-  {
-    id: "darsis",
-    name: "Darsis",
-    race: "Human",
-    class: "Wizard",
+    class: "Queen of Jeslam",
     realm: "Kingdom of Jeslam",
-    personality: "Darsis is a powerful wizard who serves as the court mage for the Kingdom of Jeslam. He is intelligent, calculating, and always thinking several steps ahead.\n\nHe has a dry wit and little patience for fools. He respects Black Dragon's pragmatism but finds his lack of education frustrating.",
-    powers: "Darsis is a master of arcane magic, specializing in fire and lightning spells. He can also teleport, create illusions, and cast powerful protective wards.\n\nHe carries a staff that amplifies his magical power and can store spells for later use.",
-    imageUrl: "/images/characters/Darsis.jpg"
-  },
-  {
-    id: "fuzzlewax",
-    name: "Fuzzlewax",
-    race: "Gnome",
-    class: "Inventor",
-    realm: "City of Gearhold",
-    personality: "Fuzzlewax is an eccentric gnome inventor who creates bizarre and often dangerous contraptions. He's enthusiastic, talkative, and completely oblivious to social cues.\n\nHe sees every problem as an opportunity to build something new, even if that something explodes half the time.",
-    powers: "Fuzzlewax is a genius inventor who can create mechanical devices that seem to defy the laws of physics. His inventions include flying machines, explosive devices, and mechanical servants.\n\nHe also has some minor magical ability, which he uses to power his inventions.",
-    imageUrl: "/images/characters/Fuzzlewax.jpg"
-  },
-  {
-    id: "olyndris",
-    name: "Olyndris",
-    race: "High Elf",
-    class: "Ranger",
-    realm: "Silverwood Forest",
-    personality: "Olyndris is a noble high elf ranger who protects the ancient forests from those who would harm them. She is proud, dignified, and has little patience for the crude behavior of humans.\n\nShe respects strength and honor, but finds Black Dragon's irreverence offensive. Despite this, she recognizes his skill as a warrior.",
-    powers: "Olyndris is a master archer who can hit targets from incredible distances. She can also track any creature through any terrain and has a deep connection to nature.\n\nShe can communicate with animals and plants, and can call upon them for aid in battle.",
-    imageUrl: "/images/characters/Olyndris.jpg"
+    personality: "The ever-furious, hot-tempered, man-hating, matriarchal, and merciless Queen of Jeslam now rules her kingdom with an iron fist now that her husband is dead.\n\nAll she wants is more power, and she will utilize dark and dangerous forces to get it.",
+    powers: "It is rumored that she may have some magical abilities, but it's more than likely she uses magical allies to her advantage as Queen and sole ruler of Jeslam.",
+    imageUrl: "/images/characters/Queen-Strang.jpg"
   },
   {
     id: "princess",
     name: "Princess Elara",
     race: "Human",
-    class: "Noble",
+    class: "Princess of Jeslam",
     realm: "Kingdom of Jeslam",
-    personality: "Princess Elara is the daughter of King Tharic and heir to the throne of Jeslam. She is intelligent, compassionate, and determined to be a good ruler.\n\nShe is frustrated by the constraints of royal life and longs for adventure. She admires Black Dragon's freedom, even if she doesn't approve of his methods.",
-    powers: "While not a warrior or mage, Princess Elara is highly educated and skilled in diplomacy, politics, and strategy. She can speak multiple languages and has extensive knowledge of history and law.\n\nShe is also learning swordplay in secret, against her father's wishes.",
-    imageUrl: "/images/characters/Princess.jpg"
+    personality: "The stuck-up, entitled, angry, and extremely bitter Princess of Jeslam (whose real name is Garrona) is the tall, young, good-looking version of her equally angry mother, Queen Strang.\n\nThe Princess's near-consistent angry exterior is a cover-up for her desire to please and impress her strong mother. The Princess's greatest fear is that her mother will find her not worthy to rule Jeslam when her time comes.",
+    powers: "The Princess was a normal human but now she's been infused with dark magic that allows her to fire bolts of highly explosive energy at will. She may have other sorcerous powers that she hasn't yet uncovered.",
+    imageUrl: "/images/characters/Princess-Elara.jpg"
   },
   {
-    id: "queen-strang",
-    name: "Queen Strang",
-    race: "Dwarf",
-    class: "Warrior Queen",
-    realm: "Mountain Kingdom of Karak-Dun",
-    personality: "Queen Strang is the fierce ruler of the dwarven kingdom of Karak-Dun. She is strong, stubborn, and fiercely protective of her people.\n\nShe has a booming laugh and loves a good fight. She respects Black Dragon as a fellow warrior and enjoys drinking contests with him.",
-    powers: "Queen Strang is a formidable warrior who wields a massive battle axe. She is incredibly strong and tough, able to take hits that would kill most people.\n\nShe also has some resistance to magic due to her dwarven heritage.",
-    imageUrl: "/images/characters/Queen-Strang.jpg"
-  },
-  {
-    id: "ruslan",
-    name: "Ruslan",
+    id: "barlow",
+    name: "Barlow",
     race: "Human",
-    class: "Paladin",
-    realm: "Holy Kingdom of Lumina",
-    personality: "Ruslan is a devoted paladin who serves the god of light and justice. He is honorable, righteous, and completely inflexible in his beliefs.\n\nHe sees Black Dragon as a necessary evil at best, and constantly tries to reform him. Black Dragon finds this hilarious.",
-    powers: "Ruslan can channel divine power to heal wounds, cure diseases, and smite evil. He glows with holy light when using his powers.\n\nHe is also a skilled swordsman and wears enchanted armor that protects him from dark magic.",
-    imageUrl: "/images/characters/Ruslan.jpg"
+    class: "Wizard",
+    realm: "Realm of Wodan",
+    personality: "A lover of magic, lore, pizza, and his favorite pillow, Barlow is a good-natured and friendly wizard who finds joy in doing good deeds. And eating good food. Lots of it.\n\nAs a member of the adventuring group, Critical Toll, and as Black Dragon's friend, he assists his comrades with divination magic to learn more about their enemies.",
+    powers: "Barlow can summon six clones of himself (the \"Barlows\"), identical to him but with slightly different personalities. They include Impulsive Barlow, Greedy Barlow, Cowardly Barlow, Scholarly Barlow, Heroic Barlow, and Ralph.\n\nBarlow also wields powerful divination magic, so through his sorcery he can gain knowledge about people or places far away, or long ago.",
+    imageUrl: "/images/characters/Barlow.jpg"
   },
   {
     id: "syndrith",
     name: "Syndrith",
-    race: "Dragon (Polymorphed)",
-    class: "Sorcerer",
-    realm: "Dragon Peaks",
-    personality: "Syndrith is an ancient dragon who can take human form. She is cunning, manipulative, and always playing the long game.\n\nShe has her own mysterious agenda and uses others as pawns in her schemes. She finds Black Dragon amusing and occasionally helps him, though always for her own reasons.",
-    powers: "In her dragon form, Syndrith is a massive creature with scales harder than steel and breath that can melt stone. She can fly and has immense physical strength.\n\nIn human form, she is a powerful sorcerer who can cast devastating spells. She can also transform back into her dragon form at will.",
+    race: "Rathor",
+    class: "Sorceress and Priestess",
+    realm: "Underworld, Rathor City of Sizindrel",
+    personality: "Matron Syndrith, ruler of Rathor House Zulithran, is ruthless, headstrong, powerful, paranoid, and highly xenophobic of all other races, as is typical of her Dark Elf race.\n\nShe expresses mostly anger, arrogance, annoyance, and hatred, though she has the ability to soften on rare occasions (which annoy her).\n\nHer sole goal is to amass enough magical power to crush the other Rathor Houses and secure her place as Matron Superior, not because of a desire for power per se, but more out of a twisted longing for personal safety. Perhaps her confidence and bluster is simply a cloak for more deep-seated fears…",
+    powers: "Syndrith is not only a sorceress of vast power, but she is also a priestess of Gorthox, God of Blood, which grants her even more potency.\n\nShe has an array of spells and magical attacks at her instant disposal, her favorite being a beam of dark necrotic energy she emits from her fingers.\n\nShe can levitate herself and others (though there are limits to this), and when the need is great, she can summon powerful demons to assist her in combat.\n\nSince Rathor is a type of elf, Syndrith has all the usual abilities of any elf, which include:\n • Long life – She will live hundreds of years and age very slowly\n • Incredible speed – She can run and move far faster than a human or similar race\n • Gravity-resistant – Gravity does not affect her like it does other creatures, so she can accomplish feats such as leap great distances and run up walls.\n • Nature-resistant – Nature does not affect her like it does other creatures, so things such as wind, cold, and even fire affect her less.\n • Magic-resistant – Magic spells and attacks often don't affect Syndrith as it does other creatures (though she can and will be affected by powerful magic).\n • Darkness teleportation – Once or twice per day she can summon a globe of darkness that allows her to teleport short distances.\n\nAs Rathor, her weakness is sunlight, which both blinds and weakens her.",
     imageUrl: "/images/characters/Syndrith.jpg"
+  },
+  {
+    id: "fuzzlewax",
+    name: "Fuzzlewax",
+    race: "Velkthen",
+    class: "Wizard",
+    realm: "Unknown",
+    personality: "Fuzzlewax is a strange creature, always referring to himself in the first person and always referring to others by description instead of name (Black Dragon is \"Dark Warrior,\" Pink Firefly is \"Pretty Fairy,\" Baby Zorra is \"Brave Elf,\" and so forth).\n\nHe is friendly, social, loves to be part of the group, and extremely weird.",
+    powers: "Fuzzlewax is a powerful summoner with a few loose screws. He can summon anything but never gets exactly what he asks for. If he tries to summon 100 spears to launch at an enemy, he'll instead summon 100 pillows, 100 pitchforks, or 100 ferrets.\n\nHe is constantly confused about why his magic never quite works the way he wants it to, but always forgets about it within a minute or two and carries on as if nothing is wrong.",
+    imageUrl: "/images/characters/Fuzzlewax.jpg"
   },
   {
     id: "white-dragon",
     name: "White Dragon",
     race: "Human",
     class: "Warrior",
-    realm: "Unknown",
-    personality: "White Dragon is Black Dragon's rival and counterpart. Where Black Dragon is chaotic and irreverent, White Dragon is disciplined and honorable.\n\nThey have a complicated relationship - sometimes allies, sometimes enemies, always competitors. White Dragon believes in justice and protecting the innocent.",
-    powers: "White Dragon is a master swordsman equal to Black Dragon in skill. He wields a legendary white blade that can cut through any darkness.\n\nHe is faster and more agile than Black Dragon, but perhaps not quite as strong or durable.",
+    realm: "Parallel Universe, realm unknown",
+    personality: "White Dragon is Black Dragon's mirror opposite from the parallel universe. He is constantly angry, disgusted by the entire world that he views as full of chaos. It is his personal mission to make the world \"right.\"\n\nHe is completely devoted to and worships Dark Firefly and instantly does whatever she asks without question, regardless of what it is.",
+    powers: "Just like Black Dragon, White Dragon was trained in swordsmanship since he was a small child and is an extremely strong and capable warrior. His rage and blind devotion to setting the world right give him a drive in battle matched by few.\n\nIn battle, he wields \"Diggle,\" his talking (and quite insane) +5 Sword of Emotion, a lethal weapon of great power.",
     imageUrl: "/images/characters/White-Dragon.jpg"
+  },
+  {
+    id: "dark-firefly",
+    name: "Dark Firefly",
+    race: "Succubus",
+    class: "none",
+    realm: "Hell, Parallel Universe",
+    personality: "Dark Firefly is Pink Firefly's mirror opposite from the parallel universe. She is confident, arrogant, irreverent, and always sure of herself.\n\nHer allies refer to her as \"Queen,\" but it's unknown exactly what this means in her home universe. Regardless, her minions, such as White Dragon and General Stabb, serve her obediently and without question.\n\nIn her world, magic is dying. Her goal is to syphon or steal magic from Black Dragon's universe to bring it back to her own.",
+    powers: "Dark Firefly can fire her \"Daggers of Anger\" at will. Anyone hit by these magical daggers will be instantly enraged and will attempt to attack or murder anyone next to them.\n\nShe can also become giant-sized (about 35 feet tall) whenever she wishes, making her formidable indeed.\n\nAs a demonic succubus, she can fly, is effectively immortal (unless killed via violence or accident), and is somewhat resistant to conventional (non-magical) weapons.",
+    imageUrl: "/images/characters/Dark-Firefly.jpg"
+  },
+  {
+    id: "olyndris",
+    name: "Olyndris",
+    race: "Dryad",
+    class: "Druid",
+    realm: "Unknown",
+    personality: "Lustful, playful, and arrogant, the libertine Olyndris is one of the few of the dryad race to leave the safety of their forests. She adventures with the group Critical Toll, seeking wealth and pleasure.\n\nHer nearly uncontrollable, lustful desires eventually forced her friends to make her vow not to use her magical charm abilities against anyone who isn't an enemy. She agreed and continues to uphold this promise… for now.\n\nIn combat, she is near emotionless and brutal in the extreme.",
+    powers: "As a dryad, Olyndris will live hundreds of years and age very slowly.\n\nShe can magically \"charm\" any person, male or female, forcing them to become enamored of her.\n\nShe speaks the sylvan language of Harsi in addition to Common.\n\nShe can instantly summon tree branches of various sizes as well as move and reshape them. She uses them as stabbing weapons and for movement.\n\nShe can merge with any tree and commune with plants, at least on a primitive level.",
+    imageUrl: "/images/characters/Olyndris.jpg"
+  },
+  {
+    id: "brun-krol",
+    name: "Brun'Krol",
+    race: "Ursom",
+    class: "Warleader",
+    realm: "Kingdom of Klor, Southwestern Region",
+    personality: "Brun'Krol is the ruler of all Ursom tribes in southwestern Klor. He is bull-headed, honorable, courageous, and wary of anyone not of the Ursom.\n\nHe wishes only for the Ursom to be left in peace to thrive on their own and despises any outside interference.",
+    powers: "As an Ursom, Brun'Krol is massively strong, easily double or triple the strength of a human, and has a heightened sense of smell.",
+    imageUrl: "/images/characters/BrunKrol.jpg"
   },
   {
     id: "vailrae",
@@ -178,30 +168,30 @@ export const characters: Character[] = [
     realm: "Underworld, Rathor City of Sizindrel",
     personality: "Quite unlike her Matron, whom she serves loyally, Vailrae is pleasant, charismatic, and even friendly… if it serves her needs. She is also cunning, highly intelligent, patient, self-controlled, and ambitious. She harbors secret agendas known only to her.\n\nStrangely, she doesn't look down upon the other non-Rathor races and treats them politely, making her very odd among the Rathor. Even Syndrith berates her about this, but because of Vailrae's knowledge and effectiveness, she remains Syndrith's number-two in command of House Zulithran and is her closest advisor.",
     powers: "Vailrae is a powerful and skilled sorceress. Her favorite weapons are huge, purple, glowing buzzsaws which can slice through just about anything. She can summon these at will and hurl them at enemies, and she can use them as shields or even levitating platforms for herself and others.\n\nVailrae has vast knowledge of history, sorcery, and various other dark fascinations.\n\nSince Rathor is a type of elf, Vailrae has all the usual abilities of any elf, which include:\n • Long life – She will live for hundreds of years and age very slowly\n • Incredible speed – She can run and move far faster than a human or similar race\n • Gravity-resistant – Gravity does not affect her like it does other creatures, so she can accomplish feats such as leap great distances and run up walls.\n • Nature-resistant – Nature does not affect her like it does other creatures, so things such as wind, cold, and even fire affect her less.\n • Magic-resistant – Magic spells and attacks often don't affect Vailrae as it does other creatures (though she can and will be affected by powerful magic).\n • Darkness teleportation – Once or twice per day she can summon a globe of darkness that allows her to teleport short distances.\n\nAs a Rathor, her weakness is sunlight, which both blinds and weakens her.",
-    imageUrl: "/images/characters/vailrae-main.jpg"
+    imageUrl: "/images/characters/Vailrae.jpg"
   },
   {
-    id: "sylwen",
+    id: "sylwen-sunweave",
     name: "Sylwen Sunweave",
     race: "Human",
     class: "Priestess",
     realm: "Unknown",
     personality: "Sylwen is a priestess Telowen, goddess of healing and well-being. Her faith is the most important aspect of her life and overshadows everything else she does. She travels with her adventuring band, Critical Toll, in an effort to do her part to heal the world.\n\nShe is kind, patient, understanding, and quiet, but can be strong when she's called upon. She hides most of her personality from others and is rather closed.",
     powers: "She magically heals wounds, even grievous ones, but she can not raise anyone from the dead.\n\nShe can also magically bolster strength, endurance, speed, and courage to her allies when needed.\n\nSylwen avoids direct combat whenever possible, but when she has no other option, she wields her sorcerous golden chainstaff which functions both as a hardened staff and as a loose weapon chain.",
-    imageUrl: "/images/characters/Sylwen.jpg"
+    imageUrl: "/images/characters/Sylwen-Sunweave.jpg"
   },
   {
-    id: "draven",
+    id: "draven-goldsunder",
     name: "Draven Goldsunder",
     race: "Human",
     class: "Warrior (with some sorcery)",
     realm: "Kingdom of Klor",
     personality: "Chief Strategist for the King of Klor, Draven Goldsunder is, for all intents and purposes, the true power behind the throne. He is intelligent, strong, powerful, resourceful, clever, and quick to anger.\n\nHis master plan involves securing all land in and around Klor and then attacking the larger neighboring kingdom of Xorath.\n\nHis companion is Darsis, though he beds other women when the desire takes him, including the queen herself.",
     powers: "He is a powerful warrior, famed throughout the kingdom for his battle prowess. He can summon his magical sword, shield, and other items of sorcery at will by storing them in a pocket dimension.\n\nHe can astrally project his consciousness, leaving his body for a time, and is able to see and communicate with others in his astral form hundreds of miles away, though his body is vulnerable whenever he does this.\n\nHe commands a group of capable warriors and spies, as well as holding command over the king's Royal Guard.",
-    imageUrl: "/images/characters/Draven.jpg"
+    imageUrl: "/images/characters/Draven-Goldsunder.jpg"
   },
   {
-    id: "darsis-combat",
+    id: "darsis",
     name: "Darsis",
     race: "Human (sorcery-infused)",
     class: "Combat Sorceress",
@@ -211,14 +201,14 @@ export const characters: Character[] = [
     imageUrl: "/images/characters/Darsis.jpg"
   },
   {
-    id: "torvek",
+    id: "torvek-frostfang",
     name: "Torvek Frostfang",
     race: "Human",
     class: "Barbarian",
     realm: "Tarlarm Wastes",
     personality: "Torvek, barbarian warrior of the Frostfang tribe, was born and raised in the cold and harsh Tarlarm Wastes. As the cousin of the chieftain, he received some preferential treatment, something that has always weighed heavily on his mind.\n\nTorvek is forthright, courageous, honorable, and friendly (for a barbarian at least). His most important thing is to give his wife, Chenning, and his newborn son a better life than he had.",
     powers: "Powerfully strong for a human, Torvek is a fearsome and experienced warrior.",
-    imageUrl: "/images/characters/Torvek.jpg"
+    imageUrl: "/images/characters/Torvek-Frostfang.jpg"
   },
   {
     id: "chenning",
@@ -231,14 +221,14 @@ export const characters: Character[] = [
     imageUrl: "/images/characters/Chenning.jpg"
   },
   {
-    id: "king-tharic",
+    id: "king-tharic-iv",
     name: "King Tharic IV",
     race: "Human",
     class: "King of Klor",
     realm: "Kingdom of Klor",
     personality: "King Tharic the Fourth of Klor was once a wise and strong ruler, but that was a long time ago. Today, the king can't remember what he ate for breakfast, much less how to rule his kingdom. No longer of sound mind, he can't focus for more than a minute or two before rambling about cottage cheese or his hairy legs.\n\nThis has, unfortunately, allowed other forces secretly rule the Kingdom of Klor, namely Draven.",
     powers: "Individually, King Tharic the Fourth is weak, with no physical prowess nor magical powers. However, he is still the King of Klor, and though Klor is not a large or powerful kingdom, the King has access to armies, riches, and other vast resources.",
-    imageUrl: "/images/characters/King-Tharic.jpg"
+    imageUrl: "/images/characters/King-Tharic-IV.jpg"
   },
   {
     id: "queen-gwyndara",
@@ -248,6 +238,6 @@ export const characters: Character[] = [
     realm: "Kingdom of Klor",
     personality: "Queen Gwyndara is kind, gentle, submissive, and a little sad. Her delicate personality puts her way over her head when faced with stronger personalities like Draven.\n\nShe does her best to support her senile husband, King Tharic, but wields very little actual power.\n\nHer only goal is to be a good queen and perform the duties of such a title, namely to bear an heir for the king, which she has been unable to do so far. And at her age (forty), the clock is ticking.",
     powers: "Effectively none, other than the authority she wields as the Queen of Klor. She is at the mercy of stronger people.",
-    imageUrl: "/images/characters/Queen-Gywndara.jpg"
+    imageUrl: "/images/characters/Queen-Gwyndara.jpg"
   }
 ];

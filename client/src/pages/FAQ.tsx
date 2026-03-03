@@ -65,9 +65,6 @@ export default function FAQ() {
         <h1 className="text-6xl md:text-8xl font-display mb-6 text-foreground">
           FAQ
         </h1>
-        <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl mb-16">
-          Everything you need to know about Black Dragon and Pink Firefly.
-        </p>
         
         <div className="max-w-4xl space-y-8">
           {faqs.map((faq, index) => (

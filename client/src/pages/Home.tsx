@@ -1,6 +1,6 @@
 /**
  * Neo-Brutalism Home Page
- * Bold asymmetric hero with diagonal slashes and aggressive styling
+ * Full-screen hero background image with text overlay (Rippaverse style)
  */
 
 import { Link } from "wouter";
@@ -9,55 +9,58 @@ import { ArrowRight } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center bg-card overflow-hidden">
-        <div className="container mx-auto px-4 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Left: Text */}
-            <div>
-              <h1 className="text-6xl md:text-8xl font-display mb-6 text-foreground leading-none">
-                DARK FANTASY<br/>COMEDY
-              </h1>
-              
-              <div className="space-y-4 text-lg md:text-xl font-body text-foreground/90 mb-8 max-w-2xl">
-                <p>
-                  Sex. Violence. Wit sharp enough to draw blood. Intricate plots that reward your attention with payoffs you won't see coming.
-                </p>
-                <p>
-                  A sprawling ensemble of characters you'll actually care about—flawed, fascinating, and unforgettable. Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters.
-                </p>
-                <p className="text-primary font-semibold">
-                  No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no Christianity, no lecturing.
-                </p>
-                <p>
-                  Just the ruthless commitment to character, story, and world-building that great fantasy demands.
-                </p>
-              </div>
-              
-              <div className="flex flex-wrap gap-4">
-                <Link href="/comics">
-                  <div className="bg-primary text-primary-foreground px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-accent hover:text-accent-foreground transition-all duration-200 cursor-pointer flex items-center gap-3 group">
-                    Explore Comics
-                    <ArrowRight className="group-hover:translate-x-2 transition-transform" />
-                  </div>
-                </Link>
-                
-                <Link href="/characters">
-                  <div className="border-4 border-foreground text-foreground px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-foreground hover:text-background transition-all duration-200 cursor-pointer">
-                    Meet Characters
-                  </div>
-                </Link>
-              </div>
+      {/* Hero Section - Full-screen background */}
+      <section
+        className="relative min-h-screen flex items-end"
+        style={{
+          backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue8Covernotext_df952210.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center top',
+        }}
+      >
+        {/* Dark gradient overlay — bottom-heavy so text is readable */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: 'linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.75) 70%, rgba(0,0,0,0.92) 100%)',
+          }}
+        />
+
+        {/* Text content anchored to bottom-left */}
+        <div className="relative z-10 w-full container mx-auto px-4 lg:px-8 pb-16 pt-32">
+          <div className="max-w-2xl">
+            <h1 className="text-6xl md:text-8xl font-display mb-6 text-white leading-none">
+              DARK FANTASY<br/>COMEDY
+            </h1>
+
+            <div className="space-y-4 text-lg md:text-xl font-body text-white/90 mb-8">
+              <p>
+                Sex. Violence. Wit sharp enough to draw blood. Intricate plots that reward your attention with payoffs you won't see coming.
+              </p>
+              <p>
+                A sprawling ensemble of characters you'll actually care about—flawed, fascinating, and unforgettable. Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters.
+              </p>
+              <p className="text-primary font-semibold">
+                No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no Christianity, no lecturing.
+              </p>
+              <p>
+                Just the ruthless commitment to character, story, and world-building that great fantasy demands.
+              </p>
             </div>
 
-            {/* Right: Hero Image */}
-            <div className="flex justify-center lg:justify-end">
-              <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue8Covernotext_df952210.jpg"
-                alt="Black Dragon and Pink Firefly"
-                className="w-full max-w-lg lg:max-w-full h-auto object-contain"
-                style={{ maxHeight: '88vh' }}
-              />
+            <div className="flex flex-wrap gap-4">
+              <Link href="/comics">
+                <div className="bg-primary text-primary-foreground px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-accent hover:text-accent-foreground transition-all duration-200 cursor-pointer flex items-center gap-3 group">
+                  Explore Comics
+                  <ArrowRight className="group-hover:translate-x-2 transition-transform" />
+                </div>
+              </Link>
+
+              <Link href="/characters">
+                <div className="border-4 border-white text-white px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-white hover:text-black transition-all duration-200 cursor-pointer">
+                  Meet Characters
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -81,14 +84,14 @@ export default function Home() {
           <h2 className="text-5xl md:text-7xl font-display mb-16 text-foreground">
             THE HEROES
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link href="/characters/black-dragon">
               <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-primary hover:border-accent transition-all duration-200">
                 <div className="aspect-[3/4] relative">
-                  <img 
-                    src="/images/logos/Black-Dragon-and-Pink-FIrefly-Logo.jpg" 
-                    alt="Black Dragon" 
+                  <img
+                    src="/images/logos/Black-Dragon-and-Pink-FIrefly-Logo.jpg"
+                    alt="Black Dragon"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent"></div>
@@ -99,13 +102,13 @@ export default function Home() {
                 </div>
               </div>
             </Link>
-            
+
             <Link href="/characters/pink-firefly">
               <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-accent hover:border-primary transition-all duration-200">
                 <div className="aspect-[3/4] relative">
-                  <img 
-                    src="/images/characters/Black-Dragon.jpg" 
-                    alt="Pink Firefly" 
+                  <img
+                    src="/images/characters/Black-Dragon.jpg"
+                    alt="Pink Firefly"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent"></div>
@@ -117,7 +120,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          
+
           <div className="text-center mt-12">
             <Link href="/characters">
               <div className="inline-block bg-foreground text-background px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-primary hover:text-primary-foreground transition-all duration-200 cursor-pointer">

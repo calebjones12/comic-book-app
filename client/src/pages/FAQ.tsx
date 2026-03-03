@@ -1,5 +1,6 @@
 /**
  * FAQ Page
+ * Build: 2026-03-03
  */
 
 export default function FAQ() {

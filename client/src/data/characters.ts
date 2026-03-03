@@ -118,7 +118,7 @@ export const characters: Character[] = [
     realm: "Unknown",
     personality: "Fuzzlewax is a strange creature, always referring to himself in the first person and always referring to others by description instead of name (Black Dragon is \"Dark Warrior,\" Pink Firefly is \"Pretty Fairy,\" Baby Zorra is \"Brave Elf,\" and so forth).\n\nHe is friendly, social, loves to be part of the group, and extremely weird.",
     powers: "Fuzzlewax is a powerful summoner with a few loose screws. He can summon anything but never gets exactly what he asks for. If he tries to summon 100 spears to launch at an enemy, he'll instead summon 100 pillows, 100 pitchforks, or 100 ferrets.\n\nHe is constantly confused about why his magic never quite works the way he wants it to, but always forgets about it within a minute or two and carries on as if nothing is wrong.",
-    imageUrl: "/images/characters/Fuzzlewax.jpg"
+    imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Fuzzlewax_adc15171.jpg"
   },
   {
     id: "white-dragon",
@@ -168,7 +168,7 @@ export const characters: Character[] = [
     realm: "Underworld, Rathor City of Sizindrel",
     personality: "Quite unlike her Matron, whom she serves loyally, Vailrae is pleasant, charismatic, and even friendly… if it serves her needs. She is also cunning, highly intelligent, patient, self-controlled, and ambitious. She harbors secret agendas known only to her.\n\nStrangely, she doesn't look down upon the other non-Rathor races and treats them politely, making her very odd among the Rathor. Even Syndrith berates her about this, but because of Vailrae's knowledge and effectiveness, she remains Syndrith's number-two in command of House Zulithran and is her closest advisor.",
     powers: "Vailrae is a powerful and skilled sorceress. Her favorite weapons are huge, purple, glowing buzzsaws which can slice through just about anything. She can summon these at will and hurl them at enemies, and she can use them as shields or even levitating platforms for herself and others.\n\nVailrae has vast knowledge of history, sorcery, and various other dark fascinations.\n\nSince Rathor is a type of elf, Vailrae has all the usual abilities of any elf, which include:\n • Long life – She will live for hundreds of years and age very slowly\n • Incredible speed – She can run and move far faster than a human or similar race\n • Gravity-resistant – Gravity does not affect her like it does other creatures, so she can accomplish feats such as leap great distances and run up walls.\n • Nature-resistant – Nature does not affect her like it does other creatures, so things such as wind, cold, and even fire affect her less.\n • Magic-resistant – Magic spells and attacks often don't affect Vailrae as it does other creatures (though she can and will be affected by powerful magic).\n • Darkness teleportation – Once or twice per day she can summon a globe of darkness that allows her to teleport short distances.\n\nAs a Rathor, her weakness is sunlight, which both blinds and weakens her.",
-    imageUrl: "/images/characters/vailrae-main.jpg"
+    imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Vailrae_8dd0b286.jpg"
   },
   {
     id: "sylwen-sunweave",
@@ -178,7 +178,7 @@ export const characters: Character[] = [
     realm: "Unknown",
     personality: "Sylwen is a priestess Telowen, goddess of healing and well-being. Her faith is the most important aspect of her life and overshadows everything else she does. She travels with her adventuring band, Critical Toll, in an effort to do her part to heal the world.\n\nShe is kind, patient, understanding, and quiet, but can be strong when she's called upon. She hides most of her personality from others and is rather closed.",
     powers: "She magically heals wounds, even grievous ones, but she can not raise anyone from the dead.\n\nShe can also magically bolster strength, endurance, speed, and courage to her allies when needed.\n\nSylwen avoids direct combat whenever possible, but when she has no other option, she wields her sorcerous golden chainstaff which functions both as a hardened staff and as a loose weapon chain.",
-    imageUrl: "/images/characters/Sylwen.jpg"
+    imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Sylwen_fa05a639.jpg"
   },
   {
     id: "draven-goldsunder",

@@ -92,7 +92,7 @@ export const characters: Character[] = [
   },
   {
     id: "barlow",
-    name: "Barlow",
+    name: "Barlow The Abundant",
     race: "Human",
     class: "Wizard",
     realm: "Realm of Wodan",

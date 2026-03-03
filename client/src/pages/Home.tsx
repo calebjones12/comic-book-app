@@ -19,9 +19,12 @@ export default function Home() {
           {/* Subtle red accent line on left edge */}
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary" />
 
-          <h1 className="text-6xl md:text-7xl xl:text-8xl font-display mb-6 text-white leading-none">
-            DARK FANTASY<br/>COMEDY
+          <h1 className="text-5xl md:text-6xl xl:text-7xl font-display mb-3 text-white leading-none">
+            BLACK DRAGON<br/>AND PINK FIREFLY
           </h1>
+          <p className="text-xl md:text-2xl font-body text-primary font-semibold uppercase tracking-widest mb-6">
+            Comic Books and Graphic Novels
+          </p>
 
           <div className="space-y-4 text-base md:text-lg font-body text-white/85 mb-8 max-w-xl">
             <p>

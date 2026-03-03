@@ -1,6 +1,6 @@
 /**
  * Neo-Brutalism Home Page
- * Full-screen hero background image with text overlay (Rippaverse style)
+ * Split hero: dark text panel left, full-height illustration right (all 4 characters visible)
  */
 
 import { Link } from "wouter";
@@ -9,60 +9,76 @@ import { ArrowRight } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section - Full-screen background */}
-      <section
-        className="relative min-h-screen flex items-end"
-        style={{
-          backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue8Covernotext_df952210.jpg')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center top',
-        }}
-      >
-        {/* Dark gradient overlay — bottom-heavy so text is readable */}
+      {/* Hero Section - Split layout */}
+      <section className="relative flex min-h-screen">
+        {/* Left: Dark panel with text */}
         <div
-          className="absolute inset-0"
-          style={{
-            background: 'linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.75) 70%, rgba(0,0,0,0.92) 100%)',
-          }}
-        />
+          className="relative z-10 flex flex-col justify-center px-8 lg:px-16 py-24 w-full lg:w-[48%] flex-shrink-0"
+          style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #111111 60%, #1a0a00 100%)' }}
+        >
+          {/* Subtle red accent line on left edge */}
+          <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary" />
 
-        {/* Text content anchored to bottom-left */}
-        <div className="relative z-10 w-full container mx-auto px-4 lg:px-8 pb-16 pt-32">
-          <div className="max-w-2xl">
-            <h1 className="text-6xl md:text-8xl font-display mb-6 text-white leading-none">
-              DARK FANTASY<br/>COMEDY
-            </h1>
+          <h1 className="text-6xl md:text-7xl xl:text-8xl font-display mb-6 text-white leading-none">
+            DARK FANTASY<br/>COMEDY
+          </h1>
 
-            <div className="space-y-4 text-lg md:text-xl font-body text-white/90 mb-8">
-              <p>
-                Sex. Violence. Wit sharp enough to draw blood. Intricate plots that reward your attention with payoffs you won't see coming.
-              </p>
-              <p>
-                A sprawling ensemble of characters you'll actually care about—flawed, fascinating, and unforgettable. Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters.
-              </p>
-              <p className="text-primary font-semibold">
-                No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no Christianity, no lecturing.
-              </p>
-              <p>
-                Just the ruthless commitment to character, story, and world-building that great fantasy demands.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-4">
-              <Link href="/comics">
-                <div className="bg-primary text-primary-foreground px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-accent hover:text-accent-foreground transition-all duration-200 cursor-pointer flex items-center gap-3 group">
-                  Explore Comics
-                  <ArrowRight className="group-hover:translate-x-2 transition-transform" />
-                </div>
-              </Link>
-
-              <Link href="/characters">
-                <div className="border-4 border-white text-white px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-white hover:text-black transition-all duration-200 cursor-pointer">
-                  Meet Characters
-                </div>
-              </Link>
-            </div>
+          <div className="space-y-4 text-base md:text-lg font-body text-white/85 mb-8 max-w-xl">
+            <p>
+              Sex. Violence. Wit sharp enough to draw blood. Intricate plots that reward your attention with payoffs you won't see coming.
+            </p>
+            <p>
+              A sprawling ensemble of characters you'll actually care about—flawed, fascinating, and unforgettable. Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters.
+            </p>
+            <p className="text-primary font-semibold">
+              No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no Christianity, no lecturing.
+            </p>
+            <p>
+              Just the ruthless commitment to character, story, and world-building that great fantasy demands.
+            </p>
           </div>
+
+          <div className="flex flex-wrap gap-4">
+            <Link href="/comics">
+              <div className="bg-primary text-primary-foreground px-8 py-4 font-display text-xl uppercase tracking-wider hover:bg-accent hover:text-accent-foreground transition-all duration-200 cursor-pointer flex items-center gap-3 group">
+                Explore Comics
+                <ArrowRight className="group-hover:translate-x-2 transition-transform" />
+              </div>
+            </Link>
+
+            <Link href="/characters">
+              <div className="border-4 border-white text-white px-8 py-4 font-display text-xl uppercase tracking-wider hover:bg-white hover:text-black transition-all duration-200 cursor-pointer">
+                Meet Characters
+              </div>
+            </Link>
+          </div>
+        </div>
+
+        {/* Right: Full illustration — all 4 characters */}
+        <div className="hidden lg:block flex-1 relative overflow-hidden">
+          <img
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue8Covernotext_df952210.jpg"
+            alt="Black Dragon and Pink Firefly characters"
+            className="absolute inset-0 w-full h-full object-contain object-center"
+            style={{ background: '#0d1a2e' }}
+          />
+          {/* Subtle left-edge fade to blend with dark panel */}
+          <div
+            className="absolute inset-y-0 left-0 w-24 pointer-events-none"
+            style={{ background: 'linear-gradient(to right, #0a0a0a, transparent)' }}
+          />
+        </div>
+
+        {/* Mobile: image below text (stacked) */}
+        <div
+          className="lg:hidden absolute inset-0 -z-10"
+          style={{
+            backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue8Covernotext_df952210.jpg')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center',
+          }}
+        >
+          <div className="absolute inset-0" style={{ background: 'rgba(0,0,0,0.75)' }} />
         </div>
       </section>
 

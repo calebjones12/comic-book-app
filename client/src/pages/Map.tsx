@@ -1,27 +1,20 @@
 /**
- * Map Page - World map placeholder
+ * Map Page — Full-page world map display
  */
 
 export default function Map() {
   return (
-    <div className="min-h-screen py-24 bg-background">
-      <div className="container mx-auto px-4 lg:px-8">
-        <h1 className="text-6xl md:text-8xl font-display mb-6 text-foreground">
-          THE WORLD MAP
-        </h1>
-        <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl mb-12">
-          Explore the vast realms where Black Dragon and Pink Firefly's adventures unfold.
-        </p>
-        
-        <div className="bg-card border-4 border-primary p-12 text-center">
-          <p className="text-3xl font-display text-muted-foreground">
-            WORLD MAP COMING SOON
-          </p>
-          <p className="text-lg font-body text-muted-foreground mt-4">
-            A detailed map of the Western Realms and beyond will be available here.
-          </p>
-        </div>
-      </div>
+    <div className="min-h-screen bg-black flex flex-col items-center justify-center">
+      <img
+        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/mapdithered_f24edbb1.jpg"
+        alt="World Map of Xorath, Klor, Auron, Jeslam and surrounding regions"
+        style={{
+          width: '100%',
+          height: 'calc(100vh - 80px)',
+          objectFit: 'contain',
+          display: 'block',
+        }}
+      />
     </div>
   );
 }

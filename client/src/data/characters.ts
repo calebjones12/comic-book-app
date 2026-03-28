@@ -97,7 +97,7 @@ export const characters: Character[] = [
     class: "Wizard",
     realm: "Realm of Wodan",
     personality: "A lover of magic, lore, pizza, and his favorite pillow, Barlow is a good-natured and friendly wizard who finds joy in doing good deeds. And eating good food. Lots of it.\n\nAs a member of the adventuring group, Critical Toll, and as Black Dragon's friend, he assists his comrades with divination magic to learn more about their enemies.",
-    powers: "Barlow can summon six clones of himself (the \"Barlows\"), identical to him but with slightly different personalities. They include Impulsive Barlow, Greedy Barlow, Cowardly Barlow, Scholarly Barlow, Heroic Barlow, and Ralph.\n\nBarlow also wields powerful divination magic, so through his sorcery he can gain knowledge about people or places far away, or long ago.",
+    powers: "Barlow can summon five clones of himself (the \"Barlows\"), identical to him but with slightly different personalities. They include Impulsive Barlow, Greedy Barlow, Cowardly Barlow, Scholarly Barlow, and Heroic Barlow.\n\nBarlow also wields powerful divination magic, so through his sorcery he can gain knowledge about people or places far away, or long ago.",
     imageUrl: "/images/characters/Barlow.jpg"
   },
   {
@@ -116,7 +116,7 @@ export const characters: Character[] = [
     race: "Velkthen",
     class: "Wizard",
     realm: "Unknown",
-    personality: "Fuzzlewax is a strange creature, always referring to himself in the first person and always referring to others by description instead of name (Black Dragon is \"Dark Warrior,\" Pink Firefly is \"Pretty Fairy,\" Baby Zorra is \"Brave Elf,\" and so forth).\n\nHe is friendly, social, loves to be part of the group, and extremely weird.",
+    personality: "Fuzzlewax is a strange creature, always referring to himself in the first person and always referring to others by description instead of name (Black Dragon is \"Sarcastic Warrior,\" Pink Firefly is \"Pretty Fairy,\" Baby Zorra is \"Brave Elf,\" and so forth).\n\nHe is friendly, social, loves to be part of the group, and extremely weird.",
     powers: "Fuzzlewax is a powerful summoner with a few loose screws. He can summon anything but never gets exactly what he asks for. If he tries to summon 100 spears to launch at an enemy, he'll instead summon 100 pillows, 100 pitchforks, or 100 ferrets.\n\nHe is constantly confused about why his magic never quite works the way he wants it to, but always forgets about it within a minute or two and carries on as if nothing is wrong.",
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Fuzzlewax_adc15171.jpg"
   },

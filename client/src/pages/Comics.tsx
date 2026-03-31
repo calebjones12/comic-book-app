@@ -9,7 +9,7 @@ export default function Comics() {
     { number: 3, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue3Coverlow_87830cf0.jpg" },
     { number: 4, cover: "/images/covers/Issue-4-Cover.jpg" },
     { number: 5, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue5Cover_rev2low_18a50b84.jpg" },
-    { number: 6, cover: "/images/covers/Issue-6-Cover.jpg" },
+    { number: 6, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue6Cover_rev_2low_ac333148.jpg" },
     { number: 7, cover: "/images/covers/Issue-7-Cover.jpg" },
     { number: 8, cover: "/images/covers/Issue-8-Cover-New.jpg" },
     { number: 9, cover: "/images/covers/Issue-9-Cover.jpg" },

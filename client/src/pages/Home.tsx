@@ -100,47 +100,7 @@ export default function Home() {
       {/* Featured Characters */}
       <section className="py-24 bg-card diagonal-slash-reverse">
         <div className="container mx-auto px-4 lg:px-8">
-          <h2 className="text-5xl md:text-7xl font-display mb-16 text-foreground">
-            THE HEROES
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Link href="/characters/black-dragon">
-              <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-primary hover:border-accent transition-all duration-200">
-                <div className="aspect-[3/4] relative">
-                  <img
-                    src="/images/logos/Black-Dragon-and-Pink-FIrefly-Logo.jpg"
-                    alt="Black Dragon"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-8">
-                    <h3 className="text-4xl font-display text-foreground mb-2">BLACK DRAGON</h3>
-                    <p className="text-muted-foreground font-body">Sarcastic Mercenary Warrior</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/characters/pink-firefly">
-              <div className="group cursor-pointer relative overflow-hidden bg-background border-4 border-accent hover:border-primary transition-all duration-200">
-                <div className="aspect-[3/4] relative">
-                  <img
-                    src="/images/characters/Black-Dragon.jpg"
-                    alt="Pink Firefly"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-8">
-                    <h3 className="text-4xl font-display text-foreground mb-2">PINK FIREFLY</h3>
-                    <p className="text-muted-foreground font-body">Kind-Hearted Fairy Princess</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="text-center mt-12">
+          <div className="text-center">
             <Link href="/characters">
               <div className="inline-block bg-foreground text-background px-8 py-4 font-display text-2xl uppercase tracking-wider hover:bg-primary hover:text-primary-foreground transition-all duration-200 cursor-pointer">
                 View All Characters

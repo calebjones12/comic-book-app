@@ -14,7 +14,7 @@ export default function Characters() {
             CHARACTERS
           </h1>
           <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl">
-            A sprawling ensemble you'll actually care about—flawed, fascinating, and unforgettable. Click any character to learn more.
+            A sprawling ensemble you'll actually care about—flawed, fascinating, and unforgettable. There are a lot more characters in the story than these below. These are just shown as teasers. Click any character to learn more.
           </p>
         </div>
 

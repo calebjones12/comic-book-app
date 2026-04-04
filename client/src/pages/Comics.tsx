@@ -23,7 +23,7 @@ export default function Comics() {
             CHAPTERS
           </h1>
           <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl">
-            Each graphic novel will include approximately five chapters. A "chapter" is roughly equivalent in size to a "floppy" comic book; about 20-25 pages per chapter, meaning each graphic novel will be around 100 pages. More chapter covers will be revealed soon.
+            Each graphic novel will include approximately five chapters. A "chapter" is roughly equivalent in size to a "floppy" comic book; about 20-25 pages per chapter, meaning each graphic novel will be around 100 pages. Chapters 1-34 have been written. Chapters 35-53 have been outlined. Below are the covers for chapters 1-9, shown just as teasers. More chapter covers will be revealed soon.
           </p>
         </div>
 

@@ -16,7 +16,7 @@ export const characters: Character[] = [
     race: "Human",
     class: "Warrior",
     realm: "Unknown, no one realm, travels extensively",
-    personality: "Sarcastic, brash, outcome-independent, happy, and extremely inappropriate, Black Dragon's goals are simply to attain lots of gold and retire in peace to a castle in the mountains. He cares nothing for the rest of the world, whether good or evil.\n\nHis greatest value is freedom, the freedom to live the way he wants, when he wants, at all times.\n\nHe loves Pink Firefly above all other women and is devoted to her, but still has an eye for others and beds them as opportunity provides. Pink Firefly knows it and tolerates it. Sort of.\n\nHe loves eating chicken. Probably a little too much.",
+    personality: "Sarcastic, brash, outcome-independent, happy, and extremely inappropriate, Black Dragon's goals are simply to attain lots of gold and retire in peace to a castle in the mountains. He cares nothing for the rest of the world, whether good or evil.\n\nHis greatest value is freedom, the freedom to live the way he wants, when he wants, at all times.\n\nHe loves Pink Firefly above all other women and is devoted to her, but still has an eye for others and beds others as opportunity provides. Pink Firefly knows it and tolerates it. Sort of.\n\nHe loves eating chicken. Probably a little too much.",
     powers: "Black Dragon was trained in swordsmanship since he was a small child and has been a for-hire mercenary for almost his entire adult life. Thus, he is a warrior of great experience and prowess. He has traveled the western realms extensively and has strong knowledge of their lands and creatures. He also seems to have strength and endurance slightly greater than that of the typical human (for reasons that will be revealed later).\n\nHe wields \"Carl,\" his talking (but very laconic) +5 Sword of Objectivity, a lethal weapon of near-impossible sharpness. He also uses a staff he \"liberated\" from the tomb of a great sorcerer which has the power of teleportation.",
     imageUrl: "/images/characters/Black-Dragon.jpg"
   },
@@ -97,7 +97,7 @@ export const characters: Character[] = [
     class: "Wizard",
     realm: "Realm of Wodan",
     personality: "A lover of magic, lore, pizza, and his favorite pillow, Barlow is a good-natured and friendly wizard who finds joy in doing good deeds. And eating good food. Lots of it.\n\nAs a member of the adventuring group, Critical Toll, and as Black Dragon's friend, he assists his comrades with divination magic to learn more about their enemies.",
-    powers: "Barlow can summon five clones of himself (the \"Barlows\"), identical to him but with slightly different personalities. They include Impulsive Barlow, Greedy Barlow, Cowardly Barlow, Scholarly Barlow, and Heroic Barlow.\n\nBarlow also wields powerful divination magic, so through his sorcery he can gain knowledge about people or places far away, or long ago.",
+    powers: "Barlow can summon five clones of himself (the \"Barlows\"), identical to him but with slightly different personalities. They include Impulsive Barlow, Greedy Barlow, Cowardly Barlow, Scholarly Barlow, and Bureaucrat Barlow.\n\nBarlow also wields powerful divination magic, so through his sorcery he can gain knowledge about people or places far away, or long ago.",
     imageUrl: "/images/characters/Barlow.jpg"
   },
   {

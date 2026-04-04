@@ -20,10 +20,10 @@ export default function Comics() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
           <h1 className="text-6xl md:text-8xl font-display mb-6 text-foreground">
-            BLACK DRAGON &<br/>PINK FIREFLY
+            CHAPTERS
           </h1>
           <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl">
-            Dark fantasy comedy in its purest form. Each issue brings you deeper into a world of intricate plots, unforgettable characters, and unapologetic storytelling.
+            Each graphic novel will include approximately five chapters. A "chapter" is roughly equivalent in size to a "floppy" comic book; about 20-25 pages per chapter, meaning each graphic novel will be around 100 pages. More chapter covers will be revealed soon.
           </p>
         </div>
 

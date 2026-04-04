@@ -39,13 +39,6 @@ export default function Comics() {
                   alt={`Issue ${issue.number}`} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-4 py-2 font-display text-2xl">
-                  #{issue.number}
-                </div>
-              </div>
-              <div className="p-6 bg-card">
-                <h3 className="text-2xl font-display text-foreground">ISSUE {issue.number}</h3>
-                <p className="text-muted-foreground font-body mt-2">Coming Soon</p>
               </div>
             </div>
           ))}

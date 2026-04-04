@@ -115,10 +115,10 @@ export default function Home() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-5xl md:text-7xl font-display mb-12 text-foreground text-center">
-              THIS IS THE BIGGEST,<br/>MOST AMBITIOUS PROJECT
+              THIS IS THE BIGGEST,<br/>MOST AMBITIOUS PROJECT OF MY LIFE
             </h2>
             <p className="text-xl md:text-2xl font-body text-center text-muted-foreground leading-relaxed">
-              I've poured my soul into for over ten years. This is dark fantasy comedy in its purest form—raw, irreverent, and unapologetically entertaining. The kind of storytelling that made the '80s unforgettable: bold choices, real stakes, and zero sacred cows.
+              I've poured my soul into for many years. This is dark fantasy comedy in its purest form—raw, irreverent, and unapologetically entertaining. The kind of storytelling that made the '80s unforgettable: bold choices, real stakes, and zero sacred cows.
             </p>
           </div>
         </div>

@@ -23,7 +23,7 @@ export default function Home() {
             BLACK DRAGON<br/>AND PINK FIREFLY
           </h1>
           <p className="text-xl md:text-2xl font-body text-primary font-semibold uppercase tracking-widest mb-6">
-            Comic Books and Graphic Novels
+            Graphic Novels
           </p>
 
           <div className="space-y-4 text-base md:text-lg font-body text-white/85 mb-8 max-w-xl">
@@ -37,14 +37,14 @@ export default function Home() {
               No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no Christianity, no lecturing.
             </p>
             <p>
-              Just the ruthless commitment to character, story, and world-building that great fantasy demands.
+              Just the ruthless commitment to character, story, and world-building that great old-school 1980's style fantasy demands.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-4">
             <Link href="/comics">
               <div className="bg-primary text-primary-foreground px-8 py-4 font-display text-xl uppercase tracking-wider hover:bg-accent hover:text-accent-foreground transition-all duration-200 cursor-pointer flex items-center gap-3 group">
-                Explore Comics
+                Explore Chapters
                 <ArrowRight className="group-hover:translate-x-2 transition-transform" />
               </div>
             </Link>

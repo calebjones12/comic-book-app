@@ -216,7 +216,7 @@ export const characters: Character[] = [
     race: "Human",
     class: "Barbarian",
     realm: "Tarlarm Wastes",
-    personality: "Typical of the women of the barbarian Frostfang tribe, Chenning is crass, loud, uncouth, and blunt. She has no filter and simply blurts out whatever she is thinking.\n\nShe loves her husband, Torvek, and her baby son Branik with a white-hot fire, and would follow him into Hell itself. She actually would probably enjoy such a thing.",
+    personality: "Typical of the women of the barbarian Frostfang tribe, Chenning is crass, loud, uncouth, and blunt. She has no filter and simply blurts out whatever she is thinking.\n\nShe loves her husband, Torvek, and her baby son Branik with a white-hot fire, and would follow him into Hell itself. She would probably enjoy such a thing.",
     powers: "Chenning's weapon of choice is throwing axes, which she wields with great skill. She is also stronger than a typical human woman, a result of a lifetime in the harsh Tarlarm Wastes.",
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Chenning_6981c83b.jpg"
   },

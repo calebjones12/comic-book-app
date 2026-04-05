@@ -22,6 +22,14 @@ export default function FAQ() {
       answer: "As of the date of this FAQ I have written all of the issues out to chapter #34, which is graphic novel #8. I also have the overall plot mapped out to chapter #65. So yeah, I've written a huge amount in advance. This allows for things like mysteries, foreshadowing, setups and payoffs, and all kinds of exciting twists. The entire story will go far beyond chapter #34 of course. I never get writer's block and I continue to write new issues every week."
     },
     {
+      question: "How much will the graphic novels cost?",
+      answer: "The cheapest in the entire independent comic book industry. For a 100-page, digital, new-release graphic novel they will probably be $7. If you purchase a bundle, they'll be even cheaper. My goal for the initial launch is not revenue, but units sold. Therefore, I've priced them as inexpensively as possible to make them an easy purchase for anyone."
+    },
+    {
+      question: "When will the graphic novels be available?",
+      answer: "Early May. We will publish an exact date with a countdown timer on this website very soon."
+    },
+    {
       question: "Did you use AI to write the comics?",
       answer: "NO! No, no, a thousand times no. No AI was used in ANY aspect of my writing. I, and I alone, have written 100% of the entire story, world, dialogue, plot, everything. Using AI to write anything would be stupid and I will NEVER do such a thing. All A2Heroes comics will ALWAYS be 100% written by human beings, period, end of story."
     },

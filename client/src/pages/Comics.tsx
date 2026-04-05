@@ -11,7 +11,7 @@ export default function Comics() {
     { number: 5, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue5Cover_rev2_16e649be.jpg" },
     { number: 6, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue6Cover_rev_2_eeff4704.jpg" },
     { number: 7, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue7Cover_d68b3408.jpg" },
-    { number: 8, cover: "/images/covers/Issue-8-Cover-New.jpg" },
+    { number: 8, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue-8-Cover-New_deba3d93.jpg" },
     { number: 9, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue9Cover_89151b79.jpg" },
   ];
 

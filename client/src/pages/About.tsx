@@ -12,7 +12,7 @@ export default function About() {
         
         <div className="max-w-4xl space-y-8 font-body text-lg text-foreground/90 leading-relaxed">
           <p>
-            Welcome to A2Heroes, home of <strong className="text-foreground">Black Dragon and Pink Firefly</strong>—a dark fantasy comedy comic series that refuses to compromise.
+            Welcome to A2Heroes, home of <strong className="text-foreground">Black Dragon and Pink Firefly</strong>—a dark fantasy comedy comic series that refuses to adhere to modern-day norms.
           </p>
           
           <p>
@@ -21,13 +21,22 @@ export default function About() {
           
           <div className="p-8 bg-card border-4 border-primary">
             <h2 className="text-3xl font-display mb-4 text-foreground">THE VISION</h2>
-            <p className="text-foreground/90">
-              Sex. Violence. Wit sharp enough to draw blood. Intricate plots that reward your attention with payoffs you won't see coming. A sprawling ensemble of characters you'll actually care about—flawed, fascinating, and unforgettable.
+            <p className="text-foreground/90 mb-4">
+              Modern day pop culture sucks. Movies, TV shows, novels, comic books, and music have all objectively declined in quality over the past 25 years. And it's getting worse.
             </p>
+            <p className="text-foreground/90 mb-4">
+              These graphic novels do the opposite of what most pop culture does today:
+            </p>
+            <ul className="text-foreground/90 space-y-2 list-none">
+              <li>Long plotlines and character arcs that actually make sense.</li>
+              <li>Complex, flawed characters who suffer, grow, and change.</li>
+              <li>No wokeism, left-wing political correctness, or invincible, perfect girl-boss characters, but also no right-wing social, political, or religious preaching either.</li>
+              <li>Actual sex and romance between men and women (perish the thought!!!).</li>
+            </ul>
           </div>
           
           <p>
-            Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters. This is the biggest, most ambitious project I've poured my soul into for over ten years.
+            Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters. This is the biggest, most ambitious project I've poured my soul into for over many years.
           </p>
           
           <div className="p-8 bg-card border-4 border-accent">

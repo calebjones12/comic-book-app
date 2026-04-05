@@ -197,7 +197,7 @@ export const characters: Character[] = [
     class: "Combat Sorceress",
     realm: "Unknown",
     personality: "At some point in her past, Darsis was kidnapped by an evil sorcerer who subjected her to various sorcerous experiments. She survived, but was forever changed.\n\nShe can't speak and only communicates in harsh whispers, yells, and similar sounds. Her face has lined with strange scars.\n\nShe is strong, vengeful, wrathful and will kill anyone who crosses her.\n\nHer current lover and superior is Draven, though she constantly protests against him.",
-    powers: "Darsis is able to generate massive heat with her hands, enabling her melt almost anything to lava, including metal. Her hands are also near-invulnerable.\n\nShe is also stronger than the typical human, though she uses no weapons.",
+    powers: "Darsis is able to generate massive heat with her hands, enabling her melt almost anything, including metal. Her hands are also near-invulnerable.\n\nShe is also stronger than the typical human, though she uses no weapons.",
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Darsis_a3767053.jpg"
   },
   {

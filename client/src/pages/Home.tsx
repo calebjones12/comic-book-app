@@ -34,7 +34,7 @@ export default function Home() {
               A sprawling ensemble of characters you'll actually care about—flawed, fascinating, and unforgettable. Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters.
             </p>
             <p className="text-primary font-semibold">
-              No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no Christianity, no lecturing.
+              No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no puritanical right-wing stuff, no lecturing.
             </p>
             <p>
               Just the ruthless commitment to character, story, and world-building that great old-school 1980's style fantasy demands.

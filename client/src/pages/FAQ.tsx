@@ -7,7 +7,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "Will Black Dragon and Pink Firefly be released as individual comics or graphic novels?",
-      answer: "It's written in a comic book issue structure but initially it will be released as graphic novels. For example, graphic novel Volume 1 will be issues 1-5, Volume 2 will be issues 6-9. Volume 3 will be issues 10-15, and so on. Each story arc is around 20-25 issues, or 4-5 graphic novel volumes. We're going to keep issuing graphic novels like that, as compilations of issues. However, at some point we will be offering individual issues."
+      answer: "It's written in a comic book issue structure but it will be released as graphic novels. We're treating the \"issues\" as \"chapters.\" For example, graphic novel Volume 1 will be issues 1-5, Volume 2 will be issues 6-9. Volume 3 will likely be issues 10-15, and so on. Each story arc is around 20-25 chapters, or 4-5 graphic novel volumes. We're going to keep issuing graphic novels like that, as compilations of issues. However, at some point we may offer individual issues."
     },
     {
       question: "Is this a printed comic or digital or both?",
@@ -19,7 +19,7 @@ export default function FAQ() {
     },
     {
       question: "Is it true that you've already written out the entire story?",
-      answer: "As of the date of this FAQ I have written all of the issues out to issue #31, which is about halfway into story arc two. I also have the overall plot mapped out to the end of story arc three, meaning about 65 issues. So yeah, I've written a huge amount in advance. This allows for things like mysteries, foreshadowing, setups and payoffs, and all kinds of exciting twists. The entire story will go far beyond issue #31 of course. I continue to write new issues every week."
+      answer: "As of the date of this FAQ I have written all of the issues out to chapter #34, which is graphic novel #8. I also have the overall plot mapped out to chapter #65. So yeah, I've written a huge amount in advance. This allows for things like mysteries, foreshadowing, setups and payoffs, and all kinds of exciting twists. The entire story will go far beyond chapter #34 of course. I never get writer's block and I continue to write new issues every week."
     },
     {
       question: "Did you use AI to write the comics?",
@@ -27,7 +27,7 @@ export default function FAQ() {
     },
     {
       question: "Did you use AI to create the artwork?",
-      answer: "Partially. AI creates the baseline artwork to very strict end tested specifications, then a team of artists edits and adjusts the artwork to match the scripts I have written. So it's not an \"AI comic book\" at all; AI is only involved as one of the tools we use."
+      answer: "We have a team of six human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't at the point where it can literally create an entire comic book for you and keep all the character models and artwork consistent and high-quality. You need human artists.)"
     },
     {
       question: "If the character of Black Dragon is based on you and Pink Firefly is based on your wife, does that mean all of the other characters are based on real people?",

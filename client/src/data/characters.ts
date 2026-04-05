@@ -76,8 +76,8 @@ export const characters: Character[] = [
     race: "Human",
     class: "Queen of Jeslam",
     realm: "Kingdom of Jeslam",
-    personality: "The ever-furious, hot-tempered, man-hating, matriarchal, and merciless Queen of Jeslam now rules her kingdom with an iron fist now that her husband is dead.\n\nAll she wants is more power, and she will utilize dark and dangerous forces to get it.",
-    powers: "It is rumored that she may have some magical abilities, but it's more than likely she uses magical allies to her advantage as Queen and sole ruler of Jeslam.",
+    personality: "The ever-furious, hot-tempered, man-hating, matriarchal, and merciless Queen of Jeslam rules her kingdom with an iron fist now that her husband is dead.\n\nAll she wants is more power, and she will utilize dark and dangerous forces to get it.",
+    powers: "It is rumored that she may have some magical abilities, but it's more than likely she uses magical allies to her advantage as Queen.",
     imageUrl: "/images/characters/Queen-Strang.jpg"
   },
   {

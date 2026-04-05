@@ -4,15 +4,15 @@
 
 export default function Comics() {
   const issues = [
-    { number: 1, cover: "/images/covers/Issue-1-Cover.jpg" },
+    { number: 1, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue1Cover_8d32552f.jpg" },
     { number: 2, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue2Cover_rev_fa08889b.jpg" },
     { number: 3, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue3Cover_2bb04420.jpg" },
-    { number: 4, cover: "/images/covers/Issue-4-Cover.jpg" },
+    { number: 4, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue4Cover_d5f49a0e.jpg" },
     { number: 5, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue5Cover_rev2_16e649be.jpg" },
     { number: 6, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue6Cover_rev_2_eeff4704.jpg" },
-    { number: 7, cover: "/images/covers/Issue-7-Cover.jpg" },
+    { number: 7, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue7Cover_d68b3408.jpg" },
     { number: 8, cover: "/images/covers/Issue-8-Cover-New.jpg" },
-    { number: 9, cover: "/images/covers/Issue-9-Cover.jpg" },
+    { number: 9, cover: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue9Cover_89151b79.jpg" },
   ];
 
   return (

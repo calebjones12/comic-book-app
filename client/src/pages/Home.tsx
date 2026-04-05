@@ -94,6 +94,21 @@ export default function Home() {
           <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl mx-auto">
             Official announcement with countdown clock dropping soon. This is going to be legendary.
           </p>
+
+          {/* Mailing List Box */}
+          <div className="mt-10 inline-block border-2 border-primary bg-card px-8 py-6 max-w-2xl text-left">
+            <p className="text-base font-body text-foreground/80 leading-relaxed">
+              <a
+                href="https://alphamale20.kartra.com/page/smr1824"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
+              >
+                Click here
+              </a>{" "}
+              to get on our preferred mailing list to get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
+            </p>
+          </div>
         </div>
       </section>
 

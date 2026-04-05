@@ -6,9 +6,24 @@ export default function About() {
   return (
     <div className="min-h-screen py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
-        <h1 className="text-6xl md:text-8xl font-display mb-12 text-foreground">
+        <h1 className="text-6xl md:text-8xl font-display mb-8 text-foreground">
           ABOUT A2HEROES
         </h1>
+
+        {/* Mailing List Box */}
+        <div className="max-w-4xl mb-10 border-2 border-primary bg-card px-8 py-6">
+          <p className="font-body text-base text-foreground/80 leading-relaxed">
+            <a
+              href="https://alphamale20.kartra.com/page/smr1824"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
+            >
+              Click here
+            </a>{" "}
+            to get on our preferred mailing list to get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
+          </p>
+        </div>
         
         <div className="max-w-4xl space-y-8 font-body text-lg text-foreground/90 leading-relaxed">
           <p>

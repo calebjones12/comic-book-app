@@ -39,15 +39,6 @@ export default function About() {
             Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters. This is the biggest, most ambitious project I've poured my soul into for over many years.
           </p>
           
-          <div className="p-8 bg-card border-4 border-accent">
-            <h2 className="text-3xl font-display mb-4 text-foreground">NO AGENDAS</h2>
-            <p className="text-foreground/90 mb-4">
-              No wokeism. No girl bosses. No left-wing bullshit. No right-wing bullshit. No socialism, no feminism, no Christianity, no lecturing.
-            </p>
-            <p className="text-foreground/90">
-              Just the ruthless commitment to character, story, and world-building that great fantasy demands.
-            </p>
-          </div>
           
           <p>
             The character of <strong className="text-foreground">Black Dragon</strong> is the first 100% Alpha Male 2.0 character—living the fantasy version of the Alpha Male 2.0 lifestyle. The "hidden that is not hidden" intention is to introduce readers to these concepts without having to read a 550-page book.

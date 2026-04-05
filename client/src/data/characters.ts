@@ -53,7 +53,7 @@ export const characters: Character[] = [
   {
     id: "butternut",
     name: "Butternut",
-    race: "Dog (with an evil curse)",
+    race: "Cute Doggie (with an evil demonic curse)",
     class: "none",
     realm: "Kingdom of Jeslam",
     personality: "Pink Firefly's dog, Butternut, is the typical, loyal, happy dog, except that he's been cursed by the Spider Gods and occasionally turns into a Demon Dog when he feels angry, threatened, or if he senses Pink Firefly is threatened.\n\nHe always wants to be part of the group and hates being left alone. He loves Pink Firefly and Black Dragon, even though the latter can't stand him, often purposely mispronouncing his name (Butterball, Butterfucks, Butt-Nut, etc).",

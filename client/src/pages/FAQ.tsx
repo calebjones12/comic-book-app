@@ -23,23 +23,23 @@ export default function FAQ() {
     },
     {
       question: "Did you use AI to write the comics?",
-      answer: "NO! No, no, a thousand times no. No AI was used in ANY aspect of my writing. I, and I alone, have written 100% of the entire story, world, dialogue, plot, everything. Using AI to write anything would be stupid and I will NEVER do such a thing."
+      answer: "NO! No, no, a thousand times no. No AI was used in ANY aspect of my writing. I, and I alone, have written 100% of the entire story, world, dialogue, plot, everything. Using AI to write anything would be stupid and I will NEVER do such a thing. All A2Heroes comics will ALWAYS be 100% written by human beings, period, end of story."
     },
     {
       question: "Did you use AI to create the artwork?",
-      answer: "We have a team of six human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't at the point where it can literally create an entire comic book for you and keep all the character models and artwork consistent and high-quality. You need human artists.)"
+      answer: "We have a team of six human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't yet at the point where it can create an entire comic book and keep all the character models and artwork consistent and high-quality. You need human artists.)"
     },
     {
       question: "If the character of Black Dragon is based on you and Pink Firefly is based on your wife, does that mean all of the other characters are based on real people?",
-      answer: "Many of them are, yes. Others are based on amalgams of several different people I have known (or know). Other characters are 100% my creation. That being said, all of the characters based on real people (including BD and PF) are highly exaggerated versions of these people. So Black Dragon is a highly exaggerated version of me, not literally me. When you read the comic you'll understand."
+      answer: "Some of them, but not all. Others are based on amalgams of several different people I have known (or know). Other characters are 100% my creation. That being said, all of the characters based on real people (including BD and PF) are highly exaggerated versions of these people. So Black Dragon is a highly exaggerated version of me, not literally me. When you read the comic you'll understand."
     },
     {
       question: "How does Alpha Male 2.0 factor into all of this?",
-      answer: "The character of Black Dragon is the first 100% Alpha Male 2.0 character. He's not perfect, has flaws, and makes mistakes, but he lives the fantasy version of the Alpha Male 2.0 lifestyle, all of which you'll see in the comic as the story unfolds. The \"hidden that is not hidden\" intention of Black Dragon and Pink Firefly is to be introduced to Alpha Male 2.0 lifestyle and concepts without having to read a 550 page book (The Unchained Man)."
+      answer: "The character of Black Dragon is the first 100% Alpha Male 2.0 character. He's not perfect, has flaws, and makes mistakes, but he lives the fantasy version of the Alpha Male 2.0 lifestyle, all of which you'll see in the comic as the story unfolds. The \"hidden that is not hidden\" intention of Black Dragon and Pink Firefly is to introduce men to Alpha Male 2.0 lifestyle and concepts without having to read a 550 page book (The Unchained Man)."
     },
     {
       question: "The comic book is called Black Dragon and Pink Firefly yet you have a ton of characters! How does that work?",
-      answer: "In writing this comic series, I have reverse-engineered the top 20 aspects of the most popular and best-selling independent comic book titles. One of the core aspects of these was an ensemble cast of characters, which I enjoy writing anyway. Black Dragon and Pink Firefly are the two main characters but many other main characters are added as the story unfolds, including allies, antagonists, lovers, neutral third parties, and question marks. I have also made sure that the story starts simply, with just BD and PF, and the new characters are introduced slowly. One complaint I've seen for new comics is that too many characters are introduced all up front, or two quickly. I don't do that here. You'll see when you start reading. The story stars simple, then gets bigger, and bigger."
+      answer: "In writing this comic series, I have reverse-engineered the top 20 aspects of the most popular and best-selling independent comic book titles. One of the core aspects of these was an ensemble cast of characters, which I enjoy writing anyway. Black Dragon and Pink Firefly are the two main characters but many other main characters are added as the story unfolds, including allies, antagonists, lovers, neutral third parties, and question marks. I have also made sure that the story starts simply, with just BD and PF, and the new characters are introduced slowly. One complaint I've seen for new comics is that too many characters are introduced all up front, or two quickly. I don't do that here. You'll see when you start reading. The story stars simple, then gets bigger, and BIGGER."
     },
     {
       question: "You say the stories won't have any wokeism but you also say they won't have any right-wing stuff either. What do you mean by this?",
@@ -51,11 +51,11 @@ export default function FAQ() {
     },
     {
       question: "Are you going to have other comic titles besides Black Dragon and Pink Firefly?",
-      answer: "That's the plan. Soon, I'd like to have other writers create more comics and graphic novels under the A2Heroes brand set in the same world and Black Dragon and Pink Firefly, either with their own unique character creations or making comics from side-characters in the main comic."
+      answer: "That's the plan. I'd like to have people in the audience write for us and create more comics and graphic novels under the A2Heroes brand set in the same world and Black Dragon and Pink Firefly, either with their own unique character creations or making comics from side-characters in the main comic."
     },
     {
       question: "You've said that you're planning to do an animated Black Dragon and Pink Firefly TV show?",
-      answer: "Animation is the logical next step, yes, but I would like to do much more than that. My goal is to make this an entire IP universe with things like collectibles, toys, movies, and so on. But that completely depends on how well we do with the comics first. If they sell well, we'll do all of that stuff."
+      answer: "Animation is the logical next step, yes, but I would like to do much more than that. My goal is to make this an entire IP universe with things like collectibles, toys, movies, and so on. But that completely depends on how well we do with the comics first. If they sell well, yes, we'll do all of that stuff."
     }
   ];
 

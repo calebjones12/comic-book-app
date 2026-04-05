@@ -176,7 +176,7 @@ export const characters: Character[] = [
     race: "Human",
     class: "Priestess",
     realm: "Unknown",
-    personality: "Sylwen is a priestess Telowen, goddess of healing and well-being. Her faith is the most important aspect of her life and overshadows everything else she does. She travels with her adventuring band, Critical Toll, in an effort to do her part to heal the world.\n\nShe is kind, patient, understanding, and quiet, but can be strong when she's called upon. She hides most of her personality from others and is rather closed.",
+    personality: "Sylwen is a priestess Telowen, goddess of healing and well-being. Her faith is the most important aspect of her life and overshadows everything she does. She travels with her adventuring band, Critical Toll, in an effort to do her part to heal the world.\n\nShe is kind, patient, understanding, and quiet, but can be strong when she's called upon. She hides most of her personality from others and is rather closed.",
     powers: "She magically heals wounds, even grievous ones, but she can not raise anyone from the dead.\n\nShe can also magically bolster strength, endurance, speed, and courage to her allies when needed.\n\nSylwen avoids direct combat whenever possible, but when she has no other option, she wields her sorcerous golden chainstaff which functions both as a hardened staff and as a loose weapon chain.",
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Sylwen_fa05a639.jpg"
   },

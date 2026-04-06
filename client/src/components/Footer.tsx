@@ -26,7 +26,7 @@ export default function Footer() {
               >
                 Click here
               </a>{" "}
-              to get on our preferred mailing list to get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
+              to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
             </p>
           </div>
           

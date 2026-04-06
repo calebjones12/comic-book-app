@@ -29,7 +29,7 @@ export default function FAQ() {
     },
     {
       question: "When will the graphic novels be available?",
-      answer: (<>Early May. We will publish an exact date with a countdown timer on this website very soon. <a href="https://alphamale20.kartra.com/page/smr1824" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">Click here</a> to get on our preferred mailing list to get notified of dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.</>) as React.ReactNode
+      answer: (<>Early May. We will publish an exact date with a countdown timer on this website very soon. <a href="https://alphamale20.kartra.com/page/smr1824" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">Click here</a> to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.</>) as React.ReactNode
     },
     {
       question: "Did you use AI to write the comics?",

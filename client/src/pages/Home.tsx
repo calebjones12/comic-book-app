@@ -9,6 +9,24 @@ import { ArrowRight } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen">
+      {/* News Flash Banner */}
+      <div className="bg-black border-b-4 border-red-600 py-3 px-4">
+        <div className="max-w-5xl mx-auto text-center">
+          <span className="inline-block bg-red-600 text-white font-display text-xs uppercase tracking-widest px-2 py-1 mr-3 align-middle">🔴 LIVE</span>
+          <span className="font-body text-white text-sm md:text-base">
+            <strong>First Black Dragon and Pink Firefly LIVE STREAM</strong> — 1 PM EST Thursday April 23rd — Caleb will be live discussing this comic plus fantasy, sci-fi, writing, and other topics, with a full Q&amp;A.{" "}
+            <a
+              href="https://vimeo.com/event/5873385?fl=so&fe=fs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-400 underline font-bold hover:text-red-300 transition-colors"
+            >
+              Click HERE to join!
+            </a>
+          </span>
+        </div>
+      </div>
+
       {/* Hero Section - Split layout */}
       <section className="relative flex min-h-screen">
         {/* Left: Dark panel with text */}

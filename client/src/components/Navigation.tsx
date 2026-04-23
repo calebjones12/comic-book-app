@@ -15,10 +15,10 @@ export default function Navigation() {
     { path: "/", label: "Home" },
     { path: "/comics", label: "Chapters" },
     { path: "/characters", label: "Characters" },
+    { path: "/videos", label: "Videos" },
     { path: "/map", label: "Map" },
     { path: "/about", label: "About" },
     { path: "/faq", label: "FAQ" },
-    { path: "/videos", label: "Videos" },
   ];
 
   return (

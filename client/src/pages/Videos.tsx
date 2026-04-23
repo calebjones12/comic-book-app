@@ -31,6 +31,10 @@ export default function Videos() {
             />
           </div>
         </div>
+
+          <p className="font-body text-lg text-foreground/80 mt-8">
+            There will be additional livestreams over the next few weeks. Check back here for dates!
+          </p>
       </div>
     </div>
   );

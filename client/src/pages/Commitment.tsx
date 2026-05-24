@@ -1,5 +1,10 @@
-// Design: Dark fantasy theme — dark header, white body background, red accent headings, premium serif typography
-// Body text uses dark color (#1a1a1a) since the commitments list sits on the white/light site background
+/**
+ * Commitment Page
+ * Fonts match About and FAQ pages:
+ *   - Page heading: font-display (Bebas Neue via Tailwind token)
+ *   - Section headings: Georgia serif, bold — same as FAQ question style
+ *   - Body text: font-body (system sans) — same as FAQ/About body
+ */
 
 export default function Commitment() {
   const commitments = [
@@ -58,60 +63,59 @@ export default function Commitment() {
   ];
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      {/* Page header */}
-      <div className="bg-[#0a0a0a] border-b border-white/10 py-16 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1
-            className="font-display text-5xl md:text-6xl font-black uppercase tracking-tight text-white mb-6"
-            style={{ fontFamily: "'Bebas Neue', sans-serif" }}
-          >
-            Commitments To You
-          </h1>
-          <p
-            className="text-2xl text-white/70 leading-relaxed"
-            style={{ fontFamily: "'Lora', serif" }}
-          >
-            This is our code, our commitments to you, the customer.
-          </p>
-        </div>
-      </div>
+    <div className="min-h-screen py-24 bg-background">
+      <div className="container mx-auto px-4 lg:px-8">
 
-      {/* Commitments list */}
-      <div className="max-w-3xl mx-auto px-4 py-16 space-y-12">
-        {commitments.map((item, index) => (
-          <div key={index} className="border-l-4 border-red-600 pl-6">
-            <h2
-              className="text-red-600 text-3xl font-bold uppercase tracking-wide mb-3"
-              style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "0.05em" }}
-            >
-              {item.title}
-            </h2>
-            <p
-              className="text-foreground text-lg md:text-xl leading-relaxed"
-              style={{ fontFamily: "'Lora', serif" }}
-            >
-              {item.body}
+        {/* Page heading — matches About/FAQ h1 style */}
+        <h1 className="text-6xl md:text-8xl font-display mb-6 text-foreground">
+          COMMITMENTS TO YOU
+        </h1>
+
+        <p className="text-xl font-body text-foreground/80 leading-relaxed mb-12 max-w-4xl">
+          This is our code, our commitments to you, the customer.
+        </p>
+
+        {/* Commitments list — card style matches FAQ entries */}
+        <div className="max-w-4xl space-y-8">
+          {commitments.map((item, index) => (
+            <div key={index} className="bg-card border-2 border-border p-8 hover:border-primary transition-colors">
+              <div
+                className="mb-4 text-primary"
+                style={{
+                  fontFamily: 'Georgia, "Times New Roman", serif',
+                  fontWeight: 700,
+                  fontSize: "1.25rem",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.03em",
+                  lineHeight: "1.4",
+                }}
+              >
+                {item.title}
+              </div>
+              <p className="text-lg font-body text-foreground/80 leading-relaxed">
+                {item.body}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Mailing List Box — bottom of page */}
+        <div className="max-w-4xl mt-12">
+          <div className="border-2 border-primary bg-card px-8 py-6">
+            <p className="text-lg font-body text-foreground/80 leading-relaxed">
+              <a
+                href="https://alphamale20.kartra.com/page/smr1824"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
+              >
+                Click here
+              </a>{" "}
+              to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
             </p>
           </div>
-        ))}
-      </div>
-
-      {/* Mailing List Box — bottom of page */}
-      <div className="max-w-3xl mx-auto px-4 pb-16">
-        <div className="border-2 border-red-600 bg-card px-8 py-6">
-          <p className="text-lg text-foreground/80 leading-relaxed" style={{ fontFamily: "'Lora', serif" }}>
-            <a
-              href="https://alphamale20.kartra.com/page/smr1824"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-red-600 underline hover:text-red-500 transition-colors font-semibold"
-            >
-              Click here
-            </a>{" "}
-            to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
-          </p>
         </div>
+
       </div>
     </div>
   );

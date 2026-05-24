@@ -104,7 +104,7 @@ export default function Home() {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <h2 className="text-5xl md:text-7xl font-display mb-8 text-foreground">
-            THE WAIT ENDS IN MAY
+            THE WAIT ENDS IN JUNE
           </h2>
           <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl mx-auto">
             Official announcement with countdown clock dropping soon. This is going to be legendary.

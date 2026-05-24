@@ -37,7 +37,7 @@ export default function FAQ() {
     },
     {
       question: "Did you use AI to create the artwork?",
-      answer: "We have a team of six human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't yet at the point where it can create an entire comic book and keep all the character models and artwork consistent and high-quality. You need human artists.)"
+      answer: "We have a team of seven human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't yet at the point where it can create an entire comic book and keep all the character models and artwork consistent and high-quality. You need human artists.)"
     },
     {
       question: "If the character of Black Dragon is based on you and Pink Firefly is based on your wife, does that mean all of the other characters are based on real people?",

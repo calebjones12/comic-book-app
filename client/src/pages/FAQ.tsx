@@ -9,7 +9,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "Will Black Dragon and Pink Firefly be released as individual comics or graphic novels?",
-      answer: "It's written in a comic book issue structure but it will be released as graphic novels. We're treating the \"issues\" as \"chapters.\" For example, graphic novel Volume 1 will be issues 1-5, Volume 2 will be issues 6-9. Volume 3 will likely be issues 10-15, and so on. Each story arc is around 20-25 chapters, or 4-5 graphic novel volumes. We're going to keep issuing graphic novels like that, as compilations of issues. However, at some point we may offer individual issues."
+      answer: "It's written in a comic book issue structure but it will be released as graphic novels. We're treating the \"issues\" as \"chapters.\" For example, graphic novel Volume 1 will be issues 1-5, Volume 2 will be issues 6-9. Volume 3 will likely be issues 10-15, and so on. Each story arc is around 20-25 chapters, or 4-6 graphic novel volumes. We're going to keep issuing graphic novels like that, as compilations of issues. However, at some point we may offer individual issues."
     },
     {
       question: "Is this a printed comic or digital or both?",

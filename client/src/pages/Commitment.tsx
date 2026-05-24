@@ -24,7 +24,7 @@ export default function Commitment() {
       body: "Modern-day culture is completely soaked with wokeism and left-wing values. These take you out of the story and make things confusing. There is absolutely none of that in these stories, and there never will be.",
     },
     {
-      title: "Absolutely No Right Wing or Religious Preaching",
+      title: "No Right Wing or Religious Preaching",
       body: "Just like there is no left-wing preaching, there is no right-wing preaching either. To be fair, I am a minarchist libertarian, and one of the characters is loosely based on me, so I can't promise that every once in a while a little libertarian-ish stuff might slip out of his mouth, but no one in these stories will preach politics to you, ever. We're here to entertain, not lecture.",
     },
     {

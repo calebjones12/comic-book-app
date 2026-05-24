@@ -13,6 +13,7 @@ import Map from "./pages/Map";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import Videos from "./pages/Videos";
+import Commitment from "./pages/Commitment";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
@@ -39,6 +40,7 @@ function Router() {
           <Route path={"/about"} component={About} />
           <Route path={"/faq"} component={FAQ} />
           <Route path={"/videos"} component={Videos} />
+          <Route path={"/commitment"} component={Commitment} />
           <Route path={"/404"} component={NotFound} />
           <Route component={NotFound} />
         </Switch>

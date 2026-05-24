@@ -53,7 +53,7 @@ export default function Commitment() {
     },
     {
       title: "We Will Make Mistakes",
-      body: "We will do our absolute best to provide you with high-quality stories, the likes of which you have never seen before. But we're going to make mistakes from time to time. These are graphic novels with hundreds of pages and thousands of panels of artwork. We have a quality assurance process that we follow rigorously, but some errors are unavoidable. Since you, the customer, are our priority, we will work with you and respect you as long as you don't freak out when mistakes are made. We will always correct mistakes whenever they are found.",
+      body: "We will do our absolute best to provide you with high-quality stories, the likes of which you have never seen before. But we're going to make mistakes from time to time. These are graphic novels with hundreds of pages and thousands of panels of artwork. We have a quality assurance process that we follow rigorously, but some errors are unavoidable. Since you, the customer, are our priority, we will work with you and respect you as long as you don't freak out when mistakes are made. We will always correct mistakes whenever they are found or politely brought to our attention by our customers.",
     },
   ];
 

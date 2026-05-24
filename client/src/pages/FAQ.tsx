@@ -25,11 +25,11 @@ export default function FAQ() {
     },
     {
       question: "How much will the graphic novels cost?",
-      answer: "The cheapest in the entire independent comic book industry. For a 100-page, digital, new-release graphic novel they will probably be $7. If you purchase a bundle, they'll be even cheaper. My goal for the initial launch is not revenue, but units sold. Therefore, I've priced them as inexpensively as possible to make them an easy purchase for anyone."
+      answer: "The cheapest in the entire independent comic book industry. For a 100-page, digital, new-release graphic novel they will probably be $6 or $7. If you purchase a bundle, they'll be even cheaper. My goal for the initial launch is not revenue, but units sold. Therefore, I've priced them as inexpensively as possible to make them an easy purchase for anyone."
     },
     {
       question: "When will the graphic novels be available?",
-      answer: (<>Early May. We will publish an exact date with a countdown timer on this website very soon. <a href="https://alphamale20.kartra.com/page/smr1824" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">Click here</a> to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.</>) as React.ReactNode
+      answer: (<>Probably June. We will publish an exact date with a countdown timer on this website very soon. <a href="https://alphamale20.kartra.com/page/smr1824" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">Click here</a> to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.</>) as React.ReactNode
     },
     {
       question: "Did you use AI to write the comics?",
@@ -57,7 +57,7 @@ export default function FAQ() {
     },
     {
       question: "Is this comic for kids?",
-      answer: "No. It's got blood, nudity, sex, violence (though no gore), complex themes, foul language, and so forth. It's for adults age 18 or over."
+      answer: "No. It's got blood, nudity, sex, violence, complex themes, foul language, and so forth. It's for adults age 18 or over."
     },
     {
       question: "Are you going to have other comic titles besides Black Dragon and Pink Firefly?",

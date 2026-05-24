@@ -82,7 +82,7 @@ export default function FAQ() {
               <div className="mb-4 text-foreground" style={{fontFamily: 'Georgia, "Times New Roman", serif', fontWeight: 700, fontSize: '1.15rem', textTransform: 'none', letterSpacing: '0.01em', lineHeight: '1.4'}}>
                 {faq.question}
               </div>
-              <p className="text-base font-body text-foreground/80 leading-relaxed">
+              <p className="text-lg font-body text-foreground/80 leading-relaxed">
                 {faq.answer as React.ReactNode}
               </p>
             </div>

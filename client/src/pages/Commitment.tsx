@@ -82,13 +82,13 @@ export default function Commitment() {
         {commitments.map((item, index) => (
           <div key={index} className="border-l-4 border-red-600 pl-6">
             <h2
-              className="text-red-600 text-2xl font-bold uppercase tracking-wide mb-3"
+              className="text-red-600 text-3xl font-bold uppercase tracking-wide mb-3"
               style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "0.05em" }}
             >
               {item.title}
             </h2>
             <p
-              className="text-foreground text-base md:text-lg leading-relaxed"
+              className="text-foreground text-lg md:text-xl leading-relaxed"
               style={{ fontFamily: "'Lora', serif" }}
             >
               {item.body}
@@ -100,7 +100,7 @@ export default function Commitment() {
       {/* Mailing List Box — bottom of page */}
       <div className="max-w-3xl mx-auto px-4 pb-16">
         <div className="border-2 border-red-600 bg-card px-8 py-6">
-          <p className="text-base text-foreground/80 leading-relaxed" style={{ fontFamily: "'Lora', serif" }}>
+          <p className="text-lg text-foreground/80 leading-relaxed" style={{ fontFamily: "'Lora', serif" }}>
             <a
               href="https://alphamale20.kartra.com/page/smr1824"
               target="_blank"

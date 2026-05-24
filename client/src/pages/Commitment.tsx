@@ -82,7 +82,7 @@ export default function Commitment() {
               <div
                 className="mb-4 text-primary"
                 style={{
-                  fontFamily: 'Georgia, "Times New Roman", serif',
+                  fontFamily: 'inherit',
                   fontWeight: 700,
                   fontSize: "1.25rem",
                   textTransform: "uppercase",
@@ -92,7 +92,7 @@ export default function Commitment() {
               >
                 {item.title}
               </div>
-              <p className="text-lg font-body text-foreground/80 leading-relaxed">
+              <p className="text-lg font-body text-foreground/80 leading-relaxed" style={{ fontFamily: 'inherit' }}>
                 {item.body}
               </p>
             </div>

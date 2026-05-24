@@ -79,7 +79,7 @@ export default function FAQ() {
         <div className="max-w-4xl space-y-8">
           {faqs.map((faq, index) => (
             <div key={index} className="bg-card border-2 border-border p-8 hover:border-primary transition-colors">
-              <div className="mb-4 text-foreground" style={{fontFamily: 'Georgia, "Times New Roman", serif', fontWeight: 700, fontSize: '1.15rem', textTransform: 'none', letterSpacing: '0.01em', lineHeight: '1.4'}}>
+              <div className="mb-4 text-foreground" style={{fontFamily: 'inherit', fontWeight: 700, fontSize: '1.15rem', textTransform: 'none', letterSpacing: '0.01em', lineHeight: '1.4'}}>
                 {faq.question}
               </div>
               <p className="text-lg font-body text-foreground/80 leading-relaxed">

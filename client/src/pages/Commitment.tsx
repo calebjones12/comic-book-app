@@ -69,7 +69,7 @@ export default function Commitment() {
             Commitments To You
           </h1>
           <p
-            className="text-lg text-white/70 leading-relaxed"
+            className="text-2xl text-white/70 leading-relaxed"
             style={{ fontFamily: "'Lora', serif" }}
           >
             This is our code, our commitments to you, the customer.

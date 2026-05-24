@@ -17,9 +17,9 @@ export default function Navigation() {
     { path: "/characters", label: "Characters" },
     { path: "/videos", label: "Videos" },
     { path: "/map", label: "Map" },
+    { path: "/commitment", label: "Commitment" },
     { path: "/about", label: "About" },
     { path: "/faq", label: "FAQ" },
-    { path: "/commitment", label: "Commitment" },
   ];
 
   return (

@@ -77,6 +77,23 @@ export default function Commitment() {
         </div>
       </div>
 
+      {/* Mailing List Box */}
+      <div className="max-w-3xl mx-auto px-4 pt-12 pb-0">
+        <div className="border-2 border-red-600 bg-[#0a0a0a] px-8 py-6">
+          <p className="text-base text-white/80 leading-relaxed" style={{ fontFamily: "'Lora', serif" }}>
+            <a
+              href="https://alphamale20.kartra.com/page/smr1824"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-500 underline hover:text-red-400 transition-colors font-semibold"
+            >
+              Click here
+            </a>{" "}
+            to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
+          </p>
+        </div>
+      </div>
+
       {/* Commitments list */}
       <div className="max-w-3xl mx-auto px-4 py-16 space-y-12">
         {commitments.map((item, index) => (

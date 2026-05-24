@@ -37,6 +37,14 @@ export default function Footer() {
             <p className="text-sm text-muted-foreground mt-2 font-body">
               Dark Fantasy Comedy. No Compromises.
             </p>
+            <p className="text-sm mt-2 font-body">
+              <a
+                href="/commitment"
+                className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
+              >
+                Our Commitments To You
+              </a>
+            </p>
           </div>
         </div>
       </div>

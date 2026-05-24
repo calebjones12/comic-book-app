@@ -49,6 +49,16 @@ export default function About() {
               <li>Actual sex and romance between men and women (perish the thought!!!).</li>
             </ul>
           </div>
+
+          <p>
+            Read our{" "}
+            <a
+              href="/commitment"
+              className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
+            >
+              full commitments to you →
+            </a>
+          </p>
           
           <p>
             Multi-layered story arcs already written from beginning to end, so every twist has been earned and every thread leads somewhere that matters. This is the biggest, most ambitious project I've poured my soul into for over many years.

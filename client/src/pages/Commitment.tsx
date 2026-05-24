@@ -1,5 +1,5 @@
-// Design: Dark fantasy theme — dark background, red accent headings, premium serif typography
-// Matches site-wide aesthetic: dark bg, white/light body text, red (#dc2626) for section headers
+// Design: Dark fantasy theme — dark header, white body background, red accent headings, premium serif typography
+// Body text uses dark color (#1a1a1a) since the commitments list sits on the white/light site background
 
 export default function Commitment() {
   const commitments = [
@@ -77,41 +77,41 @@ export default function Commitment() {
         </div>
       </div>
 
-      {/* Mailing List Box */}
-      <div className="max-w-3xl mx-auto px-4 pt-12 pb-0">
-        <div className="border-2 border-red-600 bg-[#0a0a0a] px-8 py-6">
-          <p className="text-base text-white/80 leading-relaxed" style={{ fontFamily: "'Lora', serif" }}>
-            <a
-              href="https://alphamale20.kartra.com/page/smr1824"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-red-500 underline hover:text-red-400 transition-colors font-semibold"
-            >
-              Click here
-            </a>{" "}
-            to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
-          </p>
-        </div>
-      </div>
-
       {/* Commitments list */}
       <div className="max-w-3xl mx-auto px-4 py-16 space-y-12">
         {commitments.map((item, index) => (
           <div key={index} className="border-l-4 border-red-600 pl-6">
             <h2
-              className="text-red-500 text-2xl font-bold uppercase tracking-wide mb-3"
+              className="text-red-600 text-2xl font-bold uppercase tracking-wide mb-3"
               style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "0.05em" }}
             >
               {item.title}
             </h2>
             <p
-              className="text-white/85 text-base md:text-lg leading-relaxed"
+              className="text-foreground text-base md:text-lg leading-relaxed"
               style={{ fontFamily: "'Lora', serif" }}
             >
               {item.body}
             </p>
           </div>
         ))}
+      </div>
+
+      {/* Mailing List Box — bottom of page */}
+      <div className="max-w-3xl mx-auto px-4 pb-16">
+        <div className="border-2 border-red-600 bg-card px-8 py-6">
+          <p className="text-base text-foreground/80 leading-relaxed" style={{ fontFamily: "'Lora', serif" }}>
+            <a
+              href="https://alphamale20.kartra.com/page/smr1824"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-600 underline hover:text-red-500 transition-colors font-semibold"
+            >
+              Click here
+            </a>{" "}
+            to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
+          </p>
+        </div>
       </div>
     </div>
   );

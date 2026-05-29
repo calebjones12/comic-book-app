@@ -136,7 +136,7 @@ export const characters: Character[] = [
     race: "Succubus",
     class: "none",
     realm: "Hell, Parallel Universe",
-    personality: "Dark Firefly is Pink Firefly's mirror opposite from the parallel universe. She is confident, arrogant, irreverent, and always sure of herself.\n\nHer allies refer to her as \"Queen,\" but it's unknown exactly what this means in her home universe. Regardless, her minions, such as White Dragon and General Stabb, serve her obediently and without question.\n\nIn her world, magic is dying. Her goal is to syphon or steal magic from Black Dragon's universe to bring it back to her own.",
+    personality: "Dark Firefly is Pink Firefly's mirror opposite from the parallel universe. She is confident, arrogant, irreverent, and always sure of herself.\n\nHer allies refer to her as \"Queen,\" but it's unknown exactly what this means in her home universe. Regardless, her minions, such as White Dragon and Grand Marshal Stabb, serve her obediently and without question.\n\nIn her world, magic is dying. Her goal is to syphon or steal magic from Black Dragon's universe to bring it back to her own.",
     powers: "Dark Firefly can fire her \"Daggers of Anger\" at will. Anyone hit by these magical daggers will be instantly enraged and will attempt to attack or murder anyone next to them.\n\nShe can also become giant-sized (about 35 feet tall) whenever she wishes, making her formidable indeed.\n\nAs a demonic succubus, she can fly, is effectively immortal (unless killed via violence or accident), and is somewhat resistant to conventional (non-magical) weapons.",
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Dark-Firefly_e6f8f562.jpg"
   },

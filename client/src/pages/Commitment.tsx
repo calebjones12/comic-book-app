@@ -30,7 +30,7 @@ export default function Commitment() {
     },
     {
       title: "No Right Wing or Religious Preaching",
-      body: "Just like there is no left-wing preaching, there is no right-wing preaching either. To be fair, I am a minarchist libertarian, and one of the characters is loosely based on me, so I can't promise that every once in a while a little libertarian-ish stuff might slip out of his mouth, but no one in these stories will preach politics to you, ever. We're here to entertain, not lecture.",
+      body: "Just like there is no left-wing preaching, there is no right-wing preaching either. If you're a big right-winger, you may be offended by things you see in these stories, just like a leftie. To be fair, I am a minarchist libertarian, and one of the characters is loosely based on me, so I can't promise that every once in a while a little libertarian-ish stuff might slip out of his mouth, but no one in these stories will preach politics to you, ever. We're here to entertain, not lecture.",
     },
     {
       title: "No Mary Sue / Girlboss Characters",

@@ -32,11 +32,11 @@ export default function FAQ() {
       answer: (<>Probably June. We will publish an exact date with a countdown timer on this website very soon. <a href="https://alphamale20.kartra.com/page/smr1824" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">Click here</a> to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.</>) as React.ReactNode
     },
     {
-      question: "Did you use AI to write the comics?",
+      question: "Do you use AI to write the comics?",
       answer: "NO! No, no, a thousand times no. No AI was used in ANY aspect of my writing. I, and I alone, have written 100% of the entire story, world, dialogue, plot, everything. Using AI to write anything would be stupid and I will NEVER do such a thing. All A2Heroes comics will ALWAYS be 100% written by human beings, period, end of story."
     },
     {
-      question: "Did you use AI to create the artwork?",
+      question: "Do you use AI to create the artwork?",
       answer: "We have a team of seven human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't yet at the point where it can create an entire comic book and keep all the character models and artwork consistent and high-quality. You need human artists.)"
     },
     {

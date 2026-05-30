@@ -37,7 +37,20 @@ export default function FAQ() {
     },
     {
       question: "Do you use AI to create the artwork?",
-      answer: "We have a team of seven human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't yet at the point where it can create an entire comic book and keep all the character models and artwork consistent and high-quality. You need human artists.)"
+      answer: (<>
+        <span className="block mb-3">We have a team of seven human artists who create the artwork, but they use AI to speed up some of the artwork process. Artwork takes a long time and AI is used to get these graphic novels into your hands faster. (AI isn't yet at the point where it can create an entire comic book and keep all the character models and artwork consistent and high-quality. You need human artists.)</span>
+        <span className="block mb-3">If you're concerned about "AI slop" please watch this video to get the full explanation so you can relax.</span>
+        <span className="block relative w-full" style={{paddingBottom: '56.25%'}}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/Vf5xjev_Kd8"
+            title="AI Artwork Explanation"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </span>
+      </>) as React.ReactNode
     },
     {
       question: "If the character of Black Dragon is based on you and Pink Firefly is based on your wife, does that mean all of the other characters are based on real people?",

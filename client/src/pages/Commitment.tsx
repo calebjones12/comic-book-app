@@ -26,7 +26,7 @@ export default function Commitment() {
     },
     {
       title: "No Left Wing Wokeism or Political Correctness",
-      body: "Modern-day culture is completely soaked with wokeism and left-wing values. These take you out of the story and make things confusing. There is absolutely none of that in these stories, and there never will be. If you're a big leftie, you will be offended by what you see in these stories, so you should stay away.",
+      body: "Modern-day culture is completely soaked with wokeism and left-wing values. These take you out of the story and make things confusing. There is absolutely none of that in these stories, and there never will be.",
     },
     {
       title: "No Right Wing or Religious Preaching",

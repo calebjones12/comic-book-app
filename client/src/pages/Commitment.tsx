@@ -34,7 +34,7 @@ export default function Commitment() {
     },
     {
       title: "No Mary Sue / Girlboss Characters",
-      body: "We had strong female characters in the 1980s, and they were awesome. Princess Leia, Sarah Connor, Ripley, Marion from Raiders, and so forth. There are some strong female characters in these stories. However, there will never be any Mary Sue/girlboss characters who are amazing at everything, go through no real character growth, and/or denigrate men.",
+      body: "We had strong female characters in the 1980s, and they were awesome. Princess Leia, Sarah Connor, Ripley, Marion from Raiders, and so forth. There are some strong female characters like those in these stories BUT there will NEVER be any Mary Sue/girlboss characters who are amazing at everything, go through no real character growth, and/or denigrate men.",
     },
     {
       title: "Everything Makes Sense",

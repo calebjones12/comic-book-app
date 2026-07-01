@@ -75,7 +75,7 @@ export default function Home() {
         {/* Right: Full illustration — all 4 characters */}
         <div className="hidden lg:block flex-1 relative overflow-hidden">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue8Covernotext_df952210.jpg"
+            src="/manus-storage/I-Rev_d2493819.jpg"
             alt="Black Dragon and Pink Firefly characters"
             className="absolute inset-0 w-full h-full object-contain object-center"
             style={{ background: '#0d1a2e' }}
@@ -91,7 +91,7 @@ export default function Home() {
         <div
           className="lg:hidden absolute inset-0 -z-10"
           style={{
-            backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/Issue8Covernotext_df952210.jpg')`,
+            backgroundImage: `url('/manus-storage/I-Rev_d2493819.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center center',
           }}

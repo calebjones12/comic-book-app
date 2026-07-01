@@ -320,9 +320,9 @@ export default function GraphicNovelStatus() {
                                   }}
                                 />
                               )}
-                              {/* Checkmark for last stage when complete */}
-                              {isLast && novel.novelStatus === "complete" && (
-                                <span className="relative z-10 text-white text-xs font-bold" style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)" }}>✓</span>
+                              {/* Checkmark for completed (yellow) and fully complete (green) segments */}
+                              {(novel.novelStatus === "complete" || status === "done") && (
+                                <span className="relative z-10 text-xs font-bold" style={{ color: novel.novelStatus === "complete" ? "rgba(0,80,0,0.85)" : "rgba(100,70,0,0.85)", textShadow: "0 1px 1px rgba(255,255,255,0.3)", fontSize: "0.65rem" }}>✓</span>
                               )}
                             </div>
                           );

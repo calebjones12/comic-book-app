@@ -18,7 +18,7 @@ export default function Home() {
               href="/status"
               className="text-red-400 underline font-bold hover:text-red-300 transition-colors"
             >
-              Click here.
+              Click here
             </a>
           </span>
         </div>

@@ -13,9 +13,9 @@ export default function Home() {
       <div className="bg-black border-b-4 border-red-600 py-3 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <span className="font-body text-white text-sm md:text-base">
-            Watch the replay of the recent livestream —{" "}
+            Check out the new status dashboard of all upcoming graphic novels —{" "}
             <a
-              href="/videos"
+              href="/status"
               className="text-red-400 underline font-bold hover:text-red-300 transition-colors"
             >
               Click here.

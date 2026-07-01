@@ -156,7 +156,7 @@ export default function GraphicNovelStatus() {
           GRAPHIC NOVEL STATUS
         </h1>
         <p className="text-lg text-gray-400 max-w-xl mx-auto px-4" style={{ fontFamily: "inherit" }}>
-          Every graphic novel is approximately 100 pages. Track our progress below.
+          Track our progress below! This dashboard is updated in real time. Every graphic novel is approximately 100 pages.
         </p>
       </div>
 

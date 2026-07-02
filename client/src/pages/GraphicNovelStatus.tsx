@@ -33,6 +33,7 @@ interface GraphicNovel {
 
 interface Part {
   label: string;
+  subtitle?: string;
   novels: GraphicNovel[];
 }
 
@@ -40,6 +41,7 @@ interface Part {
 const PARTS: Part[] = [
   {
     label: "Part One",
+    subtitle: "The Adversary",
     novels: [
       // GN #1-3: all stages complete (green)
       { number: 1, stageStatuses: ["done","done","done","done","done","done"], novelStatus: "complete" },
@@ -53,6 +55,7 @@ const PARTS: Part[] = [
   },
   {
     label: "Part Two",
+    subtitle: "The Onslaught",
     novels: [
       // GN #7-8: through Writing done, Artwork active
       { number: 7, stageStatuses: ["done","done","done","active","pending","pending"], novelStatus: "in-progress" },
@@ -68,6 +71,7 @@ const PARTS: Part[] = [
   },
   {
     label: "Part Three",
+    subtitle: "The Invasion",
     novels: [
       { number: 13, stageStatuses: ["done","pending","pending","pending","pending","pending"], novelStatus: "pending" },
       { number: 14, stageStatuses: ["done","pending","pending","pending","pending","pending"], novelStatus: "pending" },
@@ -79,6 +83,7 @@ const PARTS: Part[] = [
   },
   {
     label: "Part Four",
+    subtitle: "The Scions",
     novels: [
       { number: 19, stageStatuses: ["done","pending","pending","pending","pending","pending"], novelStatus: "pending" },
       { number: 20, stageStatuses: ["done","pending","pending","pending","pending","pending"], novelStatus: "pending" },
@@ -217,6 +222,11 @@ export default function GraphicNovelStatus() {
                 </div>
                 <div className="flex-1 h-px" style={{ background: "linear-gradient(to right, transparent, #8B0000, transparent)" }} />
               </div>
+              {part.subtitle && (
+                <p className="text-center mb-8 tracking-widest uppercase" style={{ color: "#c0392b", fontFamily: "'Cinzel', serif", fontSize: "0.95rem", letterSpacing: "0.2em", textShadow: "0 0 8px rgba(192,57,43,0.5)" }}>
+                  {part.subtitle}
+                </p>
+              )}
 
               {/* Novels */}
               <div className="space-y-6">

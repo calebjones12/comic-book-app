@@ -329,8 +329,8 @@ export default function GraphicNovelStatus() {
                         })}
                       </div>
 
-                      {/* Mobile stage labels — rotated, shown only on small screens via CSS class */}
-                      <div className="gn-mobile-labels" style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px", height: "72px", overflow: "visible", marginTop: "6px" }}>
+                      {/* Mobile numbered legend — shown only on small screens */}
+                      <div className="gn-mobile-labels" style={{ marginTop: "10px", display: "flex", flexDirection: "column", gap: "3px" }}>
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
                           const color = novel.novelStatus === "complete"
@@ -339,27 +339,13 @@ export default function GraphicNovelStatus() {
                             ? "#93C5FD"
                             : status === "done"
                             ? "#FDE68A"
-                            : "#444";
+                            : "#555";
+                          const dot = novel.novelStatus === "complete" ? "●" : status === "active" ? "▶" : status === "done" ? "✓" : "○";
                           return (
-                            <div
-                              key={si}
-                              style={{ position: "relative", overflow: "visible", display: "flex", justifyContent: "center" }}
-                            >
-                              <span
-                                style={{
-                                  position: "absolute",
-                                  top: "2px",
-                                  left: "50%",
-                                  transformOrigin: "left top",
-                                  transform: "rotate(45deg) translateX(-50%)",
-                                  whiteSpace: "nowrap",
-                                  fontSize: "0.55rem",
-                                  color,
-                                  fontFamily: "'Georgia', serif",
-                                  lineHeight: 1,
-                                }}
-                              >
-                                {stage}
+                            <div key={si} style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                              <span style={{ fontSize: "0.6rem", color, minWidth: "14px", textAlign: "center", fontWeight: "bold" }}>{dot}</span>
+                              <span style={{ fontSize: "0.65rem", color, fontFamily: "sans-serif", lineHeight: 1.3 }}>
+                                <strong style={{ color: "#888", marginRight: "3px" }}>{si + 1}.</strong>{stage}
                               </span>
                             </div>
                           );

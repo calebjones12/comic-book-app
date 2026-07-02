@@ -329,11 +329,8 @@ export default function GraphicNovelStatus() {
                         })}
                       </div>
 
-                      {/* Mobile stage labels — rotated to align under each segment */}
-                      <div
-                        className="md:hidden mt-1"
-                        style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px", height: "72px", overflow: "visible" }}
-                      >
+                      {/* Mobile stage labels — rotated, shown only on small screens via CSS class */}
+                      <div className="gn-mobile-labels mt-1" style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px", height: "72px", overflow: "visible" }}>
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
                           const color = novel.novelStatus === "complete"
@@ -346,12 +343,7 @@ export default function GraphicNovelStatus() {
                           return (
                             <div
                               key={si}
-                              style={{
-                                position: "relative",
-                                overflow: "visible",
-                                display: "flex",
-                                justifyContent: "center",
-                              }}
+                              style={{ position: "relative", overflow: "visible", display: "flex", justifyContent: "center" }}
                             >
                               <span
                                 style={{
@@ -391,6 +383,9 @@ export default function GraphicNovelStatus() {
         @keyframes shimmer {
           0% { transform: translateX(-100%); }
           100% { transform: translateX(100%); }
+        }
+        @media (min-width: 768px) {
+          .gn-mobile-labels { display: none !important; }
         }
       `}</style>
     </div>

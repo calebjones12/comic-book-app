@@ -316,8 +316,8 @@ export default function GraphicNovelStatus() {
                     </div>
 
                     {/* Mobile vertical stacked layout */}
-                    <div className="md:hidden px-4 py-3">
-                      <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+                    <div className="md:hidden px-3 py-2">
+                      <div style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
                           const bg = stageColor(status, novel.novelStatus);
@@ -335,11 +335,11 @@ export default function GraphicNovelStatus() {
                                 border: `1px solid ${border}`,
                                 boxShadow: glow,
                                 borderRadius: "3px",
-                                height: "32px",
+                                height: "24px",
                                 display: "flex",
                                 alignItems: "center",
-                                paddingLeft: "10px",
-                                paddingRight: "10px",
+                                paddingLeft: "8px",
+                                paddingRight: "8px",
                                 transition: "all 0.3s ease",
                               }}
                             >
@@ -355,9 +355,9 @@ export default function GraphicNovelStatus() {
                               <span
                                 className="relative z-10 flex-1"
                                 style={{
-                                  fontSize: "0.72rem",
+                                  fontSize: "0.62rem",
                                   fontFamily: "'Georgia', serif",
-                                  letterSpacing: "0.04em",
+                                  letterSpacing: "0.03em",
                                   color: novel.novelStatus === "complete" ? "rgba(0,60,0,0.9)" : status === "active" ? "rgba(0,40,100,0.9)" : status === "done" ? "rgba(80,60,0,0.9)" : "#333",
                                   fontWeight: "600",
                                 }}
@@ -366,11 +366,11 @@ export default function GraphicNovelStatus() {
                               </span>
                               {/* Checkmark */}
                               {isDone && (
-                                <span className="relative z-10 font-bold" style={{ fontSize: "0.8rem", color: novel.novelStatus === "complete" ? "rgba(0,80,0,0.85)" : "rgba(100,70,0,0.85)", textShadow: "0 1px 1px rgba(255,255,255,0.3)" }}>✓</span>
+                                <span className="relative z-10 font-bold" style={{ fontSize: "0.65rem", color: novel.novelStatus === "complete" ? "rgba(0,80,0,0.85)" : "rgba(100,70,0,0.85)", textShadow: "0 1px 1px rgba(255,255,255,0.3)" }}>✓</span>
                               )}
                               {/* In Progress indicator */}
                               {isActive && (
-                                <span className="relative z-10" style={{ fontSize: "0.6rem", color: "rgba(0,30,80,0.8)", fontWeight: "700", letterSpacing: "0.05em" }}>IN PROGRESS</span>
+                                <span className="relative z-10" style={{ fontSize: "0.55rem", color: "rgba(0,30,80,0.8)", fontWeight: "700", letterSpacing: "0.04em" }}>IN PROGRESS</span>
                               )}
                             </div>
                           );

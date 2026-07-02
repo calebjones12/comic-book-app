@@ -329,25 +329,47 @@ export default function GraphicNovelStatus() {
                         })}
                       </div>
 
-                      {/* Mobile stage labels */}
-                      <div className="md:hidden mt-2 flex flex-wrap gap-1">
+                      {/* Mobile stage labels — rotated to align under each segment */}
+                      <div
+                        className="md:hidden mt-1"
+                        style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px" }}
+                      >
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
-                          if (status === "pending") return null;
+                          const color = novel.novelStatus === "complete"
+                            ? "#86EFAC"
+                            : status === "active"
+                            ? "#93C5FD"
+                            : status === "done"
+                            ? "#FDE68A"
+                            : "#444";
                           return (
-                            <span
+                            <div
                               key={si}
-                              className="text-xs px-2 py-0.5 rounded-sm"
                               style={{
-                                background: novel.novelStatus === "complete" ? "rgba(34,197,94,0.15)" : status === "active" ? "rgba(59,130,246,0.15)" : "rgba(245,197,24,0.1)",
-                                color: novel.novelStatus === "complete" ? "#86EFAC" : status === "active" ? "#93C5FD" : "#FDE68A",
-                                border: `1px solid ${novel.novelStatus === "complete" ? "#22C55E33" : status === "active" ? "#3B82F633" : "#F5C51833"}`,
-                                fontSize: "0.6rem",
-                                fontFamily: "'Georgia', serif",
+                                height: "60px",
+                                display: "flex",
+                                alignItems: "flex-start",
+                                justifyContent: "center",
+                                paddingTop: "4px",
+                                overflow: "hidden",
                               }}
                             >
-                              {stage}
-                            </span>
+                              <span
+                                style={{
+                                  display: "block",
+                                  transformOrigin: "center top",
+                                  transform: "rotate(-45deg) translateX(-20%)",
+                                  whiteSpace: "nowrap",
+                                  fontSize: "0.55rem",
+                                  color,
+                                  fontFamily: "'Georgia', serif",
+                                  lineHeight: 1,
+                                }}
+                              >
+                                {stage}
+                              </span>
+                            </div>
                           );
                         })}
                       </div>

@@ -223,7 +223,7 @@ export default function GraphicNovelStatus() {
                 {part.novels.map((novel) => (
                   <div
                     key={novel.number}
-                    className="rounded-sm overflow-hidden"
+                    className="rounded-sm"
                     style={{
                       background: "linear-gradient(135deg, #111111 0%, #161616 100%)",
                       border: "1px solid #2a2a2a",
@@ -332,7 +332,7 @@ export default function GraphicNovelStatus() {
                       {/* Mobile stage labels — rotated to align under each segment */}
                       <div
                         className="md:hidden mt-1"
-                        style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px" }}
+                        style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px", height: "72px", overflow: "visible" }}
                       >
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
@@ -347,19 +347,19 @@ export default function GraphicNovelStatus() {
                             <div
                               key={si}
                               style={{
-                                height: "60px",
+                                position: "relative",
+                                overflow: "visible",
                                 display: "flex",
-                                alignItems: "flex-start",
                                 justifyContent: "center",
-                                paddingTop: "4px",
-                                overflow: "hidden",
                               }}
                             >
                               <span
                                 style={{
-                                  display: "block",
-                                  transformOrigin: "center top",
-                                  transform: "rotate(-45deg) translateX(-20%)",
+                                  position: "absolute",
+                                  top: "4px",
+                                  left: "50%",
+                                  transformOrigin: "left top",
+                                  transform: "rotate(45deg) translateX(-50%)",
                                   whiteSpace: "nowrap",
                                   fontSize: "0.55rem",
                                   color,

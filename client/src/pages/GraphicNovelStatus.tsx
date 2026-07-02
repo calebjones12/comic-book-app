@@ -316,7 +316,7 @@ export default function GraphicNovelStatus() {
                     </div>
 
                     {/* Mobile vertical stacked layout */}
-                    <div className="md:hidden px-3 py-2">
+                    <div className="md:hidden px-3 py-2" style={{ maxWidth: "70%" }}>
                       <div style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];

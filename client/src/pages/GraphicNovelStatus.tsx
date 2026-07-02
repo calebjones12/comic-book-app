@@ -330,7 +330,7 @@ export default function GraphicNovelStatus() {
                       </div>
 
                       {/* Mobile stage labels — rotated, shown only on small screens via CSS class */}
-                      <div className="gn-mobile-labels mt-1" style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px", height: "72px", overflow: "visible" }}>
+                      <div className="gn-mobile-labels" style={{ display: "grid", gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px", height: "72px", overflow: "visible", marginTop: "6px" }}>
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
                           const color = novel.novelStatus === "complete"
@@ -348,7 +348,7 @@ export default function GraphicNovelStatus() {
                               <span
                                 style={{
                                   position: "absolute",
-                                  top: "4px",
+                                  top: "2px",
                                   left: "50%",
                                   transformOrigin: "left top",
                                   transform: "rotate(45deg) translateX(-50%)",

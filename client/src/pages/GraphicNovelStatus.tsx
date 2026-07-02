@@ -259,10 +259,10 @@ export default function GraphicNovelStatus() {
                       </span>
                     </div>
 
-                    {/* Progress bar */}
-                    <div className="px-5 py-4">
+                    {/* Progress bar — desktop only */}
+                    <div className="hidden md:block px-5 py-4">
                       {/* Stage labels */}
-                      <div className="hidden md:grid mb-2" style={{ gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px" }}>
+                      <div className="grid mb-2" style={{ gridTemplateColumns: `repeat(${STAGES.length}, 1fr)`, gap: "3px" }}>
                         {STAGES.map((stage, si) => (
                           <div
                             key={si}
@@ -279,9 +279,8 @@ export default function GraphicNovelStatus() {
                           </div>
                         ))}
                       </div>
-
                       {/* Bar segments */}
-                      <div className="flex gap-0.5 md:gap-1" style={{ height: "28px" }}>
+                      <div className="flex gap-1" style={{ height: "28px" }}>
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
                           const bg = stageColor(status, novel.novelStatus);
@@ -301,52 +300,78 @@ export default function GraphicNovelStatus() {
                                 transition: "all 0.3s ease",
                               }}
                             >
-                              {/* Shimmer overlay for active */}
                               {status === "active" && novel.novelStatus !== "complete" && (
-                                <div
-                                  className="absolute inset-0"
-                                  style={{
-                                    background: "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.15) 50%, transparent 100%)",
-                                    animation: "shimmer 2s infinite",
-                                  }}
-                                />
+                                <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.15) 50%, transparent 100%)", animation: "shimmer 2s infinite" }} />
                               )}
-                              {/* Texture overlay for done */}
                               {(status === "done" || novel.novelStatus === "complete") && (
-                                <div
-                                  className="absolute inset-0 opacity-20"
-                                  style={{
-                                    backgroundImage: "repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(0,0,0,0.1) 3px, rgba(0,0,0,0.1) 4px)",
-                                  }}
-                                />
+                                <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(0,0,0,0.1) 3px, rgba(0,0,0,0.1) 4px)" }} />
                               )}
-                              {/* Checkmark for completed (yellow) and fully complete (green) segments */}
                               {(novel.novelStatus === "complete" || status === "done") && (
-                                <span className="relative z-10 text-xs font-bold" style={{ color: novel.novelStatus === "complete" ? "rgba(0,80,0,0.85)" : "rgba(100,70,0,0.85)", textShadow: "0 1px 1px rgba(255,255,255,0.3)", fontSize: "0.65rem" }}>✓</span>
+                                <span className="relative z-10 font-bold" style={{ color: novel.novelStatus === "complete" ? "rgba(0,80,0,0.85)" : "rgba(100,70,0,0.85)", textShadow: "0 1px 1px rgba(255,255,255,0.3)", fontSize: "0.65rem" }}>✓</span>
                               )}
                             </div>
                           );
                         })}
                       </div>
+                    </div>
 
-                      {/* Mobile numbered legend — shown only on small screens */}
-                      <div className="gn-mobile-labels" style={{ marginTop: "10px", display: "flex", flexDirection: "column", gap: "3px" }}>
+                    {/* Mobile vertical stacked layout */}
+                    <div className="md:hidden px-4 py-3">
+                      <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
                         {STAGES.map((stage, si) => {
                           const status = novel.stageStatuses[si];
-                          const color = novel.novelStatus === "complete"
-                            ? "#86EFAC"
-                            : status === "active"
-                            ? "#93C5FD"
-                            : status === "done"
-                            ? "#FDE68A"
-                            : "#555";
-                          const dot = novel.novelStatus === "complete" ? "●" : status === "active" ? "▶" : status === "done" ? "✓" : "○";
+                          const bg = stageColor(status, novel.novelStatus);
+                          const border = stageBorder(status, novel.novelStatus);
+                          const glow = stageGlow(status, novel.novelStatus);
+                          const isDone = novel.novelStatus === "complete" || status === "done";
+                          const isActive = status === "active" && novel.novelStatus !== "complete";
+                          const labelColor = novel.novelStatus === "complete" ? "#86EFAC" : status === "active" ? "#93C5FD" : status === "done" ? "#FDE68A" : "#444";
                           return (
-                            <div key={si} style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                              <span style={{ fontSize: "0.6rem", color, minWidth: "14px", textAlign: "center", fontWeight: "bold" }}>{dot}</span>
-                              <span style={{ fontSize: "0.65rem", color, fontFamily: "sans-serif", lineHeight: 1.3 }}>
-                                <strong style={{ color: "#888", marginRight: "3px" }}>{si + 1}.</strong>{stage}
+                            <div
+                              key={si}
+                              className="relative overflow-hidden"
+                              style={{
+                                background: bg,
+                                border: `1px solid ${border}`,
+                                boxShadow: glow,
+                                borderRadius: "3px",
+                                height: "32px",
+                                display: "flex",
+                                alignItems: "center",
+                                paddingLeft: "10px",
+                                paddingRight: "10px",
+                                transition: "all 0.3s ease",
+                              }}
+                            >
+                              {/* Shimmer for active */}
+                              {isActive && (
+                                <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.15) 50%, transparent 100%)", animation: "shimmer 2s infinite" }} />
+                              )}
+                              {/* Texture for done */}
+                              {isDone && (
+                                <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(0,0,0,0.1) 3px, rgba(0,0,0,0.1) 4px)" }} />
+                              )}
+                              {/* Stage name */}
+                              <span
+                                className="relative z-10 flex-1"
+                                style={{
+                                  fontSize: "0.72rem",
+                                  fontFamily: "'Georgia', serif",
+                                  letterSpacing: "0.04em",
+                                  color: novel.novelStatus === "complete" ? "rgba(0,60,0,0.9)" : status === "active" ? "rgba(0,40,100,0.9)" : status === "done" ? "rgba(80,60,0,0.9)" : "#333",
+                                  fontWeight: "600",
+                                }}
+                              >
+                                {stage}
                               </span>
+                              {/* Checkmark */}
+                              {isDone && (
+                                <span className="relative z-10 font-bold" style={{ fontSize: "0.8rem", color: novel.novelStatus === "complete" ? "rgba(0,80,0,0.85)" : "rgba(100,70,0,0.85)", textShadow: "0 1px 1px rgba(255,255,255,0.3)" }}>✓</span>
+                              )}
+                              {/* In Progress indicator */}
+                              {isActive && (
+                                <span className="relative z-10" style={{ fontSize: "0.6rem", color: "rgba(0,30,80,0.8)", fontWeight: "700", letterSpacing: "0.05em" }}>IN PROGRESS</span>
+                              )}
                             </div>
                           );
                         })}

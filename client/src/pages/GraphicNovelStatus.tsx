@@ -50,7 +50,7 @@ const PARTS: Part[] = [
       // GN #4-6: through Artwork done, Artwork Revisions active
       { number: 4, stageStatuses: ["done","done","done","done","active","pending"], novelStatus: "in-progress" },
       { number: 5, stageStatuses: ["done","done","done","done","active","pending"], novelStatus: "in-progress" },
-      { number: 6, stageStatuses: ["done","done","done","active","pending","pending"], novelStatus: "in-progress" },
+      { number: 6, stageStatuses: ["done","done","done","done","active","pending"], novelStatus: "in-progress" },
     ],
   },
   {

@@ -14,7 +14,7 @@ export default function Commitment() {
     },
     {
       title: "Commitment To A Male Audience",
-      body: "Over the past 15 years we have watched as Western pop culture has taken properties written for men and make them more compatible for a female audience, thus destroying them and making them appeal to no one (Star Wars, Marvel, Doctor Who, so many others.)\n\nThe stories, world, and characters here at A2Heroes are 100% written for men, period.\n\nAny complaints or negative comments from women regarding anything related to these stories (and we're going to get them!) will be ignored. Women, we love ya, but you're not in our target audience, so we don't care what you want; there's plenty of pop culture for you. Go over there. This is for guys.",
+      body: "Over the past 15 years we have watched as Western pop culture has taken properties written for men and made them more compatible for a female audience, thus destroying them and making them appeal to no one (Star Wars, Marvel, Doctor Who, so many others).\n\nThe stories, world, and characters here at A2Heroes are 100% written for men, period.\n\nAny complaints or negative comments from women regarding anything related to these stories (and we're going to get them!) will be ignored. Women, we love ya, but you're not in our target audience, so we don't care what you want; there's plenty of pop culture for you. Go over there. This is for guys.",
     },
     {
       title: "Death Is Permanent",

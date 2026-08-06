@@ -38,7 +38,7 @@ export default function Commitment() {
     },
     {
       title: "Everything Makes Sense",
-      body: "Modern-day genre fiction (fantasy, sci-fi, horror) is rife with characters, plots, and/or settings that make no sense, even within the worlds they present. This is the result of serving political agendas or corporate checklists rather than a priority of telling rich, consistent stories. Every story, setting, and character in the A2Heroes universe makes sense within this world.",
+      body: "Modern-day genre fiction (fantasy, sci-fi, horror) is rife with characters, plots, and/or settings that make no sense, even within the worlds they present. This is the result of serving political agendas or corporate checklists rather than a priority of telling rich, consistent stories. Every story, setting, and character in the A2 Heroes universe makes sense within this world.",
     },
     {
       title: "Sex and Violence",

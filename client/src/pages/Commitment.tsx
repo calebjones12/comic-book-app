@@ -50,7 +50,7 @@ export default function Commitment() {
     },
     {
       title: "No AI Pledge",
-      body: "This world, these stories, the dialogue, the characters, and every other aspect is 100% written by human beings and always will be. The visual designs of every recurring character have been 100% created by myself and human artists. No AI will ever be used in the writing of these stories. (Some AI is used in the artwork; please refer to the FAQ for more details.)",
+      body: "This world, these stories, the dialogue, the characters, and every other aspect are 100% written by human beings and always will be. The visual designs of every recurring character have been 100% created by myself and human artists. No AI will ever be used in the writing of these stories. (Some AI is used in the artwork; please refer to the FAQ for more details.)",
     },
     {
       title: "No Investors",

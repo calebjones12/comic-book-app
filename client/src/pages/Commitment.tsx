@@ -18,7 +18,7 @@ export default function Commitment() {
     },
     {
       title: "Death Is Permanent",
-      body: "When a character dies, they are dead forever. Resurrection magic does not exist in the A2Heroes universe. Since these are fantasy stories, we are allowed to show dead characters via methods like visions, flashbacks, undead, etc (though even that stuff will be at a bare minimum), but never the character actually returning to life.",
+      body: "When a character dies, they are dead forever. Resurrection magic does not exist in the A2 Heroes universe. Since these are fantasy stories, we are allowed to show dead characters via methods like visions, flashbacks, undead, etc (though even that stuff will be at a bare minimum), but never a dead character actually returning to life.",
     },
     {
       title: "Customer Is Paramount Over All Other Factors",

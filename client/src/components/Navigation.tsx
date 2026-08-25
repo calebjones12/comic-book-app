@@ -26,14 +26,14 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-primary shadow-sm">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-20 md:h-28">
           {/* Logo */}
           <Link href="/">
-            <div className="flex min-w-[112px] items-center gap-3 cursor-pointer group">
+            <div className="flex min-w-[112px] md:min-w-[160px] items-center gap-3 cursor-pointer group">
               <img
                 src="/images/logos/A2Heroes_Logo_Transparent_v2.webp"
                 alt="A2Heroes"
-                className="h-16 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-110"
+                className="h-16 md:h-24 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-110"
               />
             </div>
           </Link>
@@ -43,7 +43,7 @@ export default function Navigation() {
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
                 <div
-                  className={`px-6 py-3 font-display text-lg uppercase tracking-wider transition-all duration-200 cursor-pointer ${
+                  className={`px-4 md:px-5 py-3 font-display text-base md:text-lg uppercase tracking-wider transition-all duration-200 cursor-pointer ${
                     location === item.path
                       ? "bg-primary text-primary-foreground"
                       : "text-foreground hover:bg-accent hover:text-accent-foreground"

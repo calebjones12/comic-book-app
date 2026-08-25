@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-4">
             <img
-              src="/images/logos/A2Heroes002-flat.webp"
+              src="/images/logos/A2Heroes_Logo_Transparent_v2.webp"
               alt="A2Heroes"
               className="h-10 w-auto"
             />

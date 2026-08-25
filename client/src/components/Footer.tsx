@@ -12,7 +12,7 @@ export default function Footer() {
             <img
               src="/images/logos/A2Heroes_Logo_Transparent_v2.webp"
               alt="A2Heroes"
-              className="h-10 w-auto"
+              className="h-12 w-auto flex-shrink-0"
             />
           </div>
 

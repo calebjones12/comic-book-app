@@ -29,11 +29,11 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/">
-            <div className="flex items-center gap-3 cursor-pointer group">
+            <div className="flex min-w-[112px] items-center gap-3 cursor-pointer group">
               <img
                 src="/images/logos/A2Heroes_Logo_Transparent_v2.webp"
                 alt="A2Heroes"
-                className="h-12 w-auto transition-transform duration-200 group-hover:scale-110"
+                className="h-16 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-110"
               />
             </div>
           </Link>

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-4">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/A2Heroes002-flat_ec4432ef.webp" 
+              src="/images/logos/A2Heroes-002-(flat).jpg" 
               alt="A2Heroes" 
               className="h-10 w-auto"
             />

@@ -9,7 +9,7 @@ export default function Map() {
         This is a map of the region where the first 12 or so graphic novels take place. Not every location is detailed here, and more will be revealed in the future.
       </p>
       <img
-        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663046994448/HZpH42JzHFwHyBRSjnLAz9/MapFinallowres_3a962a15.jpg"
+        src="/images/maps/Map-Final-lowres.jpg"
         alt="World Map of Xorath, Klor, Auron, Jeslam and surrounding regions"
         style={{
           width: '100%',

@@ -33,7 +33,7 @@ export default function Navigation() {
               <img
                 src="/images/logos/A2Heroes_Logo_Transparent_v2.webp"
                 alt="A2Heroes"
-                className="h-16 md:h-24 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-110"
+                className="h-16 md:h-28 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-110"
               />
             </div>
           </Link>

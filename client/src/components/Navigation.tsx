@@ -30,9 +30,9 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer group">
-              <img 
-                src="/images/logos/A2Heroes-002-(flat).jpg" 
-                alt="A2Heroes" 
+              <img
+                src="/images/logos/A2Heroes002-flat.webp"
+                alt="A2Heroes"
                 className="h-12 w-auto transition-transform duration-200 group-hover:scale-110"
               />
             </div>

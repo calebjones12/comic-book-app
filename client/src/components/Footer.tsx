@@ -9,9 +9,9 @@ export default function Footer() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-4">
-            <img 
-              src="/images/logos/A2Heroes-002-(flat).jpg" 
-              alt="A2Heroes" 
+            <img
+              src="/images/logos/A2Heroes002-flat.webp"
+              alt="A2Heroes"
               className="h-10 w-auto"
             />
           </div>
@@ -29,7 +29,7 @@ export default function Footer() {
               to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
             </p>
           </div>
-          
+
           <div className="text-center md:text-right">
             <p className="text-muted-foreground font-body">
               © {new Date().getFullYear()} A2Heroes. All rights reserved.

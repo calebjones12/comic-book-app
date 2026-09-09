@@ -15,6 +15,7 @@ import FAQ from "./pages/FAQ";
 import Videos from "./pages/Videos";
 import Commitment from "./pages/Commitment";
 import GraphicNovelStatus from "./pages/GraphicNovelStatus";
+import FactionImages from "./pages/FactionImages";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
@@ -36,6 +37,7 @@ function Router() {
           <Route path={"/"} component={Home} />
           <Route path={"/comics"} component={Comics} />
           <Route path={"/characters"} component={Characters} />
+          <Route path={"/faction-images"} component={FactionImages} />
           <Route path={"/characters/:id"} component={CharacterDetail} />
           <Route path={"/map"} component={Map} />
           <Route path={"/about"} component={About} />

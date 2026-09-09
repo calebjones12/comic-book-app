@@ -15,6 +15,7 @@ export default function Navigation() {
     { path: "/", label: "Home" },
     { path: "/comics", label: "Chapters" },
     { path: "/characters", label: "Characters" },
+    { path: "/faction-images", label: "Faction Images" },
     { path: "/videos", label: "Videos" },
     { path: "/map", label: "Map" },
     { path: "/status", label: "Status" },

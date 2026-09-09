@@ -21,7 +21,7 @@ const factionImages = [
     src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/hjsjYylTbzfpIUcu.jpg",
   },
   {
-    title: "Undead",
+    title: "The Undead",
     src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/FBcTfhYKcFTyDiAM.png",
   },
   {

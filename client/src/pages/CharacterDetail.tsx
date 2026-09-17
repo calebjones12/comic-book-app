@@ -98,9 +98,13 @@ export default function CharacterDetail() {
                   <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Class</div>
                   <div className="text-sm text-foreground font-medium">{character.class}</div>
                 </div>
-                <div className="col-span-2">
+                <div>
                   <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Realm of Origin</div>
                   <div className="text-sm text-foreground font-medium">{character.realm}</div>
+                </div>
+                <div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Age</div>
+                  <div className="text-sm text-foreground font-medium">{character.age}</div>
                 </div>
               </div>
 

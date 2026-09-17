@@ -260,7 +260,7 @@ export const characters: Character[] = [
     class: "Queen of Klor",
     realm: "Kingdom of Klor",
     age: "42",
-    personality: "Queen Gwyndara is kind, gentle, submissive, and a little sad. Her delicate personality puts her way over her head when faced with stronger personalities like Draven.\n\nShe does her best to support her senile husband, King Tharic, but wields very little actual power.\n\nHer only goal is to be a good queen and perform the duties of such a title, namely to bear an heir for the king, which she has been unable to do so far. And at her age (42), the clock is ticking.",
+    personality: "Queen Gwyndara is kind, gentle, submissive, and a little sad. Her delicate personality puts her way over her head when faced with stronger personalities like Draven.\n\nShe does her best to support her senile husband, King Tharic, but wields very little actual power.\n\nHer only goal is to be a good queen and perform the duties of such a title, namely to bear an heir for the king, which she has been unable to do so far. And at her age, the clock is ticking.",
     powers: "Effectively none, other than the authority she wields as the Queen of Klor. She is at the mercy of stronger people.",
     imageUrl: "/images/characters/Queen-Gywndara.jpg"
   }

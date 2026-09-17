@@ -46,7 +46,7 @@ export default function CharacterDetail() {
   };
 
   return (
-    <div className="min-h-screen py-8 bg-background">
+    <div className="min-h-screen pt-12 pb-8 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Navigation */}
         <div className="flex justify-between items-center mb-4">

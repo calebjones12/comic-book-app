@@ -14,7 +14,7 @@ export default function Videos() {
         </h1>
         <div className="w-24 h-1 bg-primary mb-12" />
 
-        <KickoffLivestream className="mb-12 bg-black" />
+        <KickoffLivestream className="mb-12" showThumbnail />
 
         {/* Video Entry */}
         <div className="mb-16">

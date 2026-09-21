@@ -3,6 +3,8 @@
  * Design: Dark background matching site theme, red accent borders, bold typography
  */
 
+import KickoffLivestream from "@/components/KickoffLivestream";
+
 export default function Videos() {
   return (
     <div className="min-h-screen py-16 bg-background">
@@ -11,6 +13,8 @@ export default function Videos() {
           VIDEOS
         </h1>
         <div className="w-24 h-1 bg-primary mb-12" />
+
+        <KickoffLivestream className="mb-12 bg-black" />
 
         {/* Video Entry */}
         <div className="mb-16">

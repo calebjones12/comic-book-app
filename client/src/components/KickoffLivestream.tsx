@@ -34,7 +34,7 @@ export default function KickoffLivestream({ className = "", showThumbnail = fals
         Gigantic Kickoff Livestream
       </h2>
       <p className="mb-3 font-display text-lg uppercase tracking-wider text-white">
-        September 4 · 8 PM EST · YouTube
+        September 24th · 8 PM EST · YouTube
       </p>
       <p className="mb-4 text-sm md:text-base font-body leading-relaxed text-white/80">
         See the artwork, animation, and story structure, plus specific launch dates for upcoming graphic novels. Prizes will be given away to viewers who attend live or watch the recording within 48 hours.

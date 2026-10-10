@@ -245,14 +245,14 @@ export default function GraphicNovelStatus() {
                 {part.novels.map((novel) => (
                   <div
                     key={novel.number}
-                    className="flex min-w-0 items-stretch gap-3"
+                    className="flex min-w-0 flex-col gap-2 md:flex-row md:items-stretch md:gap-3"
                   >
                     {COVER_THUMBNAILS[novel.number] && (
-                      <div className="hidden w-16 flex-shrink-0 items-center justify-center md:flex lg:w-20">
+                      <div className="mx-auto h-20 w-14 flex-shrink-0 md:mx-0 md:flex md:w-16 md:items-center md:justify-center lg:w-20">
                         <img
                           src={COVER_THUMBNAILS[novel.number]}
                           alt={`Graphic Novel #${novel.number} cover thumbnail`}
-                          className="aspect-[1000/1527] w-full rounded-sm border border-[#3a3a3a] object-cover shadow-md"
+                          className="h-full w-full rounded-sm border border-[#3a3a3a] object-cover shadow-md"
                         />
                       </div>
                     )}

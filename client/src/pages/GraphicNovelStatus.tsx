@@ -57,8 +57,8 @@ const PARTS: Part[] = [
     label: "Part Two",
     subtitle: "The Onslaught",
     novels: [
-      // GN #7: through Writing done, Artwork active
-      { number: 7, stageStatuses: ["done","done","done","active","pending","pending"], novelStatus: "in-progress" },
+      // GN #7: through Artwork done, Artwork Revisions active
+      { number: 7, stageStatuses: ["done","done","done","done","active","pending"], novelStatus: "in-progress" },
       // GN #8: Storyboarding complete, Artwork active
       { number: 8, stageStatuses: ["done","done","done","active","pending","pending"], novelStatus: "in-progress" },
       // GN #9-10: through Writing done, Storyboarding active

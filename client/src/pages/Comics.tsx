@@ -94,17 +94,6 @@ export default function Comics() {
           ))}
         </div>
 
-        <div className="mt-16 border-4 border-accent bg-card p-8">
-          <h2 className="mb-4 text-3xl font-display text-foreground md:text-5xl">
-            DIGITAL GRAPHIC NOVELS
-          </h2>
-          <p className="mb-4 text-lg font-body text-foreground/90">
-            Initially released as graphic novel volumes. Volume 1 will be issues 1-5, Volume 2 will be issues 6-9, and so on. Each story arc is around 20-25 issues, or 4-5 graphic novel volumes.
-          </p>
-          <p className="text-lg font-body text-muted-foreground">
-            Digital only for now—instant access anywhere in the world at very low prices. Printed versions coming later.
-          </p>
-        </div>
       </div>
     </div>
   );

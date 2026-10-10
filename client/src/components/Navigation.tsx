@@ -13,7 +13,7 @@ export default function Navigation() {
 
   const navItems = [
     { path: "/", label: "Home" },
-    { path: "/comics", label: "Chapters" },
+    { path: "/comics", label: "Graphic Novels" },
     { path: "/characters", label: "Characters" },
     { path: "/faction-images", label: "Faction Images" },
     { path: "/videos", label: "Videos" },

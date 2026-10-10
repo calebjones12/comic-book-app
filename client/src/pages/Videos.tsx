@@ -80,7 +80,7 @@ export default function Videos() {
           </h2>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
-            {animatedShorts.map((short, index) => (
+            {animatedShorts.map((short) => (
               <article key={short.id}>
                 <h3 className="mb-4 text-xl font-display uppercase tracking-wide text-foreground md:text-2xl">
                   {short.label}
@@ -89,14 +89,6 @@ export default function Videos() {
                   id={short.id}
                   title={`${short.label} video`}
                 />
-                <a
-                  href={`https://www.youtube.com/watch?v=${short.id}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-3 inline-block font-body text-sm text-primary underline underline-offset-4 transition-colors hover:text-foreground"
-                >
-                  Watch on YouTube {index + 1}
-                </a>
               </article>
             ))}
           </div>

@@ -96,6 +96,17 @@ const PARTS: Part[] = [
   },
 ];
 
+const COVER_THUMBNAILS: Record<number, string> = {
+  1: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/HMGMEbzTvbkjFQxY.png",
+  2: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/zwlVzLEWBDdyUFrl.png",
+  3: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/RHaTzAsOjqlLlIxL.jpg",
+  4: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/VaLqQwmtWQjObqfL.png",
+  5: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/TGAvcIkaDFNtDmLo.jpg",
+  6: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/OoZqvVJXuzggqoFn.png",
+  7: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/YUtFXEbFlRQhACga.png",
+  8: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ZbsEnaTfzQhBGSaf.jpg",
+};
+
 function stageColor(status: StageStatus, novelStatus: NovelStatus): string {
   if (novelStatus === "complete") return "#22C55E"; // entire GN is green
   if (status === "done") return "#F5C518";           // yellow = completed stage
@@ -234,17 +245,30 @@ export default function GraphicNovelStatus() {
                 {part.novels.map((novel) => (
                   <div
                     key={novel.number}
-                    className="rounded-sm"
-                    style={{
-                      background: "linear-gradient(135deg, #111111 0%, #161616 100%)",
-                      border: "1px solid #2a2a2a",
-                      boxShadow: novel.novelStatus === "complete"
-                        ? "0 0 15px rgba(34,197,94,0.15), inset 0 1px 0 rgba(255,255,255,0.03)"
-                        : novel.novelStatus === "in-progress"
-                        ? "0 0 15px rgba(59,130,246,0.1), inset 0 1px 0 rgba(255,255,255,0.03)"
-                        : "inset 0 1px 0 rgba(255,255,255,0.02)",
-                    }}
+                    className="flex min-w-0 items-stretch gap-3"
                   >
+                    {COVER_THUMBNAILS[novel.number] && (
+                      <div className="hidden w-16 flex-shrink-0 items-center justify-center md:flex lg:w-20">
+                        <img
+                          src={COVER_THUMBNAILS[novel.number]}
+                          alt={`Graphic Novel #${novel.number} cover thumbnail`}
+                          className="aspect-[1000/1527] w-full rounded-sm border border-[#3a3a3a] object-cover shadow-md"
+                        />
+                      </div>
+                    )}
+
+                    <div
+                      className="min-w-0 flex-1 rounded-sm"
+                      style={{
+                        background: "linear-gradient(135deg, #111111 0%, #161616 100%)",
+                        border: "1px solid #2a2a2a",
+                        boxShadow: novel.novelStatus === "complete"
+                          ? "0 0 15px rgba(34,197,94,0.15), inset 0 1px 0 rgba(255,255,255,0.03)"
+                          : novel.novelStatus === "in-progress"
+                          ? "0 0 15px rgba(59,130,246,0.1), inset 0 1px 0 rgba(255,255,255,0.03)"
+                          : "inset 0 1px 0 rgba(255,255,255,0.02)",
+                      }}
+                    >
                     {/* Novel header row */}
                     <div className="flex items-center justify-between px-5 py-3" style={{ borderBottom: "1px solid #1e1e1e" }}>
                       <div className="flex items-center gap-3">
@@ -387,6 +411,7 @@ export default function GraphicNovelStatus() {
                           );
                         })}
                       </div>
+                    </div>
                     </div>
                   </div>
                 ))}

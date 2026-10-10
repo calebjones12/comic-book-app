@@ -1,51 +1,95 @@
+import { useEffect, useState } from "react";
 import { ArrowRight, PlayCircle } from "lucide-react";
 
 type KickoffLivestreamProps = {
   className?: string;
-  showThumbnail?: boolean;
 };
 
-export default function KickoffLivestream({ className = "", showThumbnail = false }: KickoffLivestreamProps) {
+type Countdown = {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+};
+
+// October 22, 2026 at 2:00 PM America/New_York (EDT, UTC-4).
+const LAUNCH_TIMESTAMP = Date.parse("2026-10-22T14:00:00-04:00");
+
+function getCountdown(): Countdown {
+  const remaining = Math.max(0, LAUNCH_TIMESTAMP - Date.now());
+  const totalSeconds = Math.floor(remaining / 1000);
+
+  return {
+    days: Math.floor(totalSeconds / 86400),
+    hours: Math.floor((totalSeconds % 86400) / 3600),
+    minutes: Math.floor((totalSeconds % 3600) / 60),
+    seconds: totalSeconds % 60,
+  };
+}
+
+function formatValue(value: number): string {
+  return value.toString().padStart(2, "0");
+}
+
+export default function KickoffLivestream({ className = "" }: KickoffLivestreamProps) {
+  const [countdown, setCountdown] = useState<Countdown>(getCountdown);
+  const isLive = countdown.days === 0 && countdown.hours === 0 && countdown.minutes === 0 && countdown.seconds === 0;
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setCountdown(getCountdown());
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, []);
+
   return (
     <div className={`max-w-xl border-l-4 border-primary bg-[#0a0a0a] px-5 py-4 shadow-lg ${className}`}>
-      {showThumbnail && (
-        <a
-          href="https://www.youtube.com/watch?v=HIZ-vDvkkLI"
-          target="_blank"
-          rel="noreferrer"
-          className="group relative mb-5 block overflow-hidden border-2 border-primary/70"
-          aria-label="Watch the Gigantic Kickoff Livestream on YouTube"
-        >
-          <img
-            src="https://i.ytimg.com/vi/HIZ-vDvkkLI/maxresdefault.jpg"
-            alt="Gigantic Kickoff Livestream YouTube thumbnail"
-            className="aspect-video w-full object-cover transition-transform duration-200 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black/25 transition-colors group-hover:bg-black/10">
-            <PlayCircle size={56} strokeWidth={1.5} className="text-white drop-shadow-lg" aria-hidden="true" />
-          </div>
-        </a>
-      )}
       <div className="mb-2 flex items-center gap-2 text-sm font-body font-bold uppercase tracking-[0.2em] text-primary">
         <PlayCircle size={18} aria-hidden="true" />
-        Live Event
+        LAUNCH DAY LIVESTREAM
       </div>
-      <h2 className="mb-2 text-2xl md:text-3xl font-display leading-none text-white">
-        Gigantic Kickoff Livestream
+      <h2 className="mb-2 text-2xl font-display leading-none text-white md:text-3xl">
+        BOOKS 1–4 DROP LIVE
       </h2>
       <p className="mb-3 font-display text-lg uppercase tracking-wider text-white">
-        September 24th · 8 PM EST · YouTube
+        THURSDAY, OCTOBER 22 · 2 PM EST · YOUTUBE
       </p>
-      <p className="mb-4 text-sm md:text-base font-body leading-relaxed text-white/80">
-        See the artwork, animation, and story structure, plus specific launch dates for upcoming graphic novels. Prizes will be given away to viewers who attend live or watch the recording within 48 hours.
+      <p className="mb-4 text-sm font-body leading-relaxed text-white/80 md:text-base">
+        The first four graphic novels go on sale during the stream at $5 each, a price that disappears when the launch ends. Prizes for everyone watching live or within 48 hours.
       </p>
+
+      {isLive ? (
+        <div className="mb-4 font-display text-2xl uppercase tracking-[0.2em] text-white">
+          Live Now
+        </div>
+      ) : (
+        <div className="mb-4 grid grid-cols-4 gap-2 text-center" aria-label="Countdown to launch day livestream">
+          {[
+            [countdown.days, "Days"],
+            [countdown.hours, "Hours"],
+            [countdown.minutes, "Minutes"],
+            [countdown.seconds, "Seconds"],
+          ].map(([value, label]) => (
+            <div key={label} className="min-w-0">
+              <div className="font-display text-xl leading-none text-white sm:text-2xl">
+                {formatValue(value as number)}
+              </div>
+              <div className="mt-1 truncate font-body text-[0.6rem] uppercase tracking-wider text-primary sm:text-xs">
+                {label}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
       <a
-        href="https://www.youtube.com/watch?v=HIZ-vDvkkLI"
+        href="https://www.youtube.com/watch?v=--9Axo-OQuI"
         target="_blank"
         rel="noreferrer"
         className="inline-flex items-center gap-2 bg-primary px-5 py-3 font-display text-lg uppercase tracking-wider text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
       >
-        Watch on YouTube
+        SET A YOUTUBE REMINDER
         <ArrowRight size={20} />
       </a>
     </div>

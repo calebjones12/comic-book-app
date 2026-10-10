@@ -1,54 +1,104 @@
 /**
- * Comics Page - Showcase Black Dragon and Pink Firefly issues
+ * Graphic Novels Page - Showcase the first eight graphic novel covers
  */
 
-export default function Comics() {
-  const issues = [
-    { number: 1, cover: "/images/covers/Issue-1-Cover.jpg" },
-    { number: 2, cover: "/images/covers/Issue-2-Cover.jpg" },
-    { number: 3, cover: "/images/covers/Issue-3-Cover.jpg" },
-    { number: 4, cover: "/images/covers/Issue-4-Cover.jpg" },
-    { number: 5, cover: "/images/covers/Issue-5-Cover.jpg" },
-    { number: 6, cover: "/images/covers/Issue-6-Cover.jpg" },
-    { number: 7, cover: "/images/covers/Issue-7-Cover.jpg" },
-    { number: 8, cover: "/images/covers/Issue-8-Cover-New.jpg" },
-    { number: 9, cover: "/images/covers/Issue-9-Cover.jpg" },
-  ];
+import { Link } from "wouter";
 
+type GraphicNovel = {
+  number: number;
+  cover: string;
+  availability: string;
+};
+
+const graphicNovels: GraphicNovel[] = [
+  {
+    number: 1,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/HMGMEbzTvbkjFQxY.png",
+    availability: "Available Oct 22nd At Launch!",
+  },
+  {
+    number: 2,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/zwlVzLEWBDdyUFrl.png",
+    availability: "Available Oct 22nd At Launch!",
+  },
+  {
+    number: 3,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/RHaTzAsOjqlLlIxL.jpg",
+    availability: "Available Oct 22nd At Launch!",
+  },
+  {
+    number: 4,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/VaLqQwmtWQjObqfL.png",
+    availability: "Available Oct 22nd At Launch!",
+  },
+  {
+    number: 5,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/TGAvcIkaDFNtDmLo.jpg",
+    availability: "Available November!",
+  },
+  {
+    number: 6,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/OoZqvVJXuzggqoFn.png",
+    availability: "Available Soon.",
+  },
+  {
+    number: 7,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/YUtFXEbFlRQhACga.png",
+    availability: "Available Soon.",
+  },
+  {
+    number: 8,
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ZbsEnaTfzQhBGSaf.jpg",
+    availability: "Available Soon.",
+  },
+];
+
+export default function Comics() {
   return (
-    <div className="min-h-screen py-24 bg-background">
+    <div className="min-h-screen bg-background py-24">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
-          <h1 className="text-6xl md:text-8xl font-display mb-6 text-foreground">
-            CHAPTERS
+          <h1 className="mb-6 text-6xl font-display text-foreground md:text-8xl">
+            GRAPHIC NOVELS
           </h1>
-          <p className="text-xl md:text-2xl font-body text-muted-foreground max-w-3xl">
-            Each graphic novel will include approximately five chapters. A "chapter" is roughly equivalent in size to a "floppy" comic book; about 20-25 pages per chapter, meaning each graphic novel will be around 100 pages. Chapters 1-34 have been written. Chapters 35-53 have been outlined. Below are the covers for chapters 1-9, shown just as teasers. More chapter covers will be revealed soon.
+          <p className="max-w-3xl text-xl font-body text-muted-foreground md:text-2xl">
+            Graphic novels #1 through #4 will be available on our launch date of October 22. To see the status of each graphic novel, click{" "}
+            <Link href="/status">
+              <span className="font-bold text-primary underline underline-offset-4 transition-colors hover:text-foreground">
+                here
+              </span>
+            </Link>
+            .
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {issues.map((issue) => (
-            <div 
-              key={issue.number} 
-              className="group relative bg-card border-4 border-border hover:border-primary transition-all duration-200 overflow-hidden"
-            >
-              <div className="aspect-[2/3] relative">
-                <img 
-                  src={issue.cover} 
-                  alt={`Issue ${issue.number}`} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          {graphicNovels.map((graphicNovel) => (
+            <article key={graphicNovel.number}>
+              <div className="mb-4">
+                <h2 className="text-2xl font-display uppercase tracking-wide text-foreground">
+                  Graphic Novel #{graphicNovel.number}
+                </h2>
+                <p className="font-body text-sm font-bold uppercase tracking-wider text-primary">
+                  {graphicNovel.availability}
+                </p>
+              </div>
+              <div className="group overflow-hidden border-4 border-border bg-black transition-colors duration-200 hover:border-primary">
+                <img
+                  src={graphicNovel.cover}
+                  alt={`Graphic Novel #${graphicNovel.number} cover`}
+                  className="aspect-[1000/1527] h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-            </div>
+            </article>
           ))}
         </div>
 
-        <div className="mt-16 p-8 bg-card border-4 border-accent">
-          <h2 className="text-3xl md:text-5xl font-display mb-4 text-foreground">
+        <div className="mt-16 border-4 border-accent bg-card p-8">
+          <h2 className="mb-4 text-3xl font-display text-foreground md:text-5xl">
             DIGITAL GRAPHIC NOVELS
           </h2>
-          <p className="text-lg font-body text-foreground/90 mb-4">
+          <p className="mb-4 text-lg font-body text-foreground/90">
             Initially released as graphic novel volumes. Volume 1 will be issues 1-5, Volume 2 will be issues 6-9, and so on. Each story arc is around 20-25 issues, or 4-5 graphic novel volumes.
           </p>
           <p className="text-lg font-body text-muted-foreground">

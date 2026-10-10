@@ -8,10 +8,30 @@ type YouTubeVideo = {
   label: string;
 };
 
+type ComingSoonVideo = {
+  title: string;
+  imageUrl: string;
+};
+
 const animatedShorts: YouTubeVideo[] = [
-  { id: "HCpBprR7xIQ", label: "Animated Short 1" },
-  { id: "B7Iy3UrCY6g", label: "Animated Short 2" },
-  { id: "jgXUBIa3Umg", label: "Animated Short 3" },
+  { id: "jgXUBIa3Umg", label: "Black Dragon Regrets Nothing" },
+  { id: "B7Iy3UrCY6g", label: "Baby Zorra" },
+  { id: "HCpBprR7xIQ", label: "Chenning Doesn't Ask Twice" },
+];
+
+const comingSoonShorts: ComingSoonVideo[] = [
+  {
+    title: "Syndrith Has Had Enough | Animated Short #4",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/stSygImqAQvaxQJn.png",
+  },
+  {
+    title: "Olyndris Isn't Listening | Animated Short #5",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/codlgzZkmcdWpreJ.png",
+  },
+  {
+    title: "Nobody Warned Them About Her | Animated Short #6",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/bvtgwyJSWoteAasE.png",
+  },
 ];
 
 function YouTubePlayer({ id, title }: { id: string; title: string }) {
@@ -89,6 +109,23 @@ export default function Videos() {
                   id={short.id}
                   title={`${short.label} video`}
                 />
+              </article>
+            ))}
+            {comingSoonShorts.map((short) => (
+              <article key={short.title}>
+                <h3 className="mb-4 text-xl font-display uppercase tracking-wide text-foreground md:text-2xl">
+                  {short.title}
+                </h3>
+                <div className="relative aspect-video w-full overflow-hidden border-2 border-border bg-black">
+                  <img
+                    src={short.imageUrl}
+                    alt={`${short.title} coming soon thumbnail`}
+                    className="h-full w-full object-cover"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 bg-black/80 px-4 py-3 text-center font-display text-lg uppercase tracking-wider text-white">
+                    Coming Soon
+                  </div>
+                </div>
               </article>
             ))}
           </div>

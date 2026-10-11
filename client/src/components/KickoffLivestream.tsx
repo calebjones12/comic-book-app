@@ -56,7 +56,7 @@ export default function KickoffLivestream({ className = "" }: KickoffLivestreamP
         THURSDAY, OCTOBER 22 · 2 PM EST · YOUTUBE
       </p>
       <p className="mb-4 text-sm font-body leading-relaxed text-white/80 md:text-base lg:mb-1 lg:text-base lg:leading-tight">
-        The first four graphic novels go on sale during the stream at $5 each, a price that disappears when the launch ends. Prizes for everyone watching live or within 48 hours.
+        The first four 100-page graphic novels go on sale during the stream at $5 each or all four for $15 (which means issue #4 is free). It's going to be EPIC!
       </p>
 
       {isLive ? (

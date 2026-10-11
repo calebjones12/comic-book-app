@@ -44,18 +44,18 @@ export default function KickoffLivestream({ className = "" }: KickoffLivestreamP
   }, []);
 
   return (
-    <div className={`max-w-xl border-l-4 border-primary bg-[#0a0a0a] px-5 py-4 shadow-lg lg:px-4 lg:py-3 ${className}`}>
-      <div className="mb-2 flex items-center gap-2 text-sm font-body font-bold uppercase tracking-[0.2em] text-primary lg:mb-1">
+    <div className={`w-full border-l-4 border-primary bg-[#0a0a0a] px-5 py-4 shadow-lg lg:px-4 lg:py-2 ${className}`}>
+      <div className="mb-2 flex items-center gap-2 text-sm font-body font-bold uppercase tracking-[0.2em] text-primary lg:mb-0">
         <PlayCircle size={18} aria-hidden="true" />
         LAUNCH DAY LIVESTREAM
       </div>
-      <h2 className="mb-2 text-2xl font-display leading-none text-white md:text-3xl lg:mb-1 lg:text-[1.65rem]">
+      <h2 className="mb-2 text-2xl font-display leading-none text-white md:text-3xl lg:mb-0 lg:text-[26px]">
         BOOKS 1–4 DROP LIVE
       </h2>
-      <p className="mb-3 font-display text-lg uppercase tracking-wider text-white lg:mb-2 lg:text-base">
+      <p className="mb-3 font-display text-lg uppercase tracking-wider text-white lg:mb-1 lg:text-base">
         THURSDAY, OCTOBER 22 · 2 PM EST · YOUTUBE
       </p>
-      <p className="mb-4 text-sm font-body leading-relaxed text-white/80 md:text-base lg:mb-3">
+      <p className="mb-4 text-sm font-body leading-relaxed text-white/80 md:text-base lg:mb-1 lg:text-base lg:leading-tight">
         The first four graphic novels go on sale during the stream at $5 each, a price that disappears when the launch ends. Prizes for everyone watching live or within 48 hours.
       </p>
 
@@ -64,7 +64,7 @@ export default function KickoffLivestream({ className = "" }: KickoffLivestreamP
           Live Now
         </div>
       ) : (
-        <div className="mb-4 grid grid-cols-4 gap-2 text-center lg:mb-3" aria-label="Countdown to launch day livestream">
+        <div className="mb-4 grid grid-cols-4 gap-2 text-center lg:mb-1" aria-label="Countdown to launch day livestream">
           {[
             [countdown.days, "Days"],
             [countdown.hours, "Hours"],
@@ -72,10 +72,10 @@ export default function KickoffLivestream({ className = "" }: KickoffLivestreamP
             [countdown.seconds, "Seconds"],
           ].map(([value, label]) => (
             <div key={label} className="min-w-0">
-              <div className="font-display text-xl leading-none text-white sm:text-2xl">
+              <div className="font-display text-xl leading-none text-white sm:text-2xl lg:text-[32px]">
                 {formatValue(value as number)}
               </div>
-              <div className="mt-1 truncate font-body text-[0.6rem] uppercase tracking-wider text-primary sm:text-xs">
+              <div className="mt-1 truncate font-body text-[0.6rem] uppercase tracking-wider text-primary sm:text-xs lg:text-[11px]">
                 {label}
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function KickoffLivestream({ className = "" }: KickoffLivestreamP
         href="https://www.youtube.com/watch?v=--9Axo-OQuI"
         target="_blank"
         rel="noreferrer"
-        className="inline-flex items-center gap-2 bg-primary px-5 py-3 font-display text-lg uppercase tracking-wider text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground lg:px-4 lg:py-2.5"
+        className="inline-flex items-center gap-2 bg-primary px-5 py-3 font-display text-lg uppercase tracking-wider text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground lg:px-4 lg:py-1.5"
       >
         SET A YOUTUBE REMINDER
         <ArrowRight size={20} />

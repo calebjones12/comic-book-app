@@ -40,11 +40,11 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden items-center gap-1 md:flex lg:gap-0">
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
                 <div
-                  className={`px-4 md:px-5 py-3 font-display text-base md:text-lg uppercase tracking-wider transition-all duration-200 cursor-pointer ${
+                  className={`whitespace-nowrap px-4 py-3 font-display text-base uppercase tracking-wider transition-all duration-200 cursor-pointer md:px-5 md:text-lg lg:px-2.5 lg:text-base ${
                     location === item.path
                       ? "bg-primary text-primary-foreground"
                       : "text-foreground hover:bg-accent hover:text-accent-foreground"

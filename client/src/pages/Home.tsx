@@ -28,26 +28,26 @@ export default function Home() {
       <section className="relative flex min-h-0 flex-col lg:h-[calc(100vh-9rem)] lg:max-h-[820px] lg:flex-row lg:overflow-hidden">
         {/* Left: Dark panel with text */}
         <div
-          className="relative z-10 flex w-full flex-shrink-0 flex-col justify-start px-8 py-8 lg:w-[48%] lg:justify-center lg:px-12 lg:py-4"
+          className="relative z-10 flex w-full flex-shrink-0 flex-col justify-start px-8 py-8 lg:w-[48%] lg:justify-center lg:px-12 lg:pb-10 lg:pt-0"
           style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #111111 60%, #1a0a00 100%)' }}
         >
           {/* Subtle red accent line on left edge */}
           <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary" />
 
-          <h1 className="mb-3 text-5xl font-display leading-none text-white md:text-6xl xl:text-6xl">
+          <h1 className="mb-3 text-5xl font-display leading-none text-white md:text-6xl lg:mb-2 xl:text-5xl">
             BLACK DRAGON<br/>AND PINK FIREFLY
           </h1>
-          <p className="mb-4 text-xl font-body font-semibold uppercase tracking-widest text-primary md:text-2xl">
+          <p className="mb-4 text-xl font-body font-semibold uppercase tracking-widest text-primary md:text-2xl lg:mb-3">
             Graphic Novels
           </p>
 
-          <p className="mb-3 max-w-xl font-body text-base text-white/85 md:text-lg">
+          <p className="mb-3 max-w-xl font-body text-base text-white/85 md:text-lg lg:mb-2 lg:text-base">
             Sex. Violence. Wit sharp enough to draw blood.
           </p>
 
-          <KickoffLivestream className="mb-3" />
+          <KickoffLivestream className="mb-3 lg:mb-2" />
 
-          <div className="max-w-xl border border-primary/70 px-4 py-3 font-body text-sm text-white/85 sm:flex sm:items-center sm:gap-4 lg:py-2">
+          <div className="w-full border border-primary/70 px-4 py-3 font-body text-sm text-white/85 sm:flex sm:items-center sm:gap-4 lg:py-1">
             <strong className="block whitespace-nowrap font-display text-base uppercase tracking-wider text-white sm:text-lg">
               WANT FREE BONUSES?
             </strong>

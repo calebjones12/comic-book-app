@@ -22,15 +22,11 @@ const animatedShorts: YouTubeVideo[] = [
 
 const comingSoonShorts: ComingSoonVideo[] = [
   {
-    title: "Syndrith Has Had Enough | Animated Short #5",
+    title: "Olyndris Isn't Listening | Animated Short #5",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/stSygImqAQvaxQJn.png",
   },
   {
-    title: "Olyndris Isn't Listening | Animated Short #6",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/codlgzZkmcdWpreJ.png",
-  },
-  {
-    title: "Nobody Warned Them About Her | Animated Short #7",
+    title: "Nobody Warned Them About Her | Animated Short #6",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/bvtgwyJSWoteAasE.png",
   },
 ];

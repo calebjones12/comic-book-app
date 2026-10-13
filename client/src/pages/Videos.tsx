@@ -96,7 +96,7 @@ export default function Videos() {
             Animated Shorts
           </h2>
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8">
             {animatedShorts.map((short) => (
               <article key={short.id}>
                 <h3 className="mb-4 text-xl font-display uppercase tracking-wide text-foreground md:text-2xl">

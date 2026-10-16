@@ -26,7 +26,7 @@ const factionImages = [
   },
   {
     title: "Royals",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/qsxXAOTYpaxGAHvI.png",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/dEvDvKArilowsSez.png",
   },
 ];
 

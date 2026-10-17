@@ -18,13 +18,10 @@ const animatedShorts: YouTubeVideo[] = [
   { id: "B7Iy3UrCY6g", label: "Baby Zorra" },
   { id: "HCpBprR7xIQ", label: "Chenning Doesn't Ask Twice" },
   { id: "LPaLVXjiADk", label: "Syndrith Has Had Enough | Animated Short #4" },
+  { id: "ymFOfpFkzBM", label: "Olyndris Isn't Listening | Animated Short #5" },
 ];
 
 const comingSoonShorts: ComingSoonVideo[] = [
-  {
-    title: "Olyndris Isn't Listening | Animated Short #5",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/stSygImqAQvaxQJn.png",
-  },
   {
     title: "Nobody Warned Them About Her | Animated Short #6",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/bvtgwyJSWoteAasE.png",

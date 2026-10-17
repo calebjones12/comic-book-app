@@ -32,7 +32,7 @@ function YouTubePlayer({ id, title }: { id: string; title: string }) {
   return (
     <div className="relative aspect-video w-full overflow-hidden border-2 border-primary bg-black">
       <iframe
-        src={`https://www.youtube.com/embed/${id}?rel=0`}
+        src={`https://www.youtube.com/embed/${id}?rel=0&cc_load_policy=0`}
         title={title}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen

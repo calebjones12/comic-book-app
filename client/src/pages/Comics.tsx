@@ -97,7 +97,7 @@ export default function Comics() {
                   )}
                 </p>
               </div>
-              <div className="group overflow-hidden border-4 border-border bg-black transition-colors duration-200 hover:border-primary">
+              <div className={`group overflow-hidden border-4 border-border bg-black transition-colors duration-200 hover:border-primary ${graphicNovel.number === 5 ? "lg:mt-4" : ""}`}>
                 <img
                   src={graphicNovel.cover}
                   alt={`Graphic Novel #${graphicNovel.number} cover`}

@@ -75,7 +75,7 @@ export default function Comics() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {graphicNovels.map((graphicNovel) => (
             <article key={graphicNovel.number}>
-              <div className="mb-4">
+              <div className="mb-4 lg:min-h-[40px]">
                 <h2 className="text-2xl font-display uppercase tracking-wide text-foreground">
                   Graphic Novel #{graphicNovel.number}
                 </h2>
@@ -97,7 +97,7 @@ export default function Comics() {
                   )}
                 </p>
               </div>
-              <div className={`group overflow-hidden border-4 border-border bg-black transition-colors duration-200 hover:border-primary ${graphicNovel.number === 5 ? "lg:mt-4" : ""}`}>
+              <div className="group overflow-hidden border-4 border-border bg-black transition-colors duration-200 hover:border-primary">
                 <img
                   src={graphicNovel.cover}
                   alt={`Graphic Novel #${graphicNovel.number} cover`}

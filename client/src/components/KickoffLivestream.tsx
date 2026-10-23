@@ -81,9 +81,9 @@ export default function KickoffLivestream({ className = "" }: KickoffLivestreamP
         </div>
       )}
 
-      <div className="space-y-3 font-body text-sm leading-relaxed text-white/85 md:text-base lg:text-base lg:leading-snug">
+      <div className="space-y-3 font-body text-base leading-relaxed text-white/85 md:text-lg lg:text-lg lg:leading-snug">
         <p>
-          The launch has begun and now it's up to YOU to decide if we continue to release regular graphic novels every month, as well as audio dramas and animation. We MUST have 1,500 purchase these graphic novels by midnight on October 30th. If we do, A2 Heroes becomes a real company with an real release schedule and it's ON.
+          The launch has begun and now it's up to YOU to decide if we continue to release regular graphic novels every month, as well as audio dramas and animation. We MUST have 1,500 people purchase these graphic novels by midnight on October 30th. If we do, A2 Heroes becomes a real company with a real release schedule and it's ON.
         </p>
         <p>
           Click{" "}

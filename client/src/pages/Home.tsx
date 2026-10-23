@@ -46,23 +46,6 @@ export default function Home() {
           </p>
 
           <KickoffLivestream className="mb-3 lg:mb-2" />
-
-          <div className="w-full border border-primary/70 px-4 py-3 font-body text-sm text-white/85 sm:flex sm:items-center sm:gap-4 lg:py-1">
-            <strong className="block whitespace-nowrap font-display text-base uppercase tracking-wider text-white sm:text-lg">
-              WANT FREE BONUSES?
-            </strong>
-            <span className="mt-1 block leading-relaxed sm:mt-0">
-              Grab your referral link now. Prizes unlock with your very first referred reader.{" "}
-              <a
-                href="https://www.caleb.top/comic"
-                target="_blank"
-                rel="noreferrer"
-                className="whitespace-nowrap font-bold uppercase tracking-wide text-primary underline underline-offset-4 transition-colors hover:text-accent"
-              >
-                Get My Link →
-              </a>
-            </span>
-          </div>
         </div>
 
         {/* Right: Full illustration — all 4 characters */}

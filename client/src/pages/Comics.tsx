@@ -14,22 +14,22 @@ const graphicNovels: GraphicNovel[] = [
   {
     number: 1,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/HMGMEbzTvbkjFQxY.png",
-    availability: "Available Oct 22nd At Launch!",
+    availability: "Available Now - Click Here",
   },
   {
     number: 2,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/zwlVzLEWBDdyUFrl.png",
-    availability: "Available Oct 22nd At Launch!",
+    availability: "Available Now - Click Here",
   },
   {
     number: 3,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/RHaTzAsOjqlLlIxL.jpg",
-    availability: "Available Oct 22nd At Launch!",
+    availability: "Available Now - Click Here",
   },
   {
     number: 4,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/VaLqQwmtWQjObqfL.png",
-    availability: "Available Oct 22nd At Launch!",
+    availability: "Available Now - Click Here",
   },
   {
     number: 5,
@@ -39,17 +39,17 @@ const graphicNovels: GraphicNovel[] = [
   {
     number: 6,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/OoZqvVJXuzggqoFn.png",
-    availability: "Available Soon",
+    availability: "Available Soon If We Hit 1500 Buyers During Launch",
   },
   {
     number: 7,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/YUtFXEbFlRQhACga.png",
-    availability: "Available Soon",
+    availability: "Available Soon If We Hit 1500 Buyers During Launch",
   },
   {
     number: 8,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ZbsEnaTfzQhBGSaf.jpg",
-    availability: "Available Soon",
+    availability: "Available Soon If We Hit 1500 Buyers During Launch",
   },
 ];
 
@@ -80,7 +80,21 @@ export default function Comics() {
                   Graphic Novel #{graphicNovel.number}
                 </h2>
                 <p className="font-body text-sm font-bold uppercase tracking-wider text-primary">
-                  {graphicNovel.availability}
+                  {graphicNovel.number <= 4 ? (
+                    <>
+                      AVAILABLE NOW - CLICK{" "}
+                      <a
+                        href="https://www.caleb.top/go"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="underline underline-offset-4 transition-colors hover:text-foreground"
+                      >
+                        HERE
+                      </a>
+                    </>
+                  ) : (
+                    graphicNovel.availability
+                  )}
                 </p>
               </div>
               <div className="group overflow-hidden border-4 border-border bg-black transition-colors duration-200 hover:border-primary">

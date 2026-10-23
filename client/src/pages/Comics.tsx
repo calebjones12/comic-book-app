@@ -75,7 +75,7 @@ export default function Comics() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {graphicNovels.map((graphicNovel) => (
             <article key={graphicNovel.number}>
-              <div className="mb-4 lg:min-h-[56px]">
+              <div className={`mb-4 ${graphicNovel.number >= 5 ? "lg:min-h-[72px]" : ""}`}>
                 <h2 className="text-2xl font-display uppercase tracking-wide text-foreground">
                   Graphic Novel #{graphicNovel.number}
                 </h2>

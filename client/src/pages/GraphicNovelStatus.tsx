@@ -47,8 +47,9 @@ const PARTS: Part[] = [
       { number: 1, stageStatuses: ["done","done","done","done","done","done"], novelStatus: "complete" },
       { number: 2, stageStatuses: ["done","done","done","done","done","done"], novelStatus: "complete" },
       { number: 3, stageStatuses: ["done","done","done","done","done","done"], novelStatus: "complete" },
-      // GN #4-6: through Artwork done, Artwork Revisions active
-      { number: 4, stageStatuses: ["done","done","done","done","active","pending"], novelStatus: "in-progress" },
+      // GN #4: all stages complete
+      { number: 4, stageStatuses: ["done","done","done","done","done","done"], novelStatus: "complete" },
+      // GN #5-6: through Artwork done, Artwork Revisions active
       { number: 5, stageStatuses: ["done","done","done","done","active","pending"], novelStatus: "in-progress" },
       { number: 6, stageStatuses: ["done","done","done","done","active","pending"], novelStatus: "in-progress" },
     ],

@@ -8,7 +8,7 @@ type YouTubeVideo = {
   label: string;
 };
 
-const animatedShorts: YouTubeVideo[] = [
+const animatedCommercials: YouTubeVideo[] = [
   { id: "jgXUBIa3Umg", label: "Black Dragon Regrets Nothing" },
   { id: "B7Iy3UrCY6g", label: "Baby Zorra" },
   { id: "HCpBprR7xIQ", label: "Chenning Doesn't Ask Twice" },
@@ -31,6 +31,10 @@ function YouTubePlayer({ id, title }: { id: string; title: string }) {
   );
 }
 
+const sectionHeadingClass = "mb-8 text-4xl font-display uppercase tracking-wide text-foreground md:text-6xl";
+const videoGridClass = "grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3";
+const videoTitleClass = "mb-4 text-xl font-display uppercase tracking-wide text-foreground md:text-2xl";
+
 export default function Videos() {
   return (
     <div className="min-h-screen bg-background py-16">
@@ -40,60 +44,52 @@ export default function Videos() {
         </h1>
         <div className="mb-16 h-1 w-24 bg-primary" />
 
-        <section aria-labelledby="livestreams-heading" className="mb-24">
-          <h2
-            id="livestreams-heading"
-            className="mb-8 text-4xl font-display uppercase tracking-wide text-foreground md:text-6xl"
-          >
-            Livestreams
+        <section aria-labelledby="animated-shorts-heading" className="mb-20">
+          <h2 id="animated-shorts-heading" className={sectionHeadingClass}>
+            Animated Shorts
           </h2>
-
-          <div className="mb-12">
-            <h3 className="mb-5 text-2xl font-display uppercase tracking-wide text-foreground md:text-3xl">
-              Gigantic Kickoff Livestream Replay
-            </h3>
-            <YouTubePlayer
-              id="HIZ-vDvkkLI"
-              title="Gigantic Kickoff Livestream Replay"
-            />
-          </div>
-
-          <div>
-            <h3 className="mb-5 text-2xl font-display uppercase tracking-wide text-foreground md:text-3xl">
-              Intro Livestream
-            </h3>
-            <div className="relative aspect-video w-full overflow-hidden border-2 border-primary bg-black">
-              <iframe
-                src="https://player.vimeo.com/video/1183871870?h=0&badge=0&autopause=0&player_id=0&app_id=58479"
-                title="Intro Livestream"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                allowFullScreen
-                className="absolute inset-0 h-full w-full"
-              />
-            </div>
+          <div className={videoGridClass}>
+            <article>
+              <YouTubePlayer id="CW_Zs1ZAJKA" title="Animated Short" />
+            </article>
           </div>
         </section>
 
-        <section aria-labelledby="animated-shorts-heading">
-          <h2
-            id="animated-shorts-heading"
-            className="mb-8 text-4xl font-display uppercase tracking-wide text-foreground md:text-6xl"
-          >
-            Animated Shorts
+        <section aria-labelledby="animated-commercials-heading" className="mb-20">
+          <h2 id="animated-commercials-heading" className={sectionHeadingClass}>
+            Animated Commercials
           </h2>
-
-          <div className="grid grid-cols-1 gap-8">
-            {animatedShorts.map((short) => (
-              <article key={short.id}>
-                <h3 className="mb-4 text-xl font-display uppercase tracking-wide text-foreground md:text-2xl">
-                  {short.label}
-                </h3>
-                <YouTubePlayer
-                  id={short.id}
-                  title={`${short.label} video`}
-                />
+          <div className={videoGridClass}>
+            {animatedCommercials.map((video) => (
+              <article key={video.id}>
+                <h3 className={videoTitleClass}>{video.label}</h3>
+                <YouTubePlayer id={video.id} title={`${video.label} video`} />
               </article>
             ))}
+          </div>
+        </section>
+
+        <section aria-labelledby="livestream-replays-heading">
+          <h2 id="livestream-replays-heading" className={sectionHeadingClass}>
+            Livestream Replays
+          </h2>
+          <div className={videoGridClass}>
+            <article>
+              <h3 className={videoTitleClass}>Gigantic Kickoff Livestream Replay</h3>
+              <YouTubePlayer id="HIZ-vDvkkLI" title="Gigantic Kickoff Livestream Replay" />
+            </article>
+            <article>
+              <h3 className={videoTitleClass}>Intro Livestream</h3>
+              <div className="relative aspect-video w-full overflow-hidden border-2 border-primary bg-black">
+                <iframe
+                  src="https://player.vimeo.com/video/1183871870?h=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                  title="Intro Livestream"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                  allowFullScreen
+                  className="absolute inset-0 h-full w-full"
+                />
+              </div>
+            </article>
           </div>
         </section>
       </div>

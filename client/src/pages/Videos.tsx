@@ -32,8 +32,9 @@ function YouTubePlayer({ id, title }: { id: string; title: string }) {
 }
 
 const sectionHeadingClass = "mb-8 text-4xl font-display uppercase tracking-wide text-foreground md:text-6xl";
-const videoGridClass = "grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3";
+const videoGridClass = "grid grid-cols-1 gap-8 sm:grid-cols-2";
 const videoTitleClass = "mb-4 text-xl font-display uppercase tracking-wide text-foreground md:text-2xl";
+const commercialTitleClass = `${videoTitleClass} sm:min-h-24 lg:min-h-16`;
 
 export default function Videos() {
   return (
@@ -62,7 +63,7 @@ export default function Videos() {
           <div className={videoGridClass}>
             {animatedCommercials.map((video) => (
               <article key={video.id}>
-                <h3 className={videoTitleClass}>{video.label}</h3>
+                <h3 className={commercialTitleClass}>{video.label}</h3>
                 <YouTubePlayer id={video.id} title={`${video.label} video`} />
               </article>
             ))}

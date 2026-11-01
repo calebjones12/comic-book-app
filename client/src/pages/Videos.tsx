@@ -38,7 +38,7 @@ const videoTitleClass = "mb-4 text-xl font-display uppercase tracking-wide text-
 export default function Videos() {
   return (
     <div className="min-h-screen bg-background py-16">
-      <div className="mx-auto max-w-6xl px-4 lg:px-8">
+      <div className="mx-auto max-w-[1440px] px-4 lg:px-8">
         <h1 className="mb-4 text-6xl font-display uppercase tracking-tight text-foreground md:text-8xl">
           VIDEOS
         </h1>
@@ -74,6 +74,10 @@ export default function Videos() {
             Livestream Replays
           </h2>
           <div className={videoGridClass}>
+            <article>
+              <h3 className={videoTitleClass}>Launch Day Livestream</h3>
+              <YouTubePlayer id="--9Axo-OQuI" title="Launch Day Livestream" />
+            </article>
             <article>
               <h3 className={videoTitleClass}>Gigantic Kickoff Livestream Replay</h3>
               <YouTubePlayer id="HIZ-vDvkkLI" title="Gigantic Kickoff Livestream Replay" />

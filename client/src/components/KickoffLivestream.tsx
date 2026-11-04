@@ -21,7 +21,7 @@ export default function KickoffLivestream({ className = "" }: KickoffLivestreamP
           </a>{" "}
           TO GET THEM
         </h2>
-        <p className="font-display text-lg uppercase leading-snug text-white/90 md:text-xl lg:text-lg">
+        <p className="font-display text-2xl uppercase leading-snug text-white/90 md:text-3xl lg:text-[26px]">
           IF YOU ALREADY HAVE THE GRAPHIC NOVELS, CLICK{" "}
           <a
             href="https://www.caleb.top/pass"

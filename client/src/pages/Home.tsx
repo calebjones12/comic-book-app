@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       {/* Featured YouTube Video */}
-      <section aria-label="Featured A2 Heroes video" className="bg-[#0a0a0a] px-4 py-10 lg:py-12">
+      <section aria-label="Featured A2 Heroes video" className="bg-[#0a0a0a] px-4 pt-10 pb-5 lg:pt-12 lg:pb-6">
         <div className="mx-auto max-w-3xl overflow-hidden border-2 border-primary bg-black">
           <div className="aspect-video w-full">
             <iframe
@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Description Section */}
-      <section className="bg-[#0a0a0a] px-4 py-12 lg:py-16">
+      <section className="bg-[#0a0a0a] px-4 pt-5 pb-12 lg:pt-8 lg:pb-16">
         <div className="mx-auto max-w-[720px] font-body text-base text-white/85 md:text-lg">
           <div className="space-y-4">
             <p>

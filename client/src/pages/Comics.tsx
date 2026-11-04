@@ -37,17 +37,17 @@ const graphicNovels: GraphicNovel[] = [
   {
     number: 6,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/OoZqvVJXuzggqoFn.png",
-    availability: "Available Soon! Click HERE To Get Them!",
+    availability: "Available Soon! Click HERE To Get It!",
   },
   {
     number: 7,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/YUtFXEbFlRQhACga.png",
-    availability: "Available Soon! Click HERE To Get Them!",
+    availability: "Available Soon! Click HERE To Get It!",
   },
   {
     number: 8,
     cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663046994448/ZbsEnaTfzQhBGSaf.jpg",
-    availability: "Available Soon! Click HERE To Get Them!",
+    availability: "Available Soon! Click HERE To Get It!",
   },
 ];
 

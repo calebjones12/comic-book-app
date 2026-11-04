@@ -57,8 +57,8 @@ export default function Commitment() {
       body: "A2Heroes will always be independently owned and we will never take on any investors. This maintains quality and the commitment to the customer.",
     },
     {
-      title: "We Will Make Mistakes",
-      body: "We will do our absolute best to provide you with high-quality stories, the likes of which you have never seen before. But we're going to make mistakes from time to time. These are graphic novels with hundreds of pages and thousands of panels of artwork. We have a quality assurance process that we follow rigorously, but some errors are unavoidable. Since you, the customer, are our priority, we will work with you and respect you as long as you don't freak out when mistakes are made. We will always correct mistakes whenever they are found or politely brought to our attention by our customers.",
+      title: "WE WILL FIX ALL OF OUR MISTAKES AND GIVE YOU THE REVISIONS FOR FREE",
+      body: "We will do our absolute best to provide you with high-quality stories, the likes of which you have never seen before. But we're going to make mistakes from time to time. These are graphic novels with hundreds of pages and thousands of panels of artwork. We have a quality assurance process that we follow rigorously, but some errors are unavoidable. Since you, the customer, are our priority, we will work with you and respect you as long as you don't freak out when mistakes are made. We will always correct mistakes whenever they are found or politely brought to our attention by our customers. Then we will re-issue new versions of our graphic novels to all buyers once these mistakes are corrected, for free.",
     },
   ];
 
@@ -99,23 +99,6 @@ export default function Commitment() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Mailing List Box — bottom of page */}
-        <div className="max-w-4xl mt-12">
-          <div className="border-2 border-primary bg-card px-8 py-6">
-            <p className="text-lg font-body text-foreground/80 leading-relaxed">
-              <a
-                href="https://alphamale20.kartra.com/page/smr1824"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
-              >
-                Click here
-              </a>{" "}
-              to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
-            </p>
-          </div>
         </div>
 
       </div>

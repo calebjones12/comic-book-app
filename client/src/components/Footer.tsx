@@ -16,20 +16,6 @@ export default function Footer() {
             />
           </div>
 
-          <div className="text-center">
-            <p className="text-sm font-body text-foreground/80">
-              <a
-                href="https://alphamale20.kartra.com/page/smr1824"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
-              >
-                Click here
-              </a>{" "}
-              to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
-            </p>
-          </div>
-
           <div className="text-center md:text-right">
             <p className="text-muted-foreground font-body">
               © {new Date().getFullYear()} A2Heroes. All rights reserved.

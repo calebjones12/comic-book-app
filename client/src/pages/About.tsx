@@ -10,21 +10,6 @@ export default function About() {
           ABOUT A2HEROES
         </h1>
 
-        {/* Mailing List Box */}
-        <div className="max-w-4xl mb-10 border-2 border-primary bg-card px-8 py-6">
-          <p className="font-body text-base text-foreground/80 leading-relaxed">
-            <a
-              href="https://alphamale20.kartra.com/page/smr1824"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary underline hover:text-primary/80 transition-colors font-semibold"
-            >
-              Click here
-            </a>{" "}
-            to get on our preferred mailing list to get access to secret live streams (with me, Caleb) that no one else gets plus get notified of launch dates as well as sneak peaks (pages, artwork, videos) not available anywhere else.
-          </p>
-        </div>
-        
         <div className="max-w-4xl space-y-8 font-body text-lg text-foreground/90 leading-relaxed">
           <p>
             Welcome to A2Heroes, home of <strong className="text-foreground">Black Dragon and Pink Firefly</strong>—a dark fantasy comedy comic series that refuses to adhere to modern-day norms.

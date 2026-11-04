@@ -250,11 +250,19 @@ export default function GraphicNovelStatus() {
                   >
                     {COVER_THUMBNAILS[novel.number] && (
                       <div className="mx-auto h-20 w-14 flex-shrink-0 md:mx-0 md:flex md:h-24 md:w-16 md:items-center md:justify-center lg:h-[7.5rem] lg:w-20">
-                        <img
-                          src={COVER_THUMBNAILS[novel.number]}
-                          alt={`Graphic Novel #${novel.number} cover thumbnail`}
-                          className="h-full w-full rounded-sm border border-[#3a3a3a] object-cover shadow-md md:object-contain"
-                        />
+                        <a
+                          href={novel.number <= 4 ? "https://www.caleb.top/go" : "https://www.caleb.top/pass"}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label={`Get Graphic Novel #${novel.number}`}
+                          className="block h-full w-full"
+                        >
+                          <img
+                            src={COVER_THUMBNAILS[novel.number]}
+                            alt={`Graphic Novel #${novel.number} cover thumbnail`}
+                            className="h-full w-full rounded-sm border border-[#3a3a3a] object-cover shadow-md md:object-contain"
+                          />
+                        </a>
                       </div>
                     )}
 
@@ -284,7 +292,18 @@ export default function GraphicNovelStatus() {
                           className="text-base md:text-lg font-display tracking-wide"
                           style={{ color: "#E8C97E", textShadow: "0 1px 3px rgba(0,0,0,0.8)" }}
                         >
-                          Graphic Novel #{novel.number}
+                          {novel.number <= 8 ? (
+                            <a
+                              href={novel.number <= 4 ? "https://www.caleb.top/go" : "https://www.caleb.top/pass"}
+                              target="_blank"
+                              rel="noreferrer"
+                              style={{ color: "inherit", textDecoration: "none" }}
+                            >
+                              Graphic Novel #{novel.number}
+                            </a>
+                          ) : (
+                            <>Graphic Novel #{novel.number}</>
+                          )}
                           {novel.number >= 5 && novel.number <= 8 && (
                             <span className="ml-2" style={{ color: "#39FF14" }}>
                               💲FUNDED💲
@@ -292,7 +311,7 @@ export default function GraphicNovelStatus() {
                           )}
                           {novel.number === 9 && (
                             <span className="ml-2" style={{ color: "#FF3131" }}>
-                              NOT FUNDED
+                              NOT FUNDED YET
                             </span>
                           )}
                         </h3>

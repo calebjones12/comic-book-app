@@ -75,6 +75,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured YouTube Video */}
+      <section aria-label="Featured A2 Heroes video" className="bg-[#0a0a0a] px-4 py-10 lg:py-12">
+        <div className="mx-auto max-w-3xl overflow-hidden border-2 border-primary bg-black">
+          <div className="aspect-video w-full">
+            <iframe
+              src="https://www.youtube.com/embed/5NrWnAurILM?rel=0&cc_load_policy=0"
+              title="Featured A2 Heroes video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="h-full w-full"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Description Section */}
       <section className="bg-[#0a0a0a] px-4 py-12 lg:py-16">
         <div className="mx-auto max-w-[720px] font-body text-base text-white/85 md:text-lg">

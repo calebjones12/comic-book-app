@@ -82,11 +82,19 @@ export default function Comics() {
                 </p>
               </div>
               <div className="group overflow-hidden border-4 border-border bg-black transition-colors duration-200 hover:border-primary">
-                <img
-                  src={graphicNovel.cover}
-                  alt={`Graphic Novel #${graphicNovel.number} cover`}
-                  className="aspect-[1000/1527] h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
-                />
+                <a
+                  href={graphicNovel.number <= 4 ? "https://www.caleb.top/go" : "https://www.caleb.top/pass"}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block"
+                  aria-label={`Get Graphic Novel #${graphicNovel.number}`}
+                >
+                  <img
+                    src={graphicNovel.cover}
+                    alt={`Graphic Novel #${graphicNovel.number} cover`}
+                    className="aspect-[1000/1527] h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
+                  />
+                </a>
               </div>
             </article>
           ))}

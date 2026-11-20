@@ -309,6 +309,11 @@ export default function GraphicNovelStatus() {
                               💲FUNDED💲
                             </span>
                           )}
+                          {novel.number === 10 && (
+                            <span className="ml-2" style={{ color: "#FF3131" }}>
+                              NOT FUNDED
+                            </span>
+                          )}
                         </h3>
                       </div>
                       <span

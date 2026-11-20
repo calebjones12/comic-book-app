@@ -304,14 +304,9 @@ export default function GraphicNovelStatus() {
                           ) : (
                             <>Graphic Novel #{novel.number}</>
                           )}
-                          {novel.number >= 5 && novel.number <= 8 && (
+                          {novel.number >= 5 && novel.number <= 9 && (
                             <span className="ml-2" style={{ color: "#39FF14" }}>
                               💲FUNDED💲
-                            </span>
-                          )}
-                          {novel.number === 9 && (
-                            <span className="ml-2" style={{ color: "#FF3131" }}>
-                              NOT FUNDED YET
                             </span>
                           )}
                         </h3>
